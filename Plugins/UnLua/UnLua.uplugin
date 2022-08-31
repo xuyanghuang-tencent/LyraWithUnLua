@@ -1,0 +1,42 @@
+{
+    "FileVersion": 3,
+    "Version": 2,
+    "VersionName": "3.0.0",
+    "FriendlyName": "UnLua",
+    "Description": "Lua scripting plugin",
+    "Category": "Scripting",
+    "CreatedBy": "Tencent",
+    "CreatedByURL": "https://www.tencent.com/",
+    "DocsURL": "",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "CanContainContent": true,
+    "IsBetaVersion": false,
+    "Installed": false,
+    "CanBeUsedWithUnrealHeaderTool": true,
+    "LocalizationTargets": [
+        {
+            "Name": "UnLua",
+            "LoadingPolicy": "Editor"
+        }
+    ],
+    "Modules": [
+        {
+            "Name": "UnLua",
+            "Type": "Runtime",
+            "LoadingPhase": "Default",
+            "WhitelistPlatforms": [ "Win64", "Mac", "IOS", "Android", "Linux" ]
+        },
+        {
+            "Name": "UnLuaEditor",
+            "Type": "Editor",
+            "LoadingPhase": "Default",
+            "WhitelistPlatforms": [ "Win64", "Mac" ]
+        },
+        {
+            "Name": "UnLuaDefaultParamCollector",
+            "Type": "Program",
+            "LoadingPhase": "PostConfigInit"
+        }
+    ]
+}

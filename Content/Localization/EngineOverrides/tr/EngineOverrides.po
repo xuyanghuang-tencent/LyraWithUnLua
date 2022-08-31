@@ -1,0 +1,2892 @@
+﻿# EngineOverrides Turkish translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: EngineOverrides\n"
+"POT-Creation-Date: 2022-03-21 16:02\n"
+"PO-Revision-Date: 2022-03-21 16:02\n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Key:	RequiredAGX
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Apple/AppleDynamicRHI.cpp:157
+#: ../../../Engine/Source/Runtime/RHI/Private/Apple/AppleDynamicRHI.cpp:157
+msgctxt "AppleDynamicRHI,RequiredAGX"
+msgid "The AGX RHI is not supported on your system. Try running without the -agx command line argument."
+msgstr "Sistemin AGX RHI'ı desteklemiyor. -agx komut satırı argümanları olmadan çalıştırmayı dene."
+
+#. Key:	BuildPatchInstaller_DownloadSpeedFormat
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1897
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1897
+msgctxt "BuildPatchInstaller,BuildPatchInstaller_DownloadSpeedFormat"
+msgid "{Current} / {Total} ({Speed}/sec)"
+msgstr "{Current} / {Total} ({Speed}/sn)"
+
+#. Key:	BuildPatchInstaller_GenericProgress
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1877
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1877
+msgctxt "BuildPatchInstaller,BuildPatchInstaller_GenericProgress"
+msgid "Please Wait"
+msgstr "Lütfen Bekle"
+
+#. Key:	BuildPatchInstallShortError_ApplicationClosing
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:19
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:19
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_ApplicationClosing"
+msgid "The application is closing."
+msgstr "Uygulama kapanıyor."
+
+#. Key:	BuildPatchInstallShortError_ApplicationError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:20
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:20
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_ApplicationError"
+msgid "Patching service could not start. Please contact support."
+msgstr "Yama hizmeti başlatılamadı. Lütfen destek ekibi ile iletişime geç."
+
+#. Key:	BuildPatchInstallShortError_BuildCorrupt
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:18
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:18
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_BuildCorrupt"
+msgid "The installation is corrupt. Please contact support."
+msgstr "Yükleme bozulmuş. Lütfen destek ekibi ile iletişime geç."
+
+#. Key:	BuildPatchInstallShortError_DownloadError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:15
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:15
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_DownloadError"
+msgid "Could not download patch data. Please check your internet connection, and try again."
+msgstr "Yama verileri indirilemiyor. Lütfen internet bağlantını kontrol et ve tekrar dene."
+
+#. Key:	BuildPatchInstallShortError_FileConstructionFail
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:16
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:16
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_FileConstructionFail"
+msgid "A file corruption has occurred. Please try again."
+msgstr "Bir dosyada bozukluk meydana geldi. Lütfen tekrar dene."
+
+#. Key:	BuildPatchInstallShortError_InitializationError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:23
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:23
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_InitializationError"
+msgid "The installer failed to initialize. Please contact support."
+msgstr "Yükleyici başlatılamadı. Lütfen destek ekibi ile iletişime geç."
+
+#. Key:	BuildPatchInstallShortError_InvalidOrMax
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:26
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:26
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_InvalidOrMax"
+msgid "An unknown error ocurred. Please contact support."
+msgstr "Bilinmeyen bir hata meydana geldi. Lütfen destek ekibi ile iletişime geç."
+
+#. Key:	BuildPatchInstallShortError_MoveFileToInstall
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:17
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:17
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_MoveFileToInstall"
+msgid "A file access error has occurred. Please check your running processes."
+msgstr "Bir dosyaya erişilirken hata meydana geldi. Lütfen çalışmakta olan programlarını gözden geçir."
+
+#. Key:	BuildPatchInstallShortError_NoError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:14
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:14
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_NoError"
+msgid "The operation was successful."
+msgstr "İşlem başarılı oldu."
+
+#. Key:	BuildPatchInstallShortError_OutOfDiskSpace
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:25
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:25
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_OutOfDiskSpace"
+msgid "Not enough disk space available. Please free up some disk space and try again."
+msgstr "Disk alanı yeterli değil. Lütfen diskinde yer açtıktan sonra tekrar dene."
+
+#. Key:	BuildPatchInstallShortError_PathLengthExceeded
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:24
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:24
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_PathLengthExceeded"
+msgid "Maximum path length exceeded. Please specify a shorter install location."
+msgstr "Azami dosya yolu uzunluğu aşıldı. Lütfen daha kısa bir yükleme konumu belirle."
+
+#. Key:	BuildPatchInstallShortError_PrerequisiteError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:22
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:22
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_PrerequisiteError"
+msgid "The necessary prerequisites have failed to install. Please contact support."
+msgstr "Ön gereksinimlerin yüklemesi başarısız oldu. Lütfen destek ekibi ile iletişime geç."
+
+#. Key:	BuildPatchInstallShortError_UserCanceled
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:21
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:21
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_UserCanceled"
+msgid "User cancelled."
+msgstr "Kullanıcı iptal etti."
+
+#. Key:	InstallDirectoryDiskSpace
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:49
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:49
+msgctxt "BuildPatchInstallError,InstallDirectoryDiskSpace"
+msgid "There is not enough space at {Location}\n{RequiredBytes} is required.\n{AvailableBytes} is available.\nYou need an additional {SpaceAdditional} to perform the installation."
+msgstr "{Location} yeterli alana sahip değil;\n{RequiredBytes} alan gerekli.\n{AvailableBytes} alan mevcut.\nYüklemeyi gerçekleştirebilmek için {SpaceAdditional} alana daha ihtiyacın var."
+
+#. Key:	InstallDirectoryDiskSpaceDevice
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:51
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:51
+msgctxt "BuildPatchInstallError,InstallDirectoryDiskSpaceDevice"
+msgid "There is not enough space on your device.\n{RequiredBytes} is required.\n{AvailableBytes} is available.\nYou need an additional {SpaceAdditional} to perform the installation."
+msgstr "Cihazın yeterli alana sahip değil.\n{RequiredBytes} alan gerekli.\n{AvailableBytes} alan mevcut.\nYüklemeyi gerçekleştirebilmek için {SpaceAdditional} alana daha ihtiyacın var."
+
+#. Key:	InvalidInstallTags
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:617
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:617
+msgctxt "BuildPatchInstallError,InvalidInstallTags"
+msgid "This installation could not continue due to a configuration issue. Please contact support."
+msgstr "Bir yapılandırma sorunu nedeniyle yükleme devam ettirilemiyor. Lütfen destek ekibi ile iletişime geç."
+
+#. Key:	MissingInstallDirectory
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:637
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:637
+msgctxt "BuildPatchInstallError,MissingInstallDirectory"
+msgid "The installation directory could not be created.\n{0}"
+msgstr "Yükleme dizini oluşturulamadı.\n{0}"
+
+#. Key:	MissingPrereqForPrereqOnlyInstall
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:667
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:667
+msgctxt "BuildPatchInstallError,MissingPrereqForPrereqOnlyInstall"
+msgid "This installation could not continue due to a prerequisite configuration issue. Please contact support."
+msgstr "Bu yükleme bir ön gereksinim yapılandırma sorunu nedeniyle devam ettirilemiyor. Lütfen destek ekibi ile iletişime geç."
+
+#. Key:	MissingStageDirectory
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:647
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:647
+msgctxt "BuildPatchInstallError,MissingStageDirectory"
+msgid "The following directory could not be created.\n{0}"
+msgstr "Aşağıdaki dizin oluşturulamadı.\n{0}"
+
+#. Key:	EBuildPatchProgress_BuildVerification
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:64
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:64
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_BuildVerification"
+msgid "Verifying"
+msgstr "Doğrulanıyor"
+
+#. Key:	EBuildPatchProgress_CleanUp
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:65
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:65
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_CleanUp"
+msgid "Cleaning up"
+msgstr "Temizleniyor"
+
+#. Key:	EBuildPatchProgress_Complete
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:67
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:67
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Complete"
+msgid "Complete"
+msgstr "Tamamlandı"
+
+#. Key:	EBuildPatchProgress_Downloading
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:62
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:62
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Downloading"
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+#. Key:	EBuildPatchProgress_Initialising
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:60
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:60
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Initialising"
+msgid "Initializing"
+msgstr "Başlatılıyor"
+
+#. Key:	EBuildPatchProgress_Installing
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:63
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:63
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Installing"
+msgid "Installing"
+msgstr "Yükleniyor"
+
+#. Key:	EBuildPatchProgress_Paused
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:68
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:68
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Paused"
+msgid "Paused"
+msgstr "Duraklatıldı"
+
+#. Key:	EBuildPatchProgress_PrerequisitesInstall
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:66
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:66
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_PrerequisitesInstall"
+msgid "Prerequisites"
+msgstr "Ön Gereksinimler"
+
+#. Key:	EBuildPatchProgress_Queued
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:59
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:59
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Queued"
+msgid "Queued"
+msgstr "Kuyruğa Alındı"
+
+#. Key:	EBuildPatchProgress_Resuming
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:61
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:61
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Resuming"
+msgid "Resuming"
+msgstr "Devam Ediyor"
+
+#. Key:	NullDrvFailure
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:64
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:64
+msgctxt "DynamicRHI,NullDrvFailure"
+msgid "NullDrv failure?"
+msgstr "NullDrv hatası?"
+
+#. Key:	FileManagerName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:1592
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:1592
+msgctxt "GenericPlatform,FileManagerName"
+msgid "File Manager"
+msgstr "Dosya Yöneticisi"
+
+#. Key:	GpuProfileVsyncEnabledWarning
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/GPUProfiler.cpp:483
+#: ../../../Engine/Source/Runtime/RHI/Private/GPUProfiler.cpp:483
+msgctxt "GpuProfiler,GpuProfileVsyncEnabledWarning"
+msgid "WARNING: This GPU profile was captured with v-sync enabled.  V-sync wait time may show up in any bucket, and as a result the data in this profile may be skewed. Please profile with v-sync disabled to obtain the most accurate data."
+msgstr "UYARI: Bu ekran kartı gözlemi dikey senkronizasyon açık şekilde kaydedilmiş. Dikey senkronizasyon bekleme süresi herhangi bir veri dizininde görünebilir ve bunun sonucunda görüntülemeye bağlı veriler değişebilir. Lütfen en net sonuç için gözlemi dikey senkronizasyon kapalı şekilde yap."
+
+#. Key:	FailedToCreateHoloLens_RHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/HoloLens/HoloLensDynamicRHI.cpp:118
+#: ../../../Engine/Source/Runtime/RHI/Private/HoloLens/HoloLensDynamicRHI.cpp:118
+msgctxt "HoloLens,FailedToCreateHoloLens_RHI"
+msgid "HoloLensRHI failure?"
+msgstr "HoloLensRHI hatası?"
+
+#. Key:	Acceleration
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:718
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:718
+msgctxt "InputKeys,Acceleration"
+msgid "Acceleration"
+msgstr "İvmelenme"
+
+#. Key:	Add
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:611
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:611
+msgctxt "InputKeys,Add"
+msgid "Num +"
+msgstr "Num +"
+
+#. Key:	Ampersand
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:657
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:657
+msgctxt "InputKeys,Ampersand"
+msgid "Ampersand"
+msgstr "Ve İşareti"
+
+#. Key:	Android_Back
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:770
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:770
+msgctxt "InputKeys,Android_Back"
+msgid "Android Back"
+msgstr "Android Geri"
+
+#. Key:	Android_Menu
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:773
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:773
+msgctxt "InputKeys,Android_Menu"
+msgid "Android Menu"
+msgstr "Android Menü"
+
+#. Key:	Android_Volume_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:772
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:772
+msgctxt "InputKeys,Android_Volume_Down"
+msgid "Android Volume Down"
+msgstr "Android Ses Kısma"
+
+#. Key:	Android_Volume_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:771
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:771
+msgctxt "InputKeys,Android_Volume_Up"
+msgid "Android Volume Up"
+msgstr "Android Ses Açma"
+
+#. Key:	AndroidSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:768
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:768
+msgctxt "InputKeys,AndroidSubCateogry"
+msgid "Android"
+msgstr "Android"
+
+#. Key:	AnyKey
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:519
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:519
+msgctxt "InputKeys,AnyKey"
+msgid "Any Key"
+msgstr "Herhangi Bir Tuş"
+
+#. Key:	Apostrophe
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:652
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:652
+msgctxt "InputKeys,Apostrophe"
+msgid "Apostrophe"
+msgstr "Kesme İşareti"
+
+#. Key:	Asterix
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:658
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:658
+msgctxt "InputKeys,Asterix"
+msgid "Asterisk"
+msgstr "Yıldız"
+
+#. Key:	Backslash
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:650
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:650
+msgctxt "InputKeys,Backslash"
+msgid "Backslash"
+msgstr "Ters Eğik Çizgi"
+
+#. Key:	BackSpace
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:557
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:557
+msgctxt "InputKeys,BackSpace"
+msgid "Backspace"
+msgstr "Backspace"
+
+#. Key:	CapsLock
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+msgctxt "InputKeys,CapsLock"
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#. Key:	CapsLockShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+msgctxt "InputKeys,CapsLockShort"
+msgid "Caps"
+msgstr "Caps"
+
+#. Key:	Caret
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:659
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:659
+msgctxt "InputKeys,Caret"
+msgid "Caret"
+msgstr "Düzeltme İşareti"
+
+#. Key:	Colon
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:662
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:662
+msgctxt "InputKeys,Colon"
+msgid "Colon"
+msgstr "İki Nokta"
+
+#. Key:	Comma
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:643
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:643
+msgctxt "InputKeys,Comma"
+msgid "Comma"
+msgstr "Virgül"
+
+#. Key:	Decimal
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:613
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:613
+msgctxt "InputKeys,Decimal"
+msgid "Num ."
+msgstr "Num ."
+
+#. Key:	Delete
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+msgctxt "InputKeys,Delete"
+msgid "Delete"
+msgstr "Delete"
+
+#. Key:	DeleteShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+msgctxt "InputKeys,DeleteShort"
+msgid "Del"
+msgstr "Del"
+
+#. Key:	Divide
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:614
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:614
+msgctxt "InputKeys,Divide"
+msgid "Num /"
+msgstr "Num /"
+
+#. Key:	Dollar
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:660
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:660
+msgctxt "InputKeys,Dollar"
+msgid "Dollar"
+msgstr "Dolar"
+
+#. Key:	Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:549
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:549
+msgctxt "InputKeys,Down"
+msgid "Down"
+msgstr "Aşağı"
+
+#. Key:	End
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:543
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:543
+msgctxt "InputKeys,End"
+msgid "End"
+msgstr "End"
+
+#. Key:	Enter
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:535
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:535
+msgctxt "InputKeys,Enter"
+msgid "Enter"
+msgstr "Enter"
+
+#. Key:	Equals
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:642
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:642
+msgctxt "InputKeys,Equals"
+msgid "Equals"
+msgstr "Eşittir"
+
+#. Key:	Escape
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+msgctxt "InputKeys,Escape"
+msgid "Escape"
+msgstr "Escape"
+
+#. Key:	EscapeShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+msgctxt "InputKeys,EscapeShort"
+msgid "Esc"
+msgstr "Esc"
+
+#. Key:	Exclamation
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:661
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:661
+msgctxt "InputKeys,Exclamation"
+msgid "Exclamation"
+msgstr "Ünlem"
+
+#. Key:	F1
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:616
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:616
+msgctxt "InputKeys,F1"
+msgid "F1"
+msgstr "F1"
+
+#. Key:	F10
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:625
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:625
+msgctxt "InputKeys,F10"
+msgid "F10"
+msgstr "F10"
+
+#. Key:	F11
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:626
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:626
+msgctxt "InputKeys,F11"
+msgid "F11"
+msgstr "F11"
+
+#. Key:	F12
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:627
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:627
+msgctxt "InputKeys,F12"
+msgid "F12"
+msgstr "F12"
+
+#. Key:	F2
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:617
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:617
+msgctxt "InputKeys,F2"
+msgid "F2"
+msgstr "F2"
+
+#. Key:	F3
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:618
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:618
+msgctxt "InputKeys,F3"
+msgid "F3"
+msgstr "F3"
+
+#. Key:	F4
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:619
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:619
+msgctxt "InputKeys,F4"
+msgid "F4"
+msgstr "F4"
+
+#. Key:	F5
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:620
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:620
+msgctxt "InputKeys,F5"
+msgid "F5"
+msgstr "F5"
+
+#. Key:	F6
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:621
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:621
+msgctxt "InputKeys,F6"
+msgid "F6"
+msgstr "F6"
+
+#. Key:	F7
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:622
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:622
+msgctxt "InputKeys,F7"
+msgid "F7"
+msgstr "F7"
+
+#. Key:	F8
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:623
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:623
+msgctxt "InputKeys,F8"
+msgid "F8"
+msgstr "F8"
+
+#. Key:	F9
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:624
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:624
+msgctxt "InputKeys,F9"
+msgid "F9"
+msgstr "F9"
+
+#. Key:	ForwardDelete
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:555
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:555
+msgctxt "InputKeys,ForwardDelete"
+msgid "Fn+Delete"
+msgstr "Fn+Delete"
+
+#. Key:	Gamepad_DPad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:680
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:680
+msgctxt "InputKeys,Gamepad_DPad_Down"
+msgid "Gamepad D-pad Down"
+msgstr "Oyun Kumandası Aşağı Yön Düğmesi"
+
+#. Key:	Gamepad_DPad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:682
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:682
+msgctxt "InputKeys,Gamepad_DPad_Left"
+msgid "Gamepad D-pad Left"
+msgstr "Oyun Kumandası Sol Yön Düğmesi"
+
+#. Key:	Gamepad_DPad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:681
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:681
+msgctxt "InputKeys,Gamepad_DPad_Right"
+msgid "Gamepad D-pad Right"
+msgstr "Oyun Kumandası Sağ Yön Düğmesi"
+
+#. Key:	Gamepad_DPad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:679
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:679
+msgctxt "InputKeys,Gamepad_DPad_Up"
+msgid "Gamepad D-pad Up"
+msgstr "Oyun Kumandası Yukarı Yön Düğmesi"
+
+#. Key:	Gamepad_FaceButton_Bottom
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1172
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1172
+msgctxt "InputKeys,Gamepad_FaceButton_Bottom"
+msgid "Gamepad Face Button Bottom"
+msgstr "Oyun Kumandası Ön Düğme Alt"
+
+#. Key:	Gamepad_FaceButton_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1180
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1180
+msgctxt "InputKeys,Gamepad_FaceButton_Left"
+msgid "Gamepad Face Button Left"
+msgstr "Oyun Kumandası Ön Düğme Sol"
+
+#. Key:	Gamepad_FaceButton_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1176
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1176
+msgctxt "InputKeys,Gamepad_FaceButton_Right"
+msgid "Gamepad Face Button Right"
+msgstr "Oyun Kumandası Ön Düğme Sağ"
+
+#. Key:	Gamepad_FaceButton_Top
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1184
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1184
+msgctxt "InputKeys,Gamepad_FaceButton_Top"
+msgid "Gamepad Face Button Top"
+msgstr "Oyun Kumandası Ön Düğme Üst"
+
+#. Key:	Gamepad_Left2D
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:674
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:674
+msgctxt "InputKeys,Gamepad_Left2D"
+msgid "Gamepad Left Thumbstick 2D-Axis"
+msgstr "Oyun Kumandası Sol Analog Çubuk 2D-Eksen"
+
+#. Key:	Gamepad_LeftShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1137
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1137
+msgctxt "InputKeys,Gamepad_LeftShoulder"
+msgid "Gamepad Left Shoulder"
+msgstr "Oyun Kumandası LB"
+
+#. Key:	Gamepad_LeftStick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:686
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:686
+msgctxt "InputKeys,Gamepad_LeftStick_Down"
+msgid "Gamepad Left Thumbstick Down"
+msgstr "Oyun Kumandası Sol Analog Çubuk Aşağı"
+
+#. Key:	Gamepad_LeftStick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:688
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:688
+msgctxt "InputKeys,Gamepad_LeftStick_Left"
+msgid "Gamepad Left Thumbstick Left"
+msgstr "Oyun Kumandası Sol Analog Çubuk Sol"
+
+#. Key:	Gamepad_LeftStick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:687
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:687
+msgctxt "InputKeys,Gamepad_LeftStick_Right"
+msgid "Gamepad Left Thumbstick Right"
+msgstr "Oyun Kumandası Sol Analog Çubuk Sağ"
+
+#. Key:	Gamepad_LeftStick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:685
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:685
+msgctxt "InputKeys,Gamepad_LeftStick_Up"
+msgid "Gamepad Left Thumbstick Up"
+msgstr "Oyun Kumandası Sol Analog Çubuk Yukarı"
+
+#. Key:	Gamepad_LeftThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1161
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1161
+msgctxt "InputKeys,Gamepad_LeftThumbstick"
+msgid "Gamepad Left Thumbstick Button"
+msgstr "Oyun Kumandası Sol Analog Çubuk Düğmesi"
+
+#. Key:	Gamepad_LeftTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1145
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1145
+msgctxt "InputKeys,Gamepad_LeftTrigger"
+msgid "Gamepad Left Trigger"
+msgstr "Oyun Kumandası LT"
+
+#. Key:	Gamepad_LeftTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1153
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1153
+msgctxt "InputKeys,Gamepad_LeftTriggerAxis"
+msgid "Gamepad Left Trigger Axis"
+msgstr "Oyun Kumandası LT Hassasiyeti"
+
+#. Key:	Gamepad_LeftX
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:672
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:672
+msgctxt "InputKeys,Gamepad_LeftX"
+msgid "Gamepad Left Thumbstick X-Axis"
+msgstr "Oyun Kumandası Sol Analog Çubuk X-Ekseni"
+
+#. Key:	Gamepad_LeftY
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:673
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:673
+msgctxt "InputKeys,Gamepad_LeftY"
+msgid "Gamepad Left Thumbstick Y-Axis"
+msgstr "Oyun Kumandası Sol Analog Çubuk Y-Ekseni"
+
+#. Key:	Gamepad_Right2D
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:677
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:677
+msgctxt "InputKeys,Gamepad_Right2D"
+msgid "Gamepad Right Thumbstick 2D-Axis"
+msgstr "Oyun Kumandası Sağ Analog Çubuk 2D-Eksen"
+
+#. Key:	Gamepad_RightShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1141
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1141
+msgctxt "InputKeys,Gamepad_RightShoulder"
+msgid "Gamepad Right Shoulder"
+msgstr "Oyun Kumandası RB"
+
+#. Key:	Gamepad_RightStick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:691
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:691
+msgctxt "InputKeys,Gamepad_RightStick_Down"
+msgid "Gamepad Right Thumbstick Down"
+msgstr "Oyun Kumandası Sağ Analog Çubuk Aşağı"
+
+#. Key:	Gamepad_RightStick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:693
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:693
+msgctxt "InputKeys,Gamepad_RightStick_Left"
+msgid "Gamepad Right Thumbstick Left"
+msgstr "Oyun Kumandası Sağ Analog Çubuk Sol"
+
+#. Key:	Gamepad_RightStick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:692
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:692
+msgctxt "InputKeys,Gamepad_RightStick_Right"
+msgid "Gamepad Right Thumbstick Right"
+msgstr "Oyun Kumandası Sağ Analog Çubuk Sağ"
+
+#. Key:	Gamepad_RightStick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:690
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:690
+msgctxt "InputKeys,Gamepad_RightStick_Up"
+msgid "Gamepad Right Thumbstick Up"
+msgstr "Oyun Kumandası Sağ Analog Çubuk Yukarı"
+
+#. Key:	Gamepad_RightThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1165
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1165
+msgctxt "InputKeys,Gamepad_RightThumbstick"
+msgid "Gamepad Right Thumbstick Button"
+msgstr "Oyun Kumandası Sağ Analog Çubuk Düğmesi"
+
+#. Key:	Gamepad_RightTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1149
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1149
+msgctxt "InputKeys,Gamepad_RightTrigger"
+msgid "Gamepad Right Trigger"
+msgstr "Oyun Kumandası RT"
+
+#. Key:	Gamepad_RightTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1157
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1157
+msgctxt "InputKeys,Gamepad_RightTriggerAxis"
+msgid "Gamepad Right Trigger Axis"
+msgstr "Oyun Kumandası RT Hassasiyeti"
+
+#. Key:	Gamepad_RightX
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:675
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:675
+msgctxt "InputKeys,Gamepad_RightX"
+msgid "Gamepad Right Thumbstick X-Axis"
+msgstr "Oyun Kumandası Sağ Analog Çubuk X-Ekseni"
+
+#. Key:	Gamepad_RightY
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:676
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:676
+msgctxt "InputKeys,Gamepad_RightY"
+msgid "Gamepad Right Thumbstick Y-Axis"
+msgstr "Oyun Kumandası Sağ Analog Çubuk Y-Ekseni"
+
+#. Key:	Gamepad_Special_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1188
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1188
+msgctxt "InputKeys,Gamepad_Special_Left"
+msgid "Gamepad Special Left"
+msgstr "Oyun Kumandası Back Düğmesi"
+
+#. Key:	Gamepad_Special_Left_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:744
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:744
+msgctxt "InputKeys,Gamepad_Special_Left_X"
+msgid "Touchpad Button X Axis"
+msgstr "Dokunmatik Yüzey Butonu X Ekseni"
+
+#. Key:	Gamepad_Special_Left_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:745
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:745
+msgctxt "InputKeys,Gamepad_Special_Left_Y"
+msgid "Touchpad Button Y Axis"
+msgstr "Dokunmatik Yüzey Butonu Y Ekseni"
+
+#. Key:	Gamepad_Special_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1192
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1192
+msgctxt "InputKeys,Gamepad_Special_Right"
+msgid "Gamepad Special Right"
+msgstr "Oyun Kumandası Start Düğmesi"
+
+#. Key:	GamepadSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:515
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:515
+msgctxt "InputKeys,GamepadSubCategory"
+msgid "Gamepad"
+msgstr "Oyun Kumandası"
+
+#. Key:	Gesture_Flick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:736
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:736
+msgctxt "InputKeys,Gesture_Flick"
+msgid "Flick"
+msgstr "Hafif Vuruş"
+
+#. Key:	Gesture_Pinch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:735
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:735
+msgctxt "InputKeys,Gesture_Pinch"
+msgid "Pinch"
+msgstr "Çimdikleme"
+
+#. Key:	Gesture_Rotate
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:737
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:737
+msgctxt "InputKeys,Gesture_Rotate"
+msgid "Rotate"
+msgstr "Döndürme"
+
+#. Key:	GestureSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:733
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:733
+msgctxt "InputKeys,GestureSubCateogry"
+msgid "Gesture"
+msgstr "Hareket"
+
+#. Key:	Global_Back
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:765
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:765
+msgctxt "InputKeys,Global_Back"
+msgid "Global Back"
+msgstr "Global Geri"
+
+#. Key:	Global_Menu
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:761
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:761
+msgctxt "InputKeys,Global_Menu"
+msgid "Global Menu"
+msgstr "Global Menü"
+
+#. Key:	Global_Pause
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:763
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:763
+msgctxt "InputKeys,Global_Pause"
+msgid "Global Pause"
+msgstr "Global Duraklatma"
+
+#. Key:	Global_Play
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:764
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:764
+msgctxt "InputKeys,Global_Play"
+msgid "Global Play"
+msgstr "Global Oynatma"
+
+#. Key:	Global_View
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:762
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:762
+msgctxt "InputKeys,Global_View"
+msgid "Global View"
+msgstr "Global Görüntüleme"
+
+#. Key:	Gravity
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:717
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:717
+msgctxt "InputKeys,Gravity"
+msgid "Gravity"
+msgstr "Yerçekimi"
+
+#. Key:	Home
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:544
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:544
+msgctxt "InputKeys,Home"
+msgid "Home"
+msgstr "Giriş"
+
+#. Key:	Hyphen
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:644
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:644
+msgctxt "InputKeys,Hyphen"
+msgid "Hyphen"
+msgstr "Kısa Çizgi"
+
+#. Key:	Insert
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+msgctxt "InputKeys,Insert"
+msgid "Insert"
+msgstr "Insert"
+
+#. Key:	InsertShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+msgctxt "InputKeys,InsertShort"
+msgid "Ins"
+msgstr "Ins"
+
+#. Key:	KeyboardSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:517
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:517
+msgctxt "InputKeys,KeyboardSubCategory"
+msgid "Keyboard"
+msgstr "Klavye"
+
+#. Key:	Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:546
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:546
+msgctxt "InputKeys,Left"
+msgid "Left"
+msgstr "Sol"
+
+#. Key:	LeftAlt
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:636
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:636
+msgctxt "InputKeys,LeftAlt"
+msgid "Left Alt"
+msgstr "Sol Alt"
+
+#. Key:	LeftBracket
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:649
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:649
+msgctxt "InputKeys,LeftBracket"
+msgid "Left Bracket"
+msgstr "Sol Köşeli Parantez"
+
+#. Key:	LeftCommand
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:638
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:638
+msgctxt "InputKeys,LeftCommand"
+msgid "Left Cmd"
+msgstr "Sol Cmd"
+
+#. Key:	LeftControl
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:634
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:634
+msgctxt "InputKeys,LeftControl"
+msgid "Left Ctrl"
+msgstr "Sol Ctrl"
+
+#. Key:	LeftMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+msgctxt "InputKeys,LeftMouseButton"
+msgid "Left Mouse Button"
+msgstr "Sol Fare"
+
+#. Key:	LeftMouseButtonShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+msgctxt "InputKeys,LeftMouseButtonShort"
+msgid "LMB"
+msgstr "Sol Fare"
+
+#. Key:	LeftParantheses
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:655
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:655
+msgctxt "InputKeys,LeftParantheses"
+msgid "Left Parantheses"
+msgstr "Sol Parantez"
+
+#. Key:	LeftShift
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:632
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:632
+msgctxt "InputKeys,LeftShift"
+msgid "Left Shift"
+msgstr "Sol Shift"
+
+#. Key:	MiddleMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:530
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:530
+msgctxt "InputKeys,MiddleMouseButton"
+msgid "Middle Mouse Button"
+msgstr "Orta Fare"
+
+#. Key:	MixedReality_Left_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:809
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:809
+msgctxt "InputKeys,MixedReality_Left_Grip_Click"
+msgid "Mixed Reality (L) Grip"
+msgstr "Mixed Reality (Sol) Kavrama Düğmesi"
+
+#. Key:	MixedReality_Left_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:808
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:808
+msgctxt "InputKeys,MixedReality_Left_Menu_Click"
+msgid "Mixed Reality (L) Menu"
+msgstr "Mixed Reality (Sol) Menü Düğmesi"
+
+#. Key:	MixedReality_Left_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:814
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:814
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Click"
+msgid "Mixed Reality (L) Thumbstick"
+msgstr "Mixed Reality (Sol) Analog Çubuk"
+
+#. Key:	MixedReality_Left_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:816
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:816
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Down"
+msgid "Mixed Reality (L) Thumbstick Down"
+msgstr "Mixed Reality (Sol) Analog Çubuk Aşağı"
+
+#. Key:	MixedReality_Left_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:817
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:817
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Left"
+msgid "Mixed Reality (L) Thumbstick Left"
+msgstr "Mixed Reality (Sol) Analog Çubuk Sol"
+
+#. Key:	MixedReality_Left_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:818
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:818
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Right"
+msgid "Mixed Reality (L) Thumbstick Right"
+msgstr "Mixed Reality (Sol) Analog Çubuk Sağ"
+
+#. Key:	MixedReality_Left_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:815
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:815
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Up"
+msgid "Mixed Reality (L) Thumbstick Up"
+msgstr "Mixed Reality (Sol) Analog Çubuk Yukarı"
+
+#. Key:	MixedReality_Left_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:812
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:812
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_X"
+msgid "Mixed Reality (L) Thumbstick X"
+msgstr "Mixed Reality (Sol) Analog Çubuk X"
+
+#. Key:	MixedReality_Left_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:813
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:813
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Y"
+msgid "Mixed Reality (L) Thumbstick Y"
+msgstr "Mixed Reality (Sol) Analog Çubuk Y"
+
+#. Key:	MixedReality_Left_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:821
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:821
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Click"
+msgid "Mixed Reality (L) Trackpad"
+msgstr "Mixed Reality (Sol) Tampon"
+
+#. Key:	MixedReality_Left_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:824
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:824
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Down"
+msgid "Mixed Reality (L) Trackpad Down"
+msgstr "Mixed Reality (Sol) Tampon Aşağı"
+
+#. Key:	MixedReality_Left_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:825
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:825
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Left"
+msgid "Mixed Reality (L) Trackpad Left"
+msgstr "Mixed Reality (Sol) Tampon Sol"
+
+#. Key:	MixedReality_Left_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:826
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:826
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Right"
+msgid "Mixed Reality (L) Trackpad Right"
+msgstr "Mixed Reality (Sol) Tampon Sağ"
+
+#. Key:	MixedReality_Left_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:822
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:822
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Touch"
+msgid "Mixed Reality (L) Trackpad Touch"
+msgstr "Mixed Reality (Sol) Tampon Dokun"
+
+#. Key:	MixedReality_Left_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:823
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:823
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Up"
+msgid "Mixed Reality (L) Trackpad Up"
+msgstr "Mixed Reality (Sol) Tampon Yukarı"
+
+#. Key:	MixedReality_Left_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:819
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:819
+msgctxt "InputKeys,MixedReality_Left_Trackpad_X"
+msgid "Mixed Reality (L) Trackpad X"
+msgstr "Mixed Reality (Sol) Tampon X"
+
+#. Key:	MixedReality_Left_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:820
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:820
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Y"
+msgid "Mixed Reality (L) Trackpad Y"
+msgstr "Mixed Reality (Sol) Tampon Y"
+
+#. Key:	MixedReality_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:811
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:811
+msgctxt "InputKeys,MixedReality_Left_Trigger_Axis"
+msgid "Mixed Reality (L) Trigger Axis"
+msgstr "Mixed Reality (Sol) Tetik Ekseni"
+
+#. Key:	MixedReality_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:810
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:810
+msgctxt "InputKeys,MixedReality_Left_Trigger_Click"
+msgid "Mixed Reality (L) Trigger"
+msgstr "Mixed Reality (Sol) Tetik"
+
+#. Key:	MixedReality_Right_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:828
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:828
+msgctxt "InputKeys,MixedReality_Right_Grip_Click"
+msgid "Mixed Reality (R) Grip"
+msgstr "Mixed Reality (Sağ) Kavrama Düğmesi"
+
+#. Key:	MixedReality_Right_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:827
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:827
+msgctxt "InputKeys,MixedReality_Right_Menu_Click"
+msgid "Mixed Reality (R) Menu"
+msgstr "Mixed Reality (Sağ) Menü Düğmesi"
+
+#. Key:	MixedReality_Right_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:833
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:833
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Click"
+msgid "Mixed Reality (R) Thumbstick"
+msgstr "Mixed Reality (Sağ) Analog Çubuk"
+
+#. Key:	MixedReality_Right_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:835
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:835
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Down"
+msgid "Mixed Reality (R) Thumbstick Down"
+msgstr "Mixed Reality (Sağ) Analog Çubuk Aşağı"
+
+#. Key:	MixedReality_Right_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:836
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:836
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Left"
+msgid "Mixed Reality (R) Thumbstick Left"
+msgstr "Mixed Reality (Sağ) Analog Çubuk Sol"
+
+#. Key:	MixedReality_Right_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:837
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:837
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Right"
+msgid "Mixed Reality (R) Thumbstick Right"
+msgstr "Mixed Reality (Sağ) Analog Çubuk Sağ"
+
+#. Key:	MixedReality_Right_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:834
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:834
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Up"
+msgid "Mixed Reality (R) Thumbstick Up"
+msgstr "Mixed Reality (Sağ) Analog Çubuk Yukarı"
+
+#. Key:	MixedReality_Right_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:831
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:831
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_X"
+msgid "Mixed Reality (R) Thumbstick X"
+msgstr "Mixed Reality (Sağ) Analog Çubuk X"
+
+#. Key:	MixedReality_Right_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:832
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:832
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Y"
+msgid "Mixed Reality (R) Thumbstick Y"
+msgstr "Mixed Reality (Sağ) Analog Çubuk Y"
+
+#. Key:	MixedReality_Right_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:840
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:840
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Click"
+msgid "Mixed Reality (R) Trackpad"
+msgstr "Mixed Reality (Sağ) Tampon"
+
+#. Key:	MixedReality_Right_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:843
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:843
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Down"
+msgid "Mixed Reality (R) Trackpad Down"
+msgstr "Mixed Reality (Sağ) Tampon Aşağı"
+
+#. Key:	MixedReality_Right_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:844
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:844
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Left"
+msgid "Mixed Reality (R) Trackpad Left"
+msgstr "Mixed Reality (Sağ) Tampon Sol"
+
+#. Key:	MixedReality_Right_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:845
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:845
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Right"
+msgid "Mixed Reality (R) Trackpad Right"
+msgstr "Mixed Reality (Sağ) Tampon Sağ"
+
+#. Key:	MixedReality_Right_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:841
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:841
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Touch"
+msgid "Mixed Reality (R) Trackpad Touch"
+msgstr "Mixed Reality (Sağ) Tampon Dokun"
+
+#. Key:	MixedReality_Right_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:842
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:842
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Up"
+msgid "Mixed Reality (R) Trackpad Up"
+msgstr "Mixed Reality (Sağ) Tampon Yukarı"
+
+#. Key:	MixedReality_Right_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:838
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:838
+msgctxt "InputKeys,MixedReality_Right_Trackpad_X"
+msgid "Mixed Reality (R) Trackpad X"
+msgstr "Mixed Reality (Sağ) Tampon X"
+
+#. Key:	MixedReality_Right_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:839
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:839
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Y"
+msgid "Mixed Reality (R) Trackpad Y"
+msgstr "Mixed Reality (Sağ) Tampon Y"
+
+#. Key:	MixedReality_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:830
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:830
+msgctxt "InputKeys,MixedReality_Right_Trigger_Axis"
+msgid "Mixed Reality (R) Trigger Axis"
+msgstr "Mixed Reality (Sağ) Tetik Ekseni"
+
+#. Key:	MixedReality_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:829
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:829
+msgctxt "InputKeys,MixedReality_Right_Trigger_Click"
+msgid "Mixed Reality (R) Trigger"
+msgstr "Mixed Reality (Sağ) Tetik"
+
+#. Key:	MixedRealitySubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:806
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:806
+msgctxt "InputKeys,MixedRealitySubCategory"
+msgid "Windows Mixed Reality"
+msgstr "Windows Mixed Reality"
+
+#. Key:	MotionSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:713
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:713
+msgctxt "InputKeys,MotionSubCateogry"
+msgid "Motion"
+msgstr "Hareket"
+
+#. Key:	Mouse2D
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:523
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:523
+msgctxt "InputKeys,Mouse2D"
+msgid "Mouse XY 2D-Axis"
+msgstr "Fare XY 2D-Eksen"
+
+#. Key:	MouseScrollDown
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:526
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:526
+msgctxt "InputKeys,MouseScrollDown"
+msgid "Mouse Wheel Down"
+msgstr "Fare Tekerleği Aşağı"
+
+#. Key:	MouseScrollUp
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:525
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:525
+msgctxt "InputKeys,MouseScrollUp"
+msgid "Mouse Wheel Up"
+msgstr "Fare Tekerleği Yukarı"
+
+#. Key:	MouseSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:516
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:516
+msgctxt "InputKeys,MouseSubCategory"
+msgid "Mouse"
+msgstr "Fare"
+
+#. Key:	MouseWheelAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:524
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:524
+msgctxt "InputKeys,MouseWheelAxis"
+msgid "Mouse Wheel Axis"
+msgstr "Fare Tekerlek Ekseni"
+
+#. Key:	MouseX
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:521
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:521
+msgctxt "InputKeys,MouseX"
+msgid "Mouse X"
+msgstr "Fare X"
+
+#. Key:	MouseY
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:522
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:522
+msgctxt "InputKeys,MouseY"
+msgid "Mouse Y"
+msgstr "Fare Y"
+
+#. Key:	Multiply
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:610
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:610
+msgctxt "InputKeys,Multiply"
+msgid "Num *"
+msgstr "Num *"
+
+#. Key:	NumLock
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:629
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:629
+msgctxt "InputKeys,NumLock"
+msgid "Num Lock"
+msgstr "Num Lock"
+
+#. Key:	NumPadEight
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:607
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:607
+msgctxt "InputKeys,NumPadEight"
+msgid "Num 8"
+msgstr "Num 8"
+
+#. Key:	NumPadFive
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:604
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:604
+msgctxt "InputKeys,NumPadFive"
+msgid "Num 5"
+msgstr "Num 5"
+
+#. Key:	NumPadFour
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:603
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:603
+msgctxt "InputKeys,NumPadFour"
+msgid "Num 4"
+msgstr "Num 4"
+
+#. Key:	NumPadNine
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:608
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:608
+msgctxt "InputKeys,NumPadNine"
+msgid "Num 9"
+msgstr "Num 9"
+
+#. Key:	NumPadOne
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:600
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:600
+msgctxt "InputKeys,NumPadOne"
+msgid "Num 1"
+msgstr "Num 1"
+
+#. Key:	NumPadSeven
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:606
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:606
+msgctxt "InputKeys,NumPadSeven"
+msgid "Num 7"
+msgstr "Num 7"
+
+#. Key:	NumPadSix
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:605
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:605
+msgctxt "InputKeys,NumPadSix"
+msgid "Num 6"
+msgstr "Num 6"
+
+#. Key:	NumPadThree
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:602
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:602
+msgctxt "InputKeys,NumPadThree"
+msgid "Num 3"
+msgstr "Num 3"
+
+#. Key:	NumPadTwo
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:601
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:601
+msgctxt "InputKeys,NumPadTwo"
+msgid "Num 2"
+msgstr "Num 2"
+
+#. Key:	NumPadZero
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:599
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:599
+msgctxt "InputKeys,NumPadZero"
+msgid "Num 0"
+msgstr "Num 0"
+
+#. Key:	OculusTouch_Left_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:856
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:856
+msgctxt "InputKeys,OculusTouch_Left_Grip_Axis"
+msgid "Oculus Touch (L) Grip Axis"
+msgstr "Oculus Touch (Sol) Kavrama Düğmesi Ekseni"
+
+#. Key:	OculusTouch_Left_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:855
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:855
+msgctxt "InputKeys,OculusTouch_Left_Grip_Click"
+msgid "Oculus Touch (L) Grip"
+msgstr "Oculus Touch (Sol) Kavrama Düğmesi"
+
+#. Key:	OculusTouch_Left_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:854
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:854
+msgctxt "InputKeys,OculusTouch_Left_Menu_Click"
+msgid "Oculus Touch (L) Menu"
+msgstr "Oculus Touch (Sol) Menü Düğmesi"
+
+#. Key:	OculusTouch_Left_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:862
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:862
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Click"
+msgid "Oculus Touch (L) Thumbstick"
+msgstr "Oculus Touch (Sol) Analog Çubuk"
+
+#. Key:	OculusTouch_Left_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:865
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:865
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Down"
+msgid "Oculus Touch (L) Thumbstick Down"
+msgstr "Oculus Touch (Sol) Analog Çubuk Aşağı"
+
+#. Key:	OculusTouch_Left_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:866
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:866
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Left"
+msgid "Oculus Touch (L) Thumbstick Left"
+msgstr "Oculus Touch (Sol) Analog Çubuk Sol"
+
+#. Key:	OculusTouch_Left_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:867
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:867
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Right"
+msgid "Oculus Touch (L) Thumbstick Right"
+msgstr "Oculus Touch (Sol) Analog Çubuk Sağ"
+
+#. Key:	OculusTouch_Left_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:863
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:863
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Touch"
+msgid "Oculus Touch (L) Thumbstick Touch"
+msgstr "Oculus Touch (Sol) Analog Çubuk Dokun"
+
+#. Key:	OculusTouch_Left_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:864
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:864
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Up"
+msgid "Oculus Touch (L) Thumbstick Up"
+msgstr "Oculus Touch (Sol) Analog Çubuk Yukarı"
+
+#. Key:	OculusTouch_Left_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:860
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:860
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_X"
+msgid "Oculus Touch (L) Thumbstick X"
+msgstr "Oculus Touch (Sol) Analog Çubuk X"
+
+#. Key:	OculusTouch_Left_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:861
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:861
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Y"
+msgid "Oculus Touch (L) Thumbstick Y"
+msgstr "Oculus Touch (Sol) Analog Çubuk Y"
+
+#. Key:	OculusTouch_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:858
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:858
+msgctxt "InputKeys,OculusTouch_Left_Trigger_Axis"
+msgid "Oculus Touch (L) Trigger Axis"
+msgstr "Oculus Touch (Sol) Tetik Ekseni"
+
+#. Key:	OculusTouch_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:857
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:857
+msgctxt "InputKeys,OculusTouch_Left_Trigger_Click"
+msgid "Oculus Touch (L) Trigger"
+msgstr "Oculus Touch (Sol) Tetik"
+
+#. Key:	OculusTouch_Left_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:859
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:859
+msgctxt "InputKeys,OculusTouch_Left_Trigger_Touch"
+msgid "Oculus Touch (L) Trigger Touch"
+msgstr "Oculus Touch (Sol) Tetik Dokun"
+
+#. Key:	OculusTouch_Left_X_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:850
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:850
+msgctxt "InputKeys,OculusTouch_Left_X_Click"
+msgid "Oculus Touch (L) X Press"
+msgstr "Oculus Touch (Sol) X Bas"
+
+#. Key:	OculusTouch_Left_X_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:852
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:852
+msgctxt "InputKeys,OculusTouch_Left_X_Touch"
+msgid "Oculus Touch (L) X Touch"
+msgstr "Oculus Touch (Sol) X Dokun"
+
+#. Key:	OculusTouch_Left_Y_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:851
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:851
+msgctxt "InputKeys,OculusTouch_Left_Y_Click"
+msgid "Oculus Touch (L) Y Press"
+msgstr "Oculus Touch (Sol) Y Bas"
+
+#. Key:	OculusTouch_Left_Y_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:853
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:853
+msgctxt "InputKeys,OculusTouch_Left_Y_Touch"
+msgid "Oculus Touch (L) Y Touch"
+msgstr "Oculus Touch (Sol) Y Dokun"
+
+#. Key:	OculusTouch_Right_A_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:868
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:868
+msgctxt "InputKeys,OculusTouch_Right_A_Click"
+msgid "Oculus Touch (R) A Press"
+msgstr "Oculus Touch (Sağ) A Bas"
+
+#. Key:	OculusTouch_Right_A_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:870
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:870
+msgctxt "InputKeys,OculusTouch_Right_A_Touch"
+msgid "Oculus Touch (R) A Touch"
+msgstr "Oculus Touch (Sağ) A Dokun"
+
+#. Key:	OculusTouch_Right_B_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:869
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:869
+msgctxt "InputKeys,OculusTouch_Right_B_Click"
+msgid "Oculus Touch (R) B Press"
+msgstr "Oculus Touch (Sağ) B Bas"
+
+#. Key:	OculusTouch_Right_B_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:871
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:871
+msgctxt "InputKeys,OculusTouch_Right_B_Touch"
+msgid "Oculus Touch (R) B Touch"
+msgstr "Oculus Touch (Sağ) B Dokun"
+
+#. Key:	OculusTouch_Right_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:874
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:874
+msgctxt "InputKeys,OculusTouch_Right_Grip_Axis"
+msgid "Oculus Touch (R) Grip Axis"
+msgstr "Oculus Touch (Sağ) Kavrama Düğmesi Ekseni"
+
+#. Key:	OculusTouch_Right_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:873
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:873
+msgctxt "InputKeys,OculusTouch_Right_Grip_Click"
+msgid "Oculus Touch (R) Grip"
+msgstr "Oculus Touch (Sağ) Kavrama Düğmesi"
+
+#. Key:	OculusTouch_Right_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:872
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:872
+msgctxt "InputKeys,OculusTouch_Right_System_Click"
+msgid "Oculus Touch (R) System"
+msgstr "Oculus Touch (Sağ) Sistem Düğmesi"
+
+#. Key:	OculusTouch_Right_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:880
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:880
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Click"
+msgid "Oculus Touch (R) Thumbstick"
+msgstr "Oculus Touch (Sağ) Analog Çubuk"
+
+#. Key:	OculusTouch_Right_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:883
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:883
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Down"
+msgid "Oculus Touch (R) Thumbstick Down"
+msgstr "Oculus Touch (Sağ) Analog Çubuk Aşağı"
+
+#. Key:	OculusTouch_Right_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:884
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:884
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Left"
+msgid "Oculus Touch (R) Thumbstick Left"
+msgstr "Oculus Touch (Sağ) Analog Çubuk Sol"
+
+#. Key:	OculusTouch_Right_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:885
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:885
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Right"
+msgid "Oculus Touch (R) Thumbstick Right"
+msgstr "Oculus Touch (Sağ) Analog Çubuk Sağ"
+
+#. Key:	OculusTouch_Right_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:881
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:881
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Touch"
+msgid "Oculus Touch (R) Thumbstick Touch"
+msgstr "Oculus Touch (Sağ) Analog Çubuk Dokun"
+
+#. Key:	OculusTouch_Right_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:882
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:882
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Up"
+msgid "Oculus Touch (R) Thumbstick Up"
+msgstr "Oculus Touch (Sağ) Analog Çubuk Yukarı"
+
+#. Key:	OculusTouch_Right_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:878
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:878
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_X"
+msgid "Oculus Touch (R) Thumbstick X"
+msgstr "Oculus Touch (Sağ) Analog Çubuk X"
+
+#. Key:	OculusTouch_Right_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:879
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:879
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Y"
+msgid "Oculus Touch (R) Thumbstick Y"
+msgstr "Oculus Touch (Sağ) Analog Çubuk Y"
+
+#. Key:	OculusTouch_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:876
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:876
+msgctxt "InputKeys,OculusTouch_Right_Trigger_Axis"
+msgid "Oculus Touch (R) Trigger Axis"
+msgstr "Oculus Touch (Sağ) Tetik Ekseni"
+
+#. Key:	OculusTouch_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:875
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:875
+msgctxt "InputKeys,OculusTouch_Right_Trigger_Click"
+msgid "Oculus Touch (R) Trigger"
+msgstr "Oculus Touch (Sağ) Tetik"
+
+#. Key:	OculusTouch_Right_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:877
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:877
+msgctxt "InputKeys,OculusTouch_Right_Trigger_Touch"
+msgid "Oculus Touch (R) Trigger Touch"
+msgstr "Oculus Touch (Sağ) Tetik Dokun"
+
+#. Key:	OculusTouchSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:848
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:848
+msgctxt "InputKeys,OculusTouchSubCategory"
+msgid "Oculus Touch"
+msgstr "Oculus Touch"
+
+#. Key:	PageDown
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+msgctxt "InputKeys,PageDown"
+msgid "Page Down"
+msgstr "Page Down"
+
+#. Key:	PageDownShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+msgctxt "InputKeys,PageDownShort"
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Key:	PageUp
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+msgctxt "InputKeys,PageUp"
+msgid "Page Up"
+msgstr "Page Up"
+
+#. Key:	PageUpShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+msgctxt "InputKeys,PageUpShort"
+msgid "PgUp"
+msgstr "PgUp"
+
+#. Key:	Pause
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:536
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:536
+msgctxt "InputKeys,Pause"
+msgid "Pause"
+msgstr "Pause"
+
+#. Key:	Period
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:646
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:646
+msgctxt "InputKeys,Period"
+msgid "Period"
+msgstr "Nokta"
+
+#. Key:	PS4_Gamepad_FaceButton_Bottom
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1054
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1054
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Bottom"
+msgid "Gamepad X"
+msgstr "Oyun Kumandası X"
+
+#. Key:	PS4_Gamepad_FaceButton_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1062
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1062
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Left"
+msgid "Gamepad Square"
+msgstr "Oyun Kumandası Kare"
+
+#. Key:	PS4_Gamepad_FaceButton_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1058
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1058
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Right"
+msgid "Gamepad Circle"
+msgstr "Oyun Kumandası Daire"
+
+#. Key:	PS4_Gamepad_FaceButton_Top
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1066
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1066
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Top"
+msgid "Gamepad Triangle"
+msgstr "Oyun Kumandası Üçgen"
+
+#. Key:	PS4_Gamepad_LeftShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1078
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1078
+msgctxt "InputKeys,PS4_Gamepad_LeftShoulder"
+msgid "Gamepad L1"
+msgstr "Oyun Kumandası L1"
+
+#. Key:	PS4_Gamepad_LeftThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1102
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1102
+msgctxt "InputKeys,PS4_Gamepad_LeftThumbstick"
+msgid "Gamepad L3"
+msgstr "Oyun Kumandası L3"
+
+#. Key:	PS4_Gamepad_LeftTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1086
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1086
+msgctxt "InputKeys,PS4_Gamepad_LeftTrigger"
+msgid "Gamepad L2"
+msgstr "Oyun Kumandası L2"
+
+#. Key:	PS4_Gamepad_LeftTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1094
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1094
+msgctxt "InputKeys,PS4_Gamepad_LeftTriggerAxis"
+msgid "Gamepad L2 Axis"
+msgstr "Oyun Kumandası L2 Hassasiyeti"
+
+#. Key:	PS4_Gamepad_RightShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1082
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1082
+msgctxt "InputKeys,PS4_Gamepad_RightShoulder"
+msgid "Gamepad R1"
+msgstr "Oyun Kumandası R1"
+
+#. Key:	PS4_Gamepad_RightThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1106
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1106
+msgctxt "InputKeys,PS4_Gamepad_RightThumbstick"
+msgid "Gamepad R3"
+msgstr "Oyun Kumandası R3"
+
+#. Key:	PS4_Gamepad_RightTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1090
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1090
+msgctxt "InputKeys,PS4_Gamepad_RightTrigger"
+msgid "Gamepad R2"
+msgstr "Oyun Kumandası R2"
+
+#. Key:	PS4_Gamepad_RightTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1098
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1098
+msgctxt "InputKeys,PS4_Gamepad_RightTriggerAxis"
+msgid "Gamepad R2 Axis"
+msgstr "Oyun Kumandası R2 Hassasiyeti"
+
+#. Key:	PS4_Gamepad_Special_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1070
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1070
+msgctxt "InputKeys,PS4_Gamepad_Special_Left"
+msgid "Gamepad Touchpad Button"
+msgstr "Oyun Kumandası Dokunmatik Yüzey Düğmesi"
+
+#. Key:	PS4_Gamepad_Special_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1074
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1074
+msgctxt "InputKeys,PS4_Gamepad_Special_Right"
+msgid "Gamepad Options"
+msgstr "Oyun Kumandası Seçenekleri"
+
+#. Key:	PS4_Special
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:742
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:742
+msgctxt "InputKeys,PS4_Special"
+msgid "PS4_Special_DEPRECATED"
+msgstr "PS4_Special"
+
+#. Key:	Quote
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:653
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:653
+msgctxt "InputKeys,Quote"
+msgid "Quote"
+msgstr "Tırnak"
+
+#. Key:	Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:548
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:548
+msgctxt "InputKeys,Right"
+msgid "Right"
+msgstr "Sağ"
+
+#. Key:	RightAlt
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:637
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:637
+msgctxt "InputKeys,RightAlt"
+msgid "Right Alt"
+msgstr "Sağ Alt"
+
+#. Key:	RightBracket
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:651
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:651
+msgctxt "InputKeys,RightBracket"
+msgid "Right Bracket"
+msgstr "Sağ Köşeli Parantez"
+
+#. Key:	RightCommand
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:639
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:639
+msgctxt "InputKeys,RightCommand"
+msgid "Right Cmd"
+msgstr "Sağ Cmd"
+
+#. Key:	RightControl
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:635
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:635
+msgctxt "InputKeys,RightControl"
+msgid "Right Ctrl"
+msgstr "Sağ Ctrl"
+
+#. Key:	RightMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+msgctxt "InputKeys,RightMouseButton"
+msgid "Right Mouse Button"
+msgstr "Sağ Fare"
+
+#. Key:	RightMouseButtonShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+msgctxt "InputKeys,RightMouseButtonShort"
+msgid "RMB"
+msgstr "Sağ Fare"
+
+#. Key:	RightParantheses
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:656
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:656
+msgctxt "InputKeys,RightParantheses"
+msgid "Right Parantheses"
+msgstr "Sağ Parantez"
+
+#. Key:	RightShift
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:633
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:633
+msgctxt "InputKeys,RightShift"
+msgid "Right Shift"
+msgstr "Sağ Shift"
+
+#. Key:	RotationRate
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:716
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:716
+msgctxt "InputKeys,RotationRate"
+msgid "Rotation Rate"
+msgstr "Dönüş Oranı"
+
+#. Key:	ScrollLock
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:630
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:630
+msgctxt "InputKeys,ScrollLock"
+msgid "Scroll Lock"
+msgstr "Scroll Lock"
+
+#. Key:	Semicolon
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:641
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:641
+msgctxt "InputKeys,Semicolon"
+msgid "Semicolon"
+msgstr "Noktalı Virgül"
+
+#. Key:	Slash
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:647
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:647
+msgctxt "InputKeys,Slash"
+msgid "Slash"
+msgstr "Eğik Çizgi"
+
+#. Key:	SpaceBar
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+msgctxt "InputKeys,SpaceBar"
+msgid "Space Bar"
+msgstr "Boşluk Tuşu"
+
+#. Key:	SpaceBarShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+msgctxt "InputKeys,SpaceBarShort"
+msgid "Space"
+msgstr "Boşluk"
+
+#. Key:	SpecialGamepadSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:740
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:740
+msgctxt "InputKeys,SpecialGamepadSubCategory"
+msgid "SpecialGamepad"
+msgstr ""
+
+#. Key:	Steam_Back_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:755
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:755
+msgctxt "InputKeys,Steam_Back_Left"
+msgid "Steam Back Left"
+msgstr "Steam Arka Sol"
+
+#. Key:	Steam_Back_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:756
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:756
+msgctxt "InputKeys,Steam_Back_Right"
+msgid "Steam Back Right"
+msgstr "Steam Arka Sağ"
+
+#. Key:	Steam_Touch_0
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:751
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:751
+msgctxt "InputKeys,Steam_Touch_0"
+msgid "Steam Touch 0"
+msgstr "Steam Dokunmatik 0"
+
+#. Key:	Steam_Touch_1
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:752
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:752
+msgctxt "InputKeys,Steam_Touch_1"
+msgid "Steam Touch 1"
+msgstr "Steam Dokunmatik 1"
+
+#. Key:	Steam_Touch_2
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:753
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:753
+msgctxt "InputKeys,Steam_Touch_2"
+msgid "Steam Touch 2"
+msgstr "Steam Dokunmatik 2"
+
+#. Key:	Steam_Touch_3
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:754
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:754
+msgctxt "InputKeys,Steam_Touch_3"
+msgid "Steam Touch 3"
+msgstr "Steam Dokunmatik 3"
+
+#. Key:	SteamSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:749
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:749
+msgctxt "InputKeys,SteamSubCateogry"
+msgid "Steam"
+msgstr "Steam"
+
+#. Key:	Subtract
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:612
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:612
+msgctxt "InputKeys,Subtract"
+msgid "Num -"
+msgstr "Num -"
+
+#. Key:	Tab
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:534
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:534
+msgctxt "InputKeys,Tab"
+msgid "Tab"
+msgstr "Tab"
+
+#. Key:	ThumbMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:531
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:531
+msgctxt "InputKeys,ThumbMouseButton"
+msgid "Thumb Mouse Button"
+msgstr "Fare Başparmak"
+
+#. Key:	ThumbMouseButton2
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:532
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:532
+msgctxt "InputKeys,ThumbMouseButton2"
+msgid "Thumb Mouse Button 2"
+msgstr "Fare Başparmak 2"
+
+#. Key:	Tilt
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:715
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:715
+msgctxt "InputKeys,Tilt"
+msgid "Tilt"
+msgstr "Eğim"
+
+#. Key:	TouchFormat
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:726
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:726
+msgctxt "InputKeys,TouchFormat"
+msgid "Touch {0}"
+msgstr "Dokunmatik {0}"
+
+#. Key:	TouchSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:721
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:721
+msgctxt "InputKeys,TouchSubCateogry"
+msgid "Touch"
+msgstr "Dokunmatik"
+
+#. Key:	Underscore
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:645
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:645
+msgctxt "InputKeys,Underscore"
+msgid "Underscore"
+msgstr "Alt Tire"
+
+#. Key:	Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:547
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:547
+msgctxt "InputKeys,Up"
+msgid "Up"
+msgstr "Yukarı"
+
+#. Key:	ValveIndex_Left_A_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:890
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:890
+msgctxt "InputKeys,ValveIndex_Left_A_Click"
+msgid "Valve Index (L) A Press"
+msgstr "Valve Index (Sol) A Bas"
+
+#. Key:	ValveIndex_Left_A_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:892
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:892
+msgctxt "InputKeys,ValveIndex_Left_A_Touch"
+msgid "Valve Index (L) A Touch"
+msgstr "Valve Index (Sol) A Dokun"
+
+#. Key:	ValveIndex_Left_B_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:891
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:891
+msgctxt "InputKeys,ValveIndex_Left_B_Click"
+msgid "Valve Index (L) B Press"
+msgstr "Valve Index (Sol) B Bas"
+
+#. Key:	ValveIndex_Left_B_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:893
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:893
+msgctxt "InputKeys,ValveIndex_Left_B_Touch"
+msgid "Valve Index (L) B Touch"
+msgstr "Valve Index (Sol) B Dokun"
+
+#. Key:	ValveIndex_Left_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:896
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:896
+msgctxt "InputKeys,ValveIndex_Left_Grip_Axis"
+msgid "Valve Index (L) Grip Axis"
+msgstr "Valve Index (Sol) Kavrama Düğmesi Ekseni"
+
+#. Key:	ValveIndex_Left_Grip_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:897
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:897
+msgctxt "InputKeys,ValveIndex_Left_Grip_Force"
+msgid "Valve Index (L) Grip Force"
+msgstr "Valve Index (Sol) Kavrama Düğmesi Sert Bas"
+
+#. Key:	ValveIndex_Left_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:894
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:894
+msgctxt "InputKeys,ValveIndex_Left_System_Click"
+msgid "Valve Index (L) System"
+msgstr "Valve Index (Sol) Sistem Düğmesi"
+
+#. Key:	ValveIndex_Left_System_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:895
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:895
+msgctxt "InputKeys,ValveIndex_Left_System_Touch"
+msgid "Valve Index (L) System Touch"
+msgstr "Valve Index (Sol) Sistem Düğmesi Dokun"
+
+#. Key:	ValveIndex_Left_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:903
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:903
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Click"
+msgid "Valve Index (L) Thumbstick"
+msgstr "Valve Index (Sol) Analog Çubuk"
+
+#. Key:	ValveIndex_Left_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:906
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:906
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Down"
+msgid "Valve Index (L) Thumbstick Down"
+msgstr "Valve Index (Sol) Analog Çubuk Aşağı"
+
+#. Key:	ValveIndex_Left_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:907
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:907
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Left"
+msgid "Valve Index (L) Thumbstick Left"
+msgstr "Valve Index (Sol) Analog Çubuk Sol"
+
+#. Key:	ValveIndex_Left_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:908
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:908
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Right"
+msgid "Valve Index (L) Thumbstick Right"
+msgstr "Valve Index (Sol) Analog Çubuk Sağ"
+
+#. Key:	ValveIndex_Left_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:904
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:904
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Touch"
+msgid "Valve Index (L) Thumbstick Touch"
+msgstr "Valve Index (Sol) Analog Çubuk Dokun"
+
+#. Key:	ValveIndex_Left_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:905
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:905
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Up"
+msgid "Valve Index (L) Thumbstick Up"
+msgstr "Valve Index (Sol) Analog Çubuk Yukarı"
+
+#. Key:	ValveIndex_Left_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:901
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:901
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_X"
+msgid "Valve Index (L) Thumbstick X"
+msgstr "Valve Index (Sol) Analog Çubuk X"
+
+#. Key:	ValveIndex_Left_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:902
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:902
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Y"
+msgid "Valve Index (L) Thumbstick Y"
+msgstr "Valve Index (Sol) Analog Çubuk Y"
+
+#. Key:	ValveIndex_Left_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:914
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:914
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Down"
+msgid "Valve Index (L) Trackpad Down"
+msgstr "Valve Index (Sol) Tampon Aşağı"
+
+#. Key:	ValveIndex_Left_Trackpad_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:911
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:911
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Force"
+msgid "Valve Index (L) Trackpad Force"
+msgstr "Valve Index (Sol) Tampon Sert Bas"
+
+#. Key:	ValveIndex_Left_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:915
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:915
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Left"
+msgid "Valve Index (L) Trackpad Left"
+msgstr "Valve Index (Sol) Tampon Sol"
+
+#. Key:	ValveIndex_Left_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:916
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:916
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Right"
+msgid "Valve Index (L) Trackpad Right"
+msgstr "Valve Index (Sol) Tampon Sağ"
+
+#. Key:	ValveIndex_Left_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:912
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:912
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Touch"
+msgid "Valve Index (L) Trackpad Touch"
+msgstr "Valve Index (Sol) Tampon Dokun"
+
+#. Key:	ValveIndex_Left_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:913
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:913
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Up"
+msgid "Valve Index (L) Trackpad Up"
+msgstr "Valve Index (Sol) Tampon Yukarı"
+
+#. Key:	ValveIndex_Left_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:909
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:909
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_X"
+msgid "Valve Index (L) Trackpad X"
+msgstr "Valve Index (Sol) Tampon X"
+
+#. Key:	ValveIndex_Left_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:910
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:910
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Y"
+msgid "Valve Index (L) Trackpad Y"
+msgstr "Valve Index (Sol) Tampon Y"
+
+#. Key:	ValveIndex_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:899
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:899
+msgctxt "InputKeys,ValveIndex_Left_Trigger_Axis"
+msgid "Valve Index (L) Trigger Axis"
+msgstr "Valve Index (Sol) Tetik Ekseni"
+
+#. Key:	ValveIndex_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:898
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:898
+msgctxt "InputKeys,ValveIndex_Left_Trigger_Click"
+msgid "Valve Index (L) Trigger"
+msgstr "Valve Index (Sol) Tetik"
+
+#. Key:	ValveIndex_Left_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:900
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:900
+msgctxt "InputKeys,ValveIndex_Left_Trigger_Touch"
+msgid "Valve Index (L) Trigger Touch"
+msgstr "Valve Index (Sol) Tetik Dokun"
+
+#. Key:	ValveIndex_Right_A_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:917
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:917
+msgctxt "InputKeys,ValveIndex_Right_A_Click"
+msgid "Valve Index (R) A Press"
+msgstr "Valve Index (Sağ) A Bas"
+
+#. Key:	ValveIndex_Right_A_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:919
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:919
+msgctxt "InputKeys,ValveIndex_Right_A_Touch"
+msgid "Valve Index (R) A Touch"
+msgstr "Valve Index (Sağ) A Dokun"
+
+#. Key:	ValveIndex_Right_B_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:918
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:918
+msgctxt "InputKeys,ValveIndex_Right_B_Click"
+msgid "Valve Index (R) B Press"
+msgstr "Valve Index (Sağ) B Bas"
+
+#. Key:	ValveIndex_Right_B_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:920
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:920
+msgctxt "InputKeys,ValveIndex_Right_B_Touch"
+msgid "Valve Index (R) B Touch"
+msgstr "Valve Index (Sağ) B Dokun"
+
+#. Key:	ValveIndex_Right_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:923
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:923
+msgctxt "InputKeys,ValveIndex_Right_Grip_Axis"
+msgid "Valve Index (R) Grip Axis"
+msgstr "Valve Index (Sağ) Kavrama Düğmesi Ekseni"
+
+#. Key:	ValveIndex_Right_Grip_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:924
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:924
+msgctxt "InputKeys,ValveIndex_Right_Grip_Force"
+msgid "Valve Index (R) Grip Force"
+msgstr "Valve Index (Sağ) Kavrama Düğmesi Sert Bas"
+
+#. Key:	ValveIndex_Right_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:921
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:921
+msgctxt "InputKeys,ValveIndex_Right_System_Click"
+msgid "Valve Index (R) System"
+msgstr "Valve Index (Sağ) Sistem Düğmesi"
+
+#. Key:	ValveIndex_Right_System_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:922
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:922
+msgctxt "InputKeys,ValveIndex_Right_System_Touch"
+msgid "Valve Index (R) System Touch"
+msgstr "Valve Index (Sağ) Sistem Düğmesi Dokun"
+
+#. Key:	ValveIndex_Right_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:930
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:930
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Click"
+msgid "Valve Index (R) Thumbstick"
+msgstr "Valve Index (Sağ) Analog Çubuk"
+
+#. Key:	ValveIndex_Right_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:933
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:933
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Down"
+msgid "Valve Index (R) Thumbstick Down"
+msgstr "Valve Index (Sağ) Analog Çubuk Aşağı"
+
+#. Key:	ValveIndex_Right_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:934
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:934
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Left"
+msgid "Valve Index (R) Thumbstick Left"
+msgstr "Valve Index (Sağ) Analog Çubuk Sol"
+
+#. Key:	ValveIndex_Right_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:935
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:935
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Right"
+msgid "Valve Index (R) Thumbstick Right"
+msgstr "Valve Index (Sağ) Analog Çubuk Sağ"
+
+#. Key:	ValveIndex_Right_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:931
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:931
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Touch"
+msgid "Valve Index (R) Thumbstick Touch"
+msgstr "Valve Index (Sağ) Analog Çubuk Dokun"
+
+#. Key:	ValveIndex_Right_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:932
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:932
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Up"
+msgid "Valve Index (R) Thumbstick Up"
+msgstr "Valve Index (Sağ) Analog Çubuk Yukarı"
+
+#. Key:	ValveIndex_Right_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:928
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:928
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_X"
+msgid "Valve Index (R) Thumbstick X"
+msgstr "Valve Index (Sağ) Analog Çubuk X"
+
+#. Key:	ValveIndex_Right_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:929
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:929
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Y"
+msgid "Valve Index (R) Thumbstick Y"
+msgstr "Valve Index (Sağ) Analog Çubuk Y"
+
+#. Key:	ValveIndex_Right_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:941
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:941
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Down"
+msgid "Valve Index (R) Trackpad Down"
+msgstr "Valve Index (Sağ) Tampon Aşağı"
+
+#. Key:	ValveIndex_Right_Trackpad_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:938
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:938
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Force"
+msgid "Valve Index (R) Trackpad Force"
+msgstr "Valve Index (Sağ) Tampon Sert Bas"
+
+#. Key:	ValveIndex_Right_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:942
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:942
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Left"
+msgid "Valve Index (R) Trackpad Left"
+msgstr "Valve Index (Sağ) Tampon Sol"
+
+#. Key:	ValveIndex_Right_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:943
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:943
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Right"
+msgid "Valve Index (R) Trackpad Right"
+msgstr "Valve Index (Sağ) Tampon Sağ"
+
+#. Key:	ValveIndex_Right_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:939
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:939
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Touch"
+msgid "Valve Index (R) Trackpad Touch"
+msgstr "Valve Index (Sağ) Tampon Dokun"
+
+#. Key:	ValveIndex_Right_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:940
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:940
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Up"
+msgid "Valve Index (R) Trackpad Up"
+msgstr "Valve Index (Sağ) Tampon Yukarı"
+
+#. Key:	ValveIndex_Right_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:936
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:936
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_X"
+msgid "Valve Index (R) Trackpad X"
+msgstr "Valve Index (Sağ) Tampon X"
+
+#. Key:	ValveIndex_Right_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:937
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:937
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Y"
+msgid "Valve Index (R) Trackpad Y"
+msgstr "Valve Index (Sağ) Tampon Y"
+
+#. Key:	ValveIndex_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:926
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:926
+msgctxt "InputKeys,ValveIndex_Right_Trigger_Axis"
+msgid "Valve Index (R) Trigger Axis"
+msgstr "Valve Index (Sağ) Tetik Ekseni"
+
+#. Key:	ValveIndex_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:925
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:925
+msgctxt "InputKeys,ValveIndex_Right_Trigger_Click"
+msgid "Valve Index (R) Trigger"
+msgstr "Valve Index (Sağ) Tetik"
+
+#. Key:	ValveIndex_Right_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:927
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:927
+msgctxt "InputKeys,ValveIndex_Right_Trigger_Touch"
+msgid "Valve Index (R) Trigger Touch"
+msgstr "Valve Index (Sağ) Tetik Dokun"
+
+#. Key:	ValveIndexSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:888
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:888
+msgctxt "InputKeys,ValveIndexSubCategory"
+msgid "Valve Index"
+msgstr "Valve Index"
+
+#. Key:	Vive_Left_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:779
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:779
+msgctxt "InputKeys,Vive_Left_Grip_Click"
+msgid "Vive (L) Grip"
+msgstr "Vive (Sol) Kavrama Düğmesi"
+
+#. Key:	Vive_Left_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:780
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:780
+msgctxt "InputKeys,Vive_Left_Menu_Click"
+msgid "Vive (L) Menu"
+msgstr "Vive (Sol) Menü Düğmesi"
+
+#. Key:	Vive_Left_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:778
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:778
+msgctxt "InputKeys,Vive_Left_System_Click"
+msgid "Vive (L) System"
+msgstr "Vive (Sol) Sistem Düğmesi"
+
+#. Key:	Vive_Left_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:785
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:785
+msgctxt "InputKeys,Vive_Left_Trackpad_Click"
+msgid "Vive (L) Trackpad"
+msgstr "Vive (Sağ) Tampon"
+
+#. Key:	Vive_Left_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:788
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:788
+msgctxt "InputKeys,Vive_Left_Trackpad_Down"
+msgid "Vive (L) Trackpad Down"
+msgstr "Vive (Sol) Tampon Yukarı"
+
+#. Key:	Vive_Left_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:789
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:789
+msgctxt "InputKeys,Vive_Left_Trackpad_Left"
+msgid "Vive (L) Trackpad Left"
+msgstr "Vive (Sol) Tampon Sol"
+
+#. Key:	Vive_Left_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:790
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:790
+msgctxt "InputKeys,Vive_Left_Trackpad_Right"
+msgid "Vive (L) Trackpad Right"
+msgstr "Vive (Sol) Tampon Sağ"
+
+#. Key:	Vive_Left_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:786
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:786
+msgctxt "InputKeys,Vive_Left_Trackpad_Touch"
+msgid "Vive (L) Trackpad Touch"
+msgstr "Vive (Sol) Tampon Dokun"
+
+#. Key:	Vive_Left_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:787
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:787
+msgctxt "InputKeys,Vive_Left_Trackpad_Up"
+msgid "Vive (L) Trackpad Up"
+msgstr "Vive (Sol) Tampon Yukarı"
+
+#. Key:	Vive_Left_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:783
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:783
+msgctxt "InputKeys,Vive_Left_Trackpad_X"
+msgid "Vive (L) Trackpad X"
+msgstr "Vive (Sol) Tampon X"
+
+#. Key:	Vive_Left_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:784
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:784
+msgctxt "InputKeys,Vive_Left_Trackpad_Y"
+msgid "Vive (L) Trackpad Y"
+msgstr "Vive (Sol) Tampon Y"
+
+#. Key:	Vive_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:782
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:782
+msgctxt "InputKeys,Vive_Left_Trigger_Axis"
+msgid "Vive (L) Trigger Axis"
+msgstr "Vive (Sol) Tetik Ekseni"
+
+#. Key:	Vive_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:781
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:781
+msgctxt "InputKeys,Vive_Left_Trigger_Click"
+msgid "Vive (L) Trigger"
+msgstr "Vive (Sol) Tetik"
+
+#. Key:	Vive_Right_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:792
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:792
+msgctxt "InputKeys,Vive_Right_Grip_Click"
+msgid "Vive (R) Grip"
+msgstr "Vive (Sağ) Kavrama Düğmesi"
+
+#. Key:	Vive_Right_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:793
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:793
+msgctxt "InputKeys,Vive_Right_Menu_Click"
+msgid "Vive (R) Menu"
+msgstr "Vive (Sağ) Menü Düğmesi"
+
+#. Key:	Vive_Right_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:791
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:791
+msgctxt "InputKeys,Vive_Right_System_Click"
+msgid "Vive (R) System"
+msgstr "Vive (Sağ) Sistem Düğmesi"
+
+#. Key:	Vive_Right_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:798
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:798
+msgctxt "InputKeys,Vive_Right_Trackpad_Click"
+msgid "Vive (R) Trackpad"
+msgstr "Vive (Sağ) Tampon"
+
+#. Key:	Vive_Right_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:801
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:801
+msgctxt "InputKeys,Vive_Right_Trackpad_Down"
+msgid "Vive (R) Trackpad Down"
+msgstr "Vive (Sağ) Tampon Aşağı"
+
+#. Key:	Vive_Right_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:802
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:802
+msgctxt "InputKeys,Vive_Right_Trackpad_Left"
+msgid "Vive (R) Trackpad Left"
+msgstr "Vive (Sağ) Tampon Sol"
+
+#. Key:	Vive_Right_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:803
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:803
+msgctxt "InputKeys,Vive_Right_Trackpad_Right"
+msgid "Vive (R) Trackpad Right"
+msgstr "Vive (Sağ) Tampon Sağ"
+
+#. Key:	Vive_Right_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:799
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:799
+msgctxt "InputKeys,Vive_Right_Trackpad_Touch"
+msgid "Vive (R) Trackpad Touch"
+msgstr "Vive (Sağ) Tampon Dokun"
+
+#. Key:	Vive_Right_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:800
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:800
+msgctxt "InputKeys,Vive_Right_Trackpad_Up"
+msgid "Vive (R) Trackpad Up"
+msgstr "Vive (Sağ) Tampon Yukarı"
+
+#. Key:	Vive_Right_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:796
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:796
+msgctxt "InputKeys,Vive_Right_Trackpad_X"
+msgid "Vive (R) Trackpad X"
+msgstr "Vive (Sağ) Tampon X"
+
+#. Key:	Vive_Right_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:797
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:797
+msgctxt "InputKeys,Vive_Right_Trackpad_Y"
+msgid "Vive (R) Trackpad Y"
+msgstr "Vive (Sağ) Tampon Y"
+
+#. Key:	Vive_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:795
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:795
+msgctxt "InputKeys,Vive_Right_Trigger_Axis"
+msgid "Vive (R) Trigger Axis"
+msgstr "Vive (Sağ) Tetik Ekseni"
+
+#. Key:	Vive_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:794
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:794
+msgctxt "InputKeys,Vive_Right_Trigger_Click"
+msgid "Vive (R) Trigger"
+msgstr "Vive (Sağ) Tetik"
+
+#. Key:	ViveSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:776
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:776
+msgctxt "InputKeys,ViveSubCategory"
+msgid "HTC Vive"
+msgstr "HTC Vive"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Bottom
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1113
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1113
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Bottom"
+msgid "Gamepad A"
+msgstr "Oyun Kumandası A"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1121
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1121
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Left"
+msgid "Gamepad X"
+msgstr "Oyun Kumandası X"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1117
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1117
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Right"
+msgid "Gamepad B"
+msgstr "Oyun Kumandası B"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Top
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1125
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1125
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Top"
+msgid "Gamepad Y"
+msgstr "Oyun Kumandası Y"
+
+#. Key:	XBoxOne_Gamepad_Special_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1129
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1129
+msgctxt "InputKeys,XBoxOne_Gamepad_Special_Left"
+msgid "Gamepad Back"
+msgstr "Oyun Kumandası Back"
+
+#. Key:	XBoxOne_Gamepad_Special_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1133
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1133
+msgctxt "InputKeys,XBoxOne_Gamepad_Special_Right"
+msgid "Gamepad Start"
+msgstr "Oyun Kumandası Start"
+
+#. Key:	XBoxOneSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:759
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:759
+msgctxt "InputKeys,XBoxOneSubCateogry"
+msgid "XBox One"
+msgstr "XBox One"
+
+#. Key:	NoOpenGLDriver
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:133
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:133
+msgctxt "LinuxDynamicRHI,NoOpenGLDriver"
+msgid "Failed to load OpenGL Driver which is required to run the engine.\nOpenGL4 has been deprecated and should use Vulkan."
+msgstr "Oyun motorunu çalıştırmak için gereken OpenGL sürücüsü yüklenemedi.\nOpenGL4 artık desteklenmiyor; bu yüzden Vulkan kullanılmalı."
+
+#. Key:	NoOpenGLTargetedRHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:112
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:112
+msgctxt "LinuxDynamicRHI,NoOpenGLTargetedRHI"
+msgid "Trying to force OpenGL RHI but the project does not have it in TargetedRHIs list."
+msgstr "OpenGL RHI zorlanıyor ama projenin TargetedRHI’lar listesinde bulunmuyor."
+
+#. Key:	NoTargetedRHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:137
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:137
+msgctxt "LinuxDynamicRHI,NoTargetedRHI"
+msgid "The project does not target Vulkan or OpenGL RHIs, check project settings or pass -nullrhi."
+msgstr "Bu proje Vulkan veya OpenGL RHI’larını hedeflemiyor. Proje ayarlarını kontrol et veya -nullrhi’yi geç."
+
+#. Key:	NoVulkanDriver
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:129
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:129
+msgctxt "LinuxDynamicRHI,NoVulkanDriver"
+msgid "Failed to load Vulkan Driver which is required to run the engine.\nThe engine no longer fallbacks to OpenGL4 which has been deprecated."
+msgstr "Oyun motorunu çalıştırmak için gereken Vulkan sürücüsü yüklenemedi.\nOpenGL4 artık desteklenmediği için oyun motoru yedek destek ile çalıştırılamıyor."
+
+#. Key:	NoVulkanNoGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:123
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:123
+msgctxt "LinuxDynamicRHI,NoVulkanNoGL"
+msgid "Vulkan or OpenGL (4.3) support is required to run the engine."
+msgstr "Oyun motorunu çalıştırmak için Vulkan veya OpenGL (4.3) desteği gerekli."
+
+#. Key:	NoVulkanTargetedRHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:97
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:97
+msgctxt "LinuxDynamicRHI,NoVulkanTargetedRHI"
+msgid "Trying to force Vulkan RHI but the project does not have it in TargetedRHIs list."
+msgstr "Vulkan RHI zorlanıyor ama projenin TargetedRHI’lar listesinde bulunmuyor."
+
+#. Key:	OpenGLRemoved
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:25
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:25
+msgctxt "LinuxDynamicRHI,OpenGLRemoved"
+msgid "Warning: OpenGL is no longer supported for desktop platforms. Vulkan will be used instead."
+msgstr "Dikkat: OpenGL artık masaüstü platformlarda desteklenmemektedir. Yerine Vulkan kullanılacak."
+
+#. Key:	RequiredOpenGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:108
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:108
+msgctxt "LinuxDynamicRHI,RequiredOpenGL"
+msgid "OpenGL 4.3 is required to run the engine."
+msgstr "Oyun motorunu çalıştırmak için OpenGL 4.3'ün yüklü olması gerekir."
+
+#. Key:	RequiredVulkan
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:93
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:93
+msgctxt "LinuxDynamicRHI,RequiredVulkan"
+msgid "Vulkan Driver is required to run the engine."
+msgstr "Motoru çalıştırmak Vulkan Driver’ın yüklü olması gerekmektedir."
+
+#. Key:	DriverDownloadLinkAMD
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:168
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:168
+msgctxt "MessageDialog,DriverDownloadLinkAMD"
+msgid "https://www.amd.com/en/support"
+msgstr "https://www.amd.com/en/support"
+
+#. Key:	DriverDownloadLinkIntel
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:173
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:173
+msgctxt "MessageDialog,DriverDownloadLinkIntel"
+msgid "https://downloadcenter.intel.com/product/80939/Graphics"
+msgstr "https://downloadcenter.intel.com/product/80939/Graphics"
+
+#. Key:	DriverDownloadLinkNVIDIA
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:163
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:163
+msgctxt "MessageDialog,DriverDownloadLinkNVIDIA"
+msgid "https://www.nvidia.com/en-us/geforce/drivers/"
+msgstr "https://www.nvidia.com/en-us/geforce/drivers/"
+
+#. Key:	LatestVideoCardDriverIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:195
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:195
+msgctxt "MessageDialog,LatestVideoCardDriverIssueReport"
+msgid "The latest version of the {Vendor} graphics driver has known issues.\nPlease install the recommended driver version.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "En güncel {Vendor} ekran kartı sürücüsünde bir takım sorunlar mevcut.\nLütfen tavsiye edilen sürücüyü yükle.\n\n{Hyperlink}\n\n{AdapterName}\nKurulu Olan: {InstalledVer}\nTavsiye Edilen: {RecommendedVer}"
+
+#. Key:	LatestVideoCardDriverRHIIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:191
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:191
+msgctxt "MessageDialog,LatestVideoCardDriverRHIIssueReport"
+msgid "The latest version of the {Vendor} graphics driver has known issues in {RHI}.\nPlease install the recommended driver version or switch to a different rendering API.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "En güncel {Vendor} ekran kartı sürücüsünde {RHI} hakkında bir takım sorunlar mevcut.\nLütfen tavsiye edilen sürücü sürümünü yükle veya başka bir rendering API kullan.\n\n{Hyperlink}\n\n{AdapterName}\nKurulu Olan: {InstalledVer}\nTavsiye Edilen: {RecommendedVer}"
+
+#. Key:	TitleVideoCardDriverIssue
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:210
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:210
+msgctxt "MessageDialog,TitleVideoCardDriverIssue"
+msgid "WARNING: Known issues with graphics driver"
+msgstr "UYARI: Grafik sürücüsünde bilinen bir takım sorunlar var"
+
+#. Key:	UpdateMacOSX_Body
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:229
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:229
+msgctxt "MessageDialog,UpdateMacOSX_Body"
+msgid "Please update to the latest version of macOS for best performance and stability."
+msgstr "En iyi performans ve dengelilik için lütfen macOS’un en yeni sürümüne güncelle."
+
+#. Key:	UpdateMacOSX_Title
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:230
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:230
+msgctxt "MessageDialog,UpdateMacOSX_Title"
+msgid "Update macOS"
+msgstr "macOS’u güncelle"
+
+#. Key:	VideoCardDriverIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:206
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:206
+msgctxt "MessageDialog,VideoCardDriverIssueReport"
+msgid "The installed version of the {Vendor} graphics driver has known issues.\nPlease install either the latest or the recommended driver version.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "Yüklü olan {Vendor} ekran kartı sürücüsünde bir takım sorunlar mevcut.\nLütfen en güncel veya tavsiye edilen sürücü sürümünü yükle.\n\n{Hyperlink}\n\n{AdapterName}\nKurulu Olan: {InstalledVer}\nTavsiye Edilen: {RecommendedVer}"
+
+#. Key:	VideoCardDriverRHIIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:202
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:202
+msgctxt "MessageDialog,VideoCardDriverRHIIssueReport"
+msgid "The installed version of the {Vendor} graphics driver has known issues in {RHI}.\nPlease install either the latest or the recommended driver version or switch to a different rendering API.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "En güncel {Vendor} ekran kartı sürücüsünde {RHI} hakkında bir takım sorunlar mevcut.\nLütfen en güncel sürücü sürümünü veya tavsiye edilen sürücü sürümünü yükle ya da başka bir rendering API kullan.\n\n{Hyperlink}\n\n{AdapterName}\nKurulu Olan: {InstalledVer}\nTavsiye Edilen: {RecommendedVer}"
+
+#. Key:	DebugGameName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:344
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:344
+msgctxt "UnrealBuildConfigurations,DebugGameName"
+msgid "DebugGame"
+msgstr "Oyun Hatalarını Ayıklama"
+
+#. Key:	DebugName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:341
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:341
+msgctxt "UnrealBuildConfigurations,DebugName"
+msgid "Debug"
+msgstr "Hata Ayıklama"
+
+#. Key:	DevelopmentName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:347
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:347
+msgctxt "UnrealBuildConfigurations,DevelopmentName"
+msgid "Development"
+msgstr "Geliştirme"
+
+#. Key:	ShippingName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:350
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:350
+msgctxt "UnrealBuildConfigurations,ShippingName"
+msgid "Shipping"
+msgstr "Sevkiyat"
+
+#. Key:	TestName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:353
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:353
+msgctxt "UnrealBuildConfigurations,TestName"
+msgid "Test"
+msgstr "Test"
+
+#. Key:	UnknownName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:356
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:356
+msgctxt "UnrealBuildConfigurations,UnknownName"
+msgid "Unknown"
+msgstr "Bilinmiyor"
+
+#. Key:	RequiredDX11Feature_11_SM5
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:406
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:406
+msgctxt "WindowsDynamicRHI,RequiredDX11Feature_11_SM5"
+msgid "A D3D11-compatible GPU (Feature Level 11.0, Shader Model 5.0) is required to run the engine."
+msgstr "Motoru çalıştırmak için D3D11 uyumlu GPU (Feature Level 11.0, Shader Model 5.0) yüklü olması gerekmektedir."
+
+#. Key:	RequiredDX12
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:368
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:368
+msgctxt "WindowsDynamicRHI,RequiredDX12"
+msgid "DX12 is not supported on your system. Try running without the -dx12 or -d3d12 command line argument."
+msgstr "Sistemin DX12’yi desteklemiyor. -dx12 veya -d3d12 komut satırı argümanları olmadan çalıştırmayı dene."
+
+#. Key:	RequiredOpenGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:338
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:338
+msgctxt "WindowsDynamicRHI,RequiredOpenGL"
+msgid "OpenGL 4.3 is required to run the engine."
+msgstr "Oyun motorunu çalıştırmak için OpenGL 4.3'ün yüklü olması gerekir."
+
+#. Key:	RequiredVulkan
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:352
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:352
+msgctxt "WindowsDynamicRHI,RequiredVulkan"
+msgid "Vulkan Driver is required to run the engine."
+msgstr "Motoru çalıştırmak Vulkan Driver’ın yüklü olması gerekmektedir."
+
+#. Key:	RHIOptionsError
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:230
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:230
+msgctxt "WindowsDynamicRHI,RHIOptionsError"
+msgid "-d3d12/dx12, -d3d11/dx11, -vulkan, and -opengl are mutually exclusive options, but more than one was specified on the command-line."
+msgstr "-d3d12/dx12, -d3d11/dx11, -vulkan ve -opengl birbiriyle çalışmayan seçeneklerdir ancak komut dizininde birden fazlası belirtilmiş."
+
+#. Key:	RHIPerformanceDX12
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:259
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:259
+msgctxt "WindowsDynamicRHI,RHIPerformanceDX12"
+msgid "DirectX 12 is not supported for Performance Mode."
+msgstr "DirectX 12, Performans Modu için desteklenmiyor."
+
+#. Key:	RHIPerformanceOpenGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:247
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:247
+msgctxt "WindowsDynamicRHI,RHIPerformanceOpenGL"
+msgid "OpenGL is not supported for Performance Mode."
+msgstr "OpenGL, Performans Modu için desteklenmiyor."
+
+#. Key:	RHIPerformanceVulkan
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:252
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:252
+msgctxt "WindowsDynamicRHI,RHIPerformanceVulkan"
+msgid "Vulkan is not supported for Performance Mode."
+msgstr "Vulkan, Performans Modu için desteklenmiyor."
+

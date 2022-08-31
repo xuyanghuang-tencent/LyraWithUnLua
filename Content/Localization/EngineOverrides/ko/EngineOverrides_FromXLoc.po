@@ -1,0 +1,2892 @@
+﻿# EngineOverrides English translation.
+# Copyright Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: EngineOverrides\n"
+"POT-Creation-Date: 2022-03-15 13:32\n"
+"PO-Revision-Date: 2022-03-15 13:32\n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Key:	RequiredAGX
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Apple/AppleDynamicRHI.cpp:157
+#: ../../../Engine/Source/Runtime/RHI/Private/Apple/AppleDynamicRHI.cpp:157
+msgctxt "AppleDynamicRHI,RequiredAGX"
+msgid "The AGX RHI is not supported on your system. Try running without the -agx command line argument."
+msgstr "해당 시스템은 AGX RHI를 지원하지 않습니다. 커맨드 라인에서 -agx 설정 없이 실행해주세요."
+
+#. Key:	BuildPatchInstaller_DownloadSpeedFormat
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1897
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1897
+msgctxt "BuildPatchInstaller,BuildPatchInstaller_DownloadSpeedFormat"
+msgid "{Current} / {Total} ({Speed}/sec)"
+msgstr "{Current}/{Total} ({Speed}/s)"
+
+#. Key:	BuildPatchInstaller_GenericProgress
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1877
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:1877
+msgctxt "BuildPatchInstaller,BuildPatchInstaller_GenericProgress"
+msgid "Please Wait"
+msgstr "잠시만 기다려주세요"
+
+#. Key:	BuildPatchInstallShortError_ApplicationClosing
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:19
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:19
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_ApplicationClosing"
+msgid "The application is closing."
+msgstr "앱을 종료합니다."
+
+#. Key:	BuildPatchInstallShortError_ApplicationError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:20
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:20
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_ApplicationError"
+msgid "Patching service could not start. Please contact support."
+msgstr "패치 서비스를 시작할 수 없습니다. 지원센터에 문의하시기 바랍니다."
+
+#. Key:	BuildPatchInstallShortError_BuildCorrupt
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:18
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:18
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_BuildCorrupt"
+msgid "The installation is corrupt. Please contact support."
+msgstr "설치 파일이 손상되었습니다. 지원센터에 문의하시기 바랍니다."
+
+#. Key:	BuildPatchInstallShortError_DownloadError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:15
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:15
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_DownloadError"
+msgid "Could not download patch data. Please check your internet connection, and try again."
+msgstr "패치 데이터를 다운로드할 수 없습니다. 인터넷 연결을 확인한 다음 다시 시도해보세요."
+
+#. Key:	BuildPatchInstallShortError_FileConstructionFail
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:16
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:16
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_FileConstructionFail"
+msgid "A file corruption has occurred. Please try again."
+msgstr "파일 손상이 발생했습니다. 나중에 다시 시도해보세요."
+
+#. Key:	BuildPatchInstallShortError_InitializationError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:23
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:23
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_InitializationError"
+msgid "The installer failed to initialize. Please contact support."
+msgstr "설치 관리자가 초기화하는 데 실패했습니다. 지원센터에 문의하시기 바랍니다."
+
+#. Key:	BuildPatchInstallShortError_InvalidOrMax
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:26
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:26
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_InvalidOrMax"
+msgid "An unknown error ocurred. Please contact support."
+msgstr "알 수 없는 오류가 발생했습니다. 지원센터에 문의하시기 바랍니다."
+
+#. Key:	BuildPatchInstallShortError_MoveFileToInstall
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:17
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:17
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_MoveFileToInstall"
+msgid "A file access error has occurred. Please check your running processes."
+msgstr "파일 액세스 오류가 발생했습니다. 실행 중인 프로세스를 확인해보세요."
+
+#. Key:	BuildPatchInstallShortError_NoError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:14
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:14
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_NoError"
+msgid "The operation was successful."
+msgstr "작업이 성공적으로 완료되었습니다."
+
+#. Key:	BuildPatchInstallShortError_OutOfDiskSpace
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:25
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:25
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_OutOfDiskSpace"
+msgid "Not enough disk space available. Please free up some disk space and try again."
+msgstr "사용할 수 있는 디스크 공간이 부족합니다. 디스크 공간을 확보한 다음 다시 시도해보세요."
+
+#. Key:	BuildPatchInstallShortError_PathLengthExceeded
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:24
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:24
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_PathLengthExceeded"
+msgid "Maximum path length exceeded. Please specify a shorter install location."
+msgstr "최대 경로 길이를 초과했습니다. 더 짧은 설치 위치를 지정해주세요."
+
+#. Key:	BuildPatchInstallShortError_PrerequisiteError
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:22
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:22
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_PrerequisiteError"
+msgid "The necessary prerequisites have failed to install. Please contact support."
+msgstr "필수 구성 요소를 설치하는 데 실패했습니다. 지원센터에 문의하시기 바랍니다."
+
+#. Key:	BuildPatchInstallShortError_UserCanceled
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:21
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:21
+msgctxt "BuildPatchInstallError,BuildPatchInstallShortError_UserCanceled"
+msgid "User cancelled."
+msgstr "사용자가 취소했습니다."
+
+#. Key:	InstallDirectoryDiskSpace
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:49
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:49
+msgctxt "BuildPatchInstallError,InstallDirectoryDiskSpace"
+msgid "There is not enough space at {Location}\n{RequiredBytes} is required.\n{AvailableBytes} is available.\nYou need an additional {SpaceAdditional} to perform the installation."
+msgstr "{Location}에 공간이 부족합니다.\n{RequiredBytes}의 여유 공간이 필요합니다.\n{AvailableBytes}의 공간이 현재 남아있습니다.\n설치를 진행하려면 {SpaceAdditional}의 공간을 추가로 확보해야 합니다."
+
+#. Key:	InstallDirectoryDiskSpaceDevice
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:51
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/Installer/InstallerError.cpp:51
+msgctxt "BuildPatchInstallError,InstallDirectoryDiskSpaceDevice"
+msgid "There is not enough space on your device.\n{RequiredBytes} is required.\n{AvailableBytes} is available.\nYou need an additional {SpaceAdditional} to perform the installation."
+msgstr "기기에 공간이 부족합니다.\n{RequiredBytes}의 여유 공간이 필요합니다.\n{AvailableBytes}의 공간이 현재 남아있습니다.\n설치를 진행하려면 {SpaceAdditional}의 공간을 추가로 확보해야 합니다."
+
+#. Key:	InvalidInstallTags
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:617
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:617
+msgctxt "BuildPatchInstallError,InvalidInstallTags"
+msgid "This installation could not continue due to a configuration issue. Please contact support."
+msgstr "구성 문제 때문에 설치를 계속할 수 없습니다. 지원센터에 문의하시기 바랍니다."
+
+#. Key:	MissingInstallDirectory
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:637
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:637
+msgctxt "BuildPatchInstallError,MissingInstallDirectory"
+msgid "The installation directory could not be created.\n{0}"
+msgstr "설치 디렉터리를 생성할 수 없습니다.\n{0}"
+
+#. Key:	MissingPrereqForPrereqOnlyInstall
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:667
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:667
+msgctxt "BuildPatchInstallError,MissingPrereqForPrereqOnlyInstall"
+msgid "This installation could not continue due to a prerequisite configuration issue. Please contact support."
+msgstr "필수 구성 문제 때문에 설치를 계속할 수 없습니다. 지원센터에 문의하시기 바랍니다."
+
+#. Key:	MissingStageDirectory
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:647
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchInstaller.cpp:647
+msgctxt "BuildPatchInstallError,MissingStageDirectory"
+msgid "The following directory could not be created.\n{0}"
+msgstr "다음 디렉터리를 생성할 수 없습니다.\n{0}"
+
+#. Key:	EBuildPatchProgress_BuildVerification
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:64
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:64
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_BuildVerification"
+msgid "Verifying"
+msgstr "확인 중"
+
+#. Key:	EBuildPatchProgress_CleanUp
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:65
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:65
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_CleanUp"
+msgid "Cleaning up"
+msgstr "정리 중"
+
+#. Key:	EBuildPatchProgress_Complete
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:67
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:67
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Complete"
+msgid "Complete"
+msgstr "완료"
+
+#. Key:	EBuildPatchProgress_Downloading
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:62
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:62
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Downloading"
+msgid "Downloading"
+msgstr "다운로드 중"
+
+#. Key:	EBuildPatchProgress_Initialising
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:60
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:60
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Initialising"
+msgid "Initializing"
+msgstr "초기화 중"
+
+#. Key:	EBuildPatchProgress_Installing
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:63
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:63
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Installing"
+msgid "Installing"
+msgstr "설치 중"
+
+#. Key:	EBuildPatchProgress_Paused
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:68
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:68
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Paused"
+msgid "Paused"
+msgstr "일시 정지됨"
+
+#. Key:	EBuildPatchProgress_PrerequisitesInstall
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:66
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:66
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_PrerequisitesInstall"
+msgid "Prerequisites"
+msgstr "필수 구성 요소"
+
+#. Key:	EBuildPatchProgress_Queued
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:59
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:59
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Queued"
+msgid "Queued"
+msgstr "대기 중"
+
+#. Key:	EBuildPatchProgress_Resuming
+#. SourceLocation:	../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:61
+#: ../../../Engine/Source/Runtime/Online/BuildPatchServices/Private/BuildPatchState.cpp:61
+msgctxt "BuildPatchInstallProgress,EBuildPatchProgress_Resuming"
+msgid "Resuming"
+msgstr "재개 중"
+
+#. Key:	NullDrvFailure
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:64
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:64
+msgctxt "DynamicRHI,NullDrvFailure"
+msgid "NullDrv failure?"
+msgstr "NullDrv 장애?"
+
+#. Key:	FileManagerName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:1592
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:1592
+msgctxt "GenericPlatform,FileManagerName"
+msgid "File Manager"
+msgstr "파일 관리자"
+
+#. Key:	GpuProfileVsyncEnabledWarning
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/GPUProfiler.cpp:483
+#: ../../../Engine/Source/Runtime/RHI/Private/GPUProfiler.cpp:483
+msgctxt "GpuProfiler,GpuProfileVsyncEnabledWarning"
+msgid "WARNING: This GPU profile was captured with v-sync enabled.  V-sync wait time may show up in any bucket, and as a result the data in this profile may be skewed. Please profile with v-sync disabled to obtain the most accurate data."
+msgstr "경고: 이 GPU 프로필은 수직 동기화 활성화 상태에서 캡처되었습니다.  수직 동기화 대기 시간은 어느 버킷에서도 나타날 수 있으며, 그 결과로 이 프로필의 데이터가 왜곡될 수 있습니다. 가장 정확한 데이터를 얻으려면 수직 동기화 비활성화 상태로 프로필을 캡처해 주십시오."
+
+#. Key:	FailedToCreateHoloLens_RHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/HoloLens/HoloLensDynamicRHI.cpp:118
+#: ../../../Engine/Source/Runtime/RHI/Private/HoloLens/HoloLensDynamicRHI.cpp:118
+msgctxt "HoloLens,FailedToCreateHoloLens_RHI"
+msgid "HoloLensRHI failure?"
+msgstr "HoloLensRHI 오류?"
+
+#. Key:	Acceleration
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:718
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:718
+msgctxt "InputKeys,Acceleration"
+msgid "Acceleration"
+msgstr "가속"
+
+#. Key:	Add
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:611
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:611
+msgctxt "InputKeys,Add"
+msgid "Num +"
+msgstr "숫자패드 +"
+
+#. Key:	Ampersand
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:657
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:657
+msgctxt "InputKeys,Ampersand"
+msgid "Ampersand"
+msgstr "앰퍼샌드"
+
+#. Key:	Android_Back
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:770
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:770
+msgctxt "InputKeys,Android_Back"
+msgid "Android Back"
+msgstr "안드로이드 뒤로"
+
+#. Key:	Android_Menu
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:773
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:773
+msgctxt "InputKeys,Android_Menu"
+msgid "Android Menu"
+msgstr "안드로이드 메뉴"
+
+#. Key:	Android_Volume_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:772
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:772
+msgctxt "InputKeys,Android_Volume_Down"
+msgid "Android Volume Down"
+msgstr "안드로이드 볼륨다운"
+
+#. Key:	Android_Volume_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:771
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:771
+msgctxt "InputKeys,Android_Volume_Up"
+msgid "Android Volume Up"
+msgstr "안드로이드 볼륨업"
+
+#. Key:	AndroidSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:768
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:768
+msgctxt "InputKeys,AndroidSubCateogry"
+msgid "Android"
+msgstr "안드로이드"
+
+#. Key:	AnyKey
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:519
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:519
+msgctxt "InputKeys,AnyKey"
+msgid "Any Key"
+msgstr "아무 키"
+
+#. Key:	Apostrophe
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:652
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:652
+msgctxt "InputKeys,Apostrophe"
+msgid "Apostrophe"
+msgstr "'"
+
+#. Key:	Asterix
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:658
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:658
+msgctxt "InputKeys,Asterix"
+msgid "Asterisk"
+msgstr "*"
+
+#. Key:	Backslash
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:650
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:650
+msgctxt "InputKeys,Backslash"
+msgid "Backslash"
+msgstr "백슬래시"
+
+#. Key:	BackSpace
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:557
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:557
+msgctxt "InputKeys,BackSpace"
+msgid "Backspace"
+msgstr "Backspace"
+
+#. Key:	CapsLock
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+msgctxt "InputKeys,CapsLock"
+msgid "Caps Lock"
+msgstr "Caps Lock"
+
+#. Key:	CapsLockShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:538
+msgctxt "InputKeys,CapsLockShort"
+msgid "Caps"
+msgstr "Caps"
+
+#. Key:	Caret
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:659
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:659
+msgctxt "InputKeys,Caret"
+msgid "Caret"
+msgstr "캐럿"
+
+#. Key:	Colon
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:662
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:662
+msgctxt "InputKeys,Colon"
+msgid "Colon"
+msgstr ":"
+
+#. Key:	Comma
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:643
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:643
+msgctxt "InputKeys,Comma"
+msgid "Comma"
+msgstr ","
+
+#. Key:	Decimal
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:613
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:613
+msgctxt "InputKeys,Decimal"
+msgid "Num ."
+msgstr "숫자패드 ."
+
+#. Key:	Delete
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+msgctxt "InputKeys,Delete"
+msgid "Delete"
+msgstr "Delete"
+
+#. Key:	DeleteShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:554
+msgctxt "InputKeys,DeleteShort"
+msgid "Del"
+msgstr "Del"
+
+#. Key:	Divide
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:614
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:614
+msgctxt "InputKeys,Divide"
+msgid "Num /"
+msgstr "숫자패드 /"
+
+#. Key:	Dollar
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:660
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:660
+msgctxt "InputKeys,Dollar"
+msgid "Dollar"
+msgstr "달러"
+
+#. Key:	Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:549
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:549
+msgctxt "InputKeys,Down"
+msgid "Down"
+msgstr "아래쪽 화살표"
+
+#. Key:	End
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:543
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:543
+msgctxt "InputKeys,End"
+msgid "End"
+msgstr "End"
+
+#. Key:	Enter
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:535
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:535
+msgctxt "InputKeys,Enter"
+msgid "Enter"
+msgstr "Enter"
+
+#. Key:	Equals
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:642
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:642
+msgctxt "InputKeys,Equals"
+msgid "Equals"
+msgstr "등호"
+
+#. Key:	Escape
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+msgctxt "InputKeys,Escape"
+msgid "Escape"
+msgstr "Escape"
+
+#. Key:	EscapeShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:539
+msgctxt "InputKeys,EscapeShort"
+msgid "Esc"
+msgstr "Esc"
+
+#. Key:	Exclamation
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:661
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:661
+msgctxt "InputKeys,Exclamation"
+msgid "Exclamation"
+msgstr "느낌표"
+
+#. Key:	F1
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:616
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:616
+msgctxt "InputKeys,F1"
+msgid "F1"
+msgstr "F1"
+
+#. Key:	F10
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:625
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:625
+msgctxt "InputKeys,F10"
+msgid "F10"
+msgstr "F10"
+
+#. Key:	F11
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:626
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:626
+msgctxt "InputKeys,F11"
+msgid "F11"
+msgstr "F11"
+
+#. Key:	F12
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:627
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:627
+msgctxt "InputKeys,F12"
+msgid "F12"
+msgstr "F12"
+
+#. Key:	F2
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:617
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:617
+msgctxt "InputKeys,F2"
+msgid "F2"
+msgstr "F2"
+
+#. Key:	F3
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:618
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:618
+msgctxt "InputKeys,F3"
+msgid "F3"
+msgstr "F3"
+
+#. Key:	F4
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:619
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:619
+msgctxt "InputKeys,F4"
+msgid "F4"
+msgstr "F4"
+
+#. Key:	F5
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:620
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:620
+msgctxt "InputKeys,F5"
+msgid "F5"
+msgstr "F5"
+
+#. Key:	F6
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:621
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:621
+msgctxt "InputKeys,F6"
+msgid "F6"
+msgstr "F6"
+
+#. Key:	F7
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:622
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:622
+msgctxt "InputKeys,F7"
+msgid "F7"
+msgstr "F7"
+
+#. Key:	F8
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:623
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:623
+msgctxt "InputKeys,F8"
+msgid "F8"
+msgstr "F8"
+
+#. Key:	F9
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:624
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:624
+msgctxt "InputKeys,F9"
+msgid "F9"
+msgstr "F9"
+
+#. Key:	ForwardDelete
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:555
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:555
+msgctxt "InputKeys,ForwardDelete"
+msgid "Fn+Delete"
+msgstr "Fn+Delete"
+
+#. Key:	Gamepad_DPad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:680
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:680
+msgctxt "InputKeys,Gamepad_DPad_Down"
+msgid "Gamepad D-pad Down"
+msgstr "게임패드 방향키 아래"
+
+#. Key:	Gamepad_DPad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:682
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:682
+msgctxt "InputKeys,Gamepad_DPad_Left"
+msgid "Gamepad D-pad Left"
+msgstr "게임패드 방향키 왼쪽"
+
+#. Key:	Gamepad_DPad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:681
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:681
+msgctxt "InputKeys,Gamepad_DPad_Right"
+msgid "Gamepad D-pad Right"
+msgstr "게임패드 방향키 오른쪽"
+
+#. Key:	Gamepad_DPad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:679
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:679
+msgctxt "InputKeys,Gamepad_DPad_Up"
+msgid "Gamepad D-pad Up"
+msgstr "게임패드 방향키 위"
+
+#. Key:	Gamepad_FaceButton_Bottom
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1172
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1172
+msgctxt "InputKeys,Gamepad_FaceButton_Bottom"
+msgid "Gamepad Face Button Bottom"
+msgstr "게임패드 전면 버튼 아래"
+
+#. Key:	Gamepad_FaceButton_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1180
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1180
+msgctxt "InputKeys,Gamepad_FaceButton_Left"
+msgid "Gamepad Face Button Left"
+msgstr "게임패드 전면 버튼 왼쪽"
+
+#. Key:	Gamepad_FaceButton_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1176
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1176
+msgctxt "InputKeys,Gamepad_FaceButton_Right"
+msgid "Gamepad Face Button Right"
+msgstr "게임패드 전면 버튼 오른쪽"
+
+#. Key:	Gamepad_FaceButton_Top
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1184
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1184
+msgctxt "InputKeys,Gamepad_FaceButton_Top"
+msgid "Gamepad Face Button Top"
+msgstr "게임패드 전면 버튼 위"
+
+#. Key:	Gamepad_Left2D
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:674
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:674
+msgctxt "InputKeys,Gamepad_Left2D"
+msgid "Gamepad Left Thumbstick 2D-Axis"
+msgstr "게임패드 좌측 썸스틱 2D축"
+
+#. Key:	Gamepad_LeftShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1137
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1137
+msgctxt "InputKeys,Gamepad_LeftShoulder"
+msgid "Gamepad Left Shoulder"
+msgstr "게임패드 왼쪽 숄더"
+
+#. Key:	Gamepad_LeftStick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:686
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:686
+msgctxt "InputKeys,Gamepad_LeftStick_Down"
+msgid "Gamepad Left Thumbstick Down"
+msgstr "게임패드 왼쪽 스틱 아래"
+
+#. Key:	Gamepad_LeftStick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:688
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:688
+msgctxt "InputKeys,Gamepad_LeftStick_Left"
+msgid "Gamepad Left Thumbstick Left"
+msgstr "게임패드 왼쪽 스틱 왼쪽"
+
+#. Key:	Gamepad_LeftStick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:687
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:687
+msgctxt "InputKeys,Gamepad_LeftStick_Right"
+msgid "Gamepad Left Thumbstick Right"
+msgstr "게임패드 왼쪽 스틱 오른쪽"
+
+#. Key:	Gamepad_LeftStick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:685
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:685
+msgctxt "InputKeys,Gamepad_LeftStick_Up"
+msgid "Gamepad Left Thumbstick Up"
+msgstr "게임패드 왼쪽 스틱 위"
+
+#. Key:	Gamepad_LeftThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1161
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1161
+msgctxt "InputKeys,Gamepad_LeftThumbstick"
+msgid "Gamepad Left Thumbstick Button"
+msgstr "게임패드 왼쪽 스틱 버튼"
+
+#. Key:	Gamepad_LeftTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1145
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1145
+msgctxt "InputKeys,Gamepad_LeftTrigger"
+msgid "Gamepad Left Trigger"
+msgstr "게임패드 왼쪽 트리거"
+
+#. Key:	Gamepad_LeftTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1153
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1153
+msgctxt "InputKeys,Gamepad_LeftTriggerAxis"
+msgid "Gamepad Left Trigger Axis"
+msgstr "게임패드 왼쪽 트리거 축"
+
+#. Key:	Gamepad_LeftX
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:672
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:672
+msgctxt "InputKeys,Gamepad_LeftX"
+msgid "Gamepad Left Thumbstick X-Axis"
+msgstr "게임패드 왼쪽 스틱 X-축"
+
+#. Key:	Gamepad_LeftY
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:673
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:673
+msgctxt "InputKeys,Gamepad_LeftY"
+msgid "Gamepad Left Thumbstick Y-Axis"
+msgstr "게임패드 왼쪽 스틱 Y-축"
+
+#. Key:	Gamepad_Right2D
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:677
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:677
+msgctxt "InputKeys,Gamepad_Right2D"
+msgid "Gamepad Right Thumbstick 2D-Axis"
+msgstr "게임패드 우측 썸스틱 2D축"
+
+#. Key:	Gamepad_RightShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1141
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1141
+msgctxt "InputKeys,Gamepad_RightShoulder"
+msgid "Gamepad Right Shoulder"
+msgstr "게임패드 오른쪽 숄더"
+
+#. Key:	Gamepad_RightStick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:691
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:691
+msgctxt "InputKeys,Gamepad_RightStick_Down"
+msgid "Gamepad Right Thumbstick Down"
+msgstr "게임패드 오른쪽 스틱 아래"
+
+#. Key:	Gamepad_RightStick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:693
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:693
+msgctxt "InputKeys,Gamepad_RightStick_Left"
+msgid "Gamepad Right Thumbstick Left"
+msgstr "게임패드 오른쪽 스틱 왼쪽"
+
+#. Key:	Gamepad_RightStick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:692
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:692
+msgctxt "InputKeys,Gamepad_RightStick_Right"
+msgid "Gamepad Right Thumbstick Right"
+msgstr "게임패드 오른쪽 스틱 오른쪽"
+
+#. Key:	Gamepad_RightStick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:690
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:690
+msgctxt "InputKeys,Gamepad_RightStick_Up"
+msgid "Gamepad Right Thumbstick Up"
+msgstr "게임패드 오른쪽 스틱 위"
+
+#. Key:	Gamepad_RightThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1165
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1165
+msgctxt "InputKeys,Gamepad_RightThumbstick"
+msgid "Gamepad Right Thumbstick Button"
+msgstr "게임패드 오른쪽 스틱 버튼"
+
+#. Key:	Gamepad_RightTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1149
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1149
+msgctxt "InputKeys,Gamepad_RightTrigger"
+msgid "Gamepad Right Trigger"
+msgstr "게임패드 오른쪽 트리거"
+
+#. Key:	Gamepad_RightTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1157
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1157
+msgctxt "InputKeys,Gamepad_RightTriggerAxis"
+msgid "Gamepad Right Trigger Axis"
+msgstr "게임패드 오른쪽 트리거 축"
+
+#. Key:	Gamepad_RightX
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:675
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:675
+msgctxt "InputKeys,Gamepad_RightX"
+msgid "Gamepad Right Thumbstick X-Axis"
+msgstr "게임패드 오른쪽 스틱 X-축"
+
+#. Key:	Gamepad_RightY
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:676
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:676
+msgctxt "InputKeys,Gamepad_RightY"
+msgid "Gamepad Right Thumbstick Y-Axis"
+msgstr "게임패드 왼쪽 스틱 Y-축"
+
+#. Key:	Gamepad_Special_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1188
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1188
+msgctxt "InputKeys,Gamepad_Special_Left"
+msgid "Gamepad Special Left"
+msgstr "게임패드 스페셜 왼쪽"
+
+#. Key:	Gamepad_Special_Left_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:744
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:744
+msgctxt "InputKeys,Gamepad_Special_Left_X"
+msgid "Touchpad Button X Axis"
+msgstr "터치패드 버튼 X축"
+
+#. Key:	Gamepad_Special_Left_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:745
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:745
+msgctxt "InputKeys,Gamepad_Special_Left_Y"
+msgid "Touchpad Button Y Axis"
+msgstr "터치패드 버튼 Y축"
+
+#. Key:	Gamepad_Special_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1192
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1192
+msgctxt "InputKeys,Gamepad_Special_Right"
+msgid "Gamepad Special Right"
+msgstr "게임패드 스페셜 오른쪽"
+
+#. Key:	GamepadSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:515
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:515
+msgctxt "InputKeys,GamepadSubCategory"
+msgid "Gamepad"
+msgstr "게임패드"
+
+#. Key:	Gesture_Flick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:736
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:736
+msgctxt "InputKeys,Gesture_Flick"
+msgid "Flick"
+msgstr "플릭"
+
+#. Key:	Gesture_Pinch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:735
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:735
+msgctxt "InputKeys,Gesture_Pinch"
+msgid "Pinch"
+msgstr "핀치"
+
+#. Key:	Gesture_Rotate
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:737
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:737
+msgctxt "InputKeys,Gesture_Rotate"
+msgid "Rotate"
+msgstr "회전"
+
+#. Key:	GestureSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:733
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:733
+msgctxt "InputKeys,GestureSubCateogry"
+msgid "Gesture"
+msgstr "제스쳐"
+
+#. Key:	Global_Back
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:765
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:765
+msgctxt "InputKeys,Global_Back"
+msgid "Global Back"
+msgstr "글로벌 뒤로"
+
+#. Key:	Global_Menu
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:761
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:761
+msgctxt "InputKeys,Global_Menu"
+msgid "Global Menu"
+msgstr "글로벌 메뉴"
+
+#. Key:	Global_Pause
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:763
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:763
+msgctxt "InputKeys,Global_Pause"
+msgid "Global Pause"
+msgstr "글로벌 일시정지"
+
+#. Key:	Global_Play
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:764
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:764
+msgctxt "InputKeys,Global_Play"
+msgid "Global Play"
+msgstr "글로벌 플레이"
+
+#. Key:	Global_View
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:762
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:762
+msgctxt "InputKeys,Global_View"
+msgid "Global View"
+msgstr "글로벌 보기"
+
+#. Key:	Gravity
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:717
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:717
+msgctxt "InputKeys,Gravity"
+msgid "Gravity"
+msgstr "중력"
+
+#. Key:	Home
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:544
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:544
+msgctxt "InputKeys,Home"
+msgid "Home"
+msgstr "Home"
+
+#. Key:	Hyphen
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:644
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:644
+msgctxt "InputKeys,Hyphen"
+msgid "Hyphen"
+msgstr "-"
+
+#. Key:	Insert
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+msgctxt "InputKeys,Insert"
+msgid "Insert"
+msgstr "Insert"
+
+#. Key:	InsertShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:551
+msgctxt "InputKeys,InsertShort"
+msgid "Ins"
+msgstr "Ins"
+
+#. Key:	KeyboardSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:517
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:517
+msgctxt "InputKeys,KeyboardSubCategory"
+msgid "Keyboard"
+msgstr "키보드"
+
+#. Key:	Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:546
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:546
+msgctxt "InputKeys,Left"
+msgid "Left"
+msgstr "왼쪽 화살표"
+
+#. Key:	LeftAlt
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:636
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:636
+msgctxt "InputKeys,LeftAlt"
+msgid "Left Alt"
+msgstr "왼쪽 Alt"
+
+#. Key:	LeftBracket
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:649
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:649
+msgctxt "InputKeys,LeftBracket"
+msgid "Left Bracket"
+msgstr "왼쪽 대괄호"
+
+#. Key:	LeftCommand
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:638
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:638
+msgctxt "InputKeys,LeftCommand"
+msgid "Left Cmd"
+msgstr "왼쪽 Cmd"
+
+#. Key:	LeftControl
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:634
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:634
+msgctxt "InputKeys,LeftControl"
+msgid "Left Ctrl"
+msgstr "왼쪽 Ctrl"
+
+#. Key:	LeftMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+msgctxt "InputKeys,LeftMouseButton"
+msgid "Left Mouse Button"
+msgstr "왼쪽 마우스 버튼"
+
+#. Key:	LeftMouseButtonShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:528
+msgctxt "InputKeys,LeftMouseButtonShort"
+msgid "LMB"
+msgstr "마우스 왼쪽 버튼"
+
+#. Key:	LeftParantheses
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:655
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:655
+msgctxt "InputKeys,LeftParantheses"
+msgid "Left Parantheses"
+msgstr "왼쪽 괄호"
+
+#. Key:	LeftShift
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:632
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:632
+msgctxt "InputKeys,LeftShift"
+msgid "Left Shift"
+msgstr "왼쪽 Shift"
+
+#. Key:	MiddleMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:530
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:530
+msgctxt "InputKeys,MiddleMouseButton"
+msgid "Middle Mouse Button"
+msgstr "가운데 마우스 버튼"
+
+#. Key:	MixedReality_Left_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:809
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:809
+msgctxt "InputKeys,MixedReality_Left_Grip_Click"
+msgid "Mixed Reality (L) Grip"
+msgstr "혼합 현실 (좌) 그립"
+
+#. Key:	MixedReality_Left_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:808
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:808
+msgctxt "InputKeys,MixedReality_Left_Menu_Click"
+msgid "Mixed Reality (L) Menu"
+msgstr "혼합 현실 (좌) 메뉴"
+
+#. Key:	MixedReality_Left_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:814
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:814
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Click"
+msgid "Mixed Reality (L) Thumbstick"
+msgstr "혼합 현실 (좌) 스틱"
+
+#. Key:	MixedReality_Left_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:816
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:816
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Down"
+msgid "Mixed Reality (L) Thumbstick Down"
+msgstr "혼합 현실 (좌) 스틱 아래"
+
+#. Key:	MixedReality_Left_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:817
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:817
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Left"
+msgid "Mixed Reality (L) Thumbstick Left"
+msgstr "혼합 현실 (좌) 스틱 왼쪽"
+
+#. Key:	MixedReality_Left_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:818
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:818
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Right"
+msgid "Mixed Reality (L) Thumbstick Right"
+msgstr "혼합 현실 (좌) 스틱 오른쪽"
+
+#. Key:	MixedReality_Left_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:815
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:815
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Up"
+msgid "Mixed Reality (L) Thumbstick Up"
+msgstr "혼합 현실 (좌) 스틱 위"
+
+#. Key:	MixedReality_Left_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:812
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:812
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_X"
+msgid "Mixed Reality (L) Thumbstick X"
+msgstr "혼합 현실 (좌) 스틱 X"
+
+#. Key:	MixedReality_Left_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:813
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:813
+msgctxt "InputKeys,MixedReality_Left_Thumbstick_Y"
+msgid "Mixed Reality (L) Thumbstick Y"
+msgstr "혼합 현실 (좌) 스틱 Y"
+
+#. Key:	MixedReality_Left_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:821
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:821
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Click"
+msgid "Mixed Reality (L) Trackpad"
+msgstr "혼합 현실 (좌) 트랙패드"
+
+#. Key:	MixedReality_Left_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:824
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:824
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Down"
+msgid "Mixed Reality (L) Trackpad Down"
+msgstr "혼합 현실 (좌) 트랙패드 아래"
+
+#. Key:	MixedReality_Left_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:825
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:825
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Left"
+msgid "Mixed Reality (L) Trackpad Left"
+msgstr "혼합 현실 (좌) 트랙패드 왼쪽"
+
+#. Key:	MixedReality_Left_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:826
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:826
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Right"
+msgid "Mixed Reality (L) Trackpad Right"
+msgstr "혼합 현실 (좌) 트랙패드 오른쪽"
+
+#. Key:	MixedReality_Left_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:822
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:822
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Touch"
+msgid "Mixed Reality (L) Trackpad Touch"
+msgstr "혼합 현실 (좌) 트랙패드 터치"
+
+#. Key:	MixedReality_Left_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:823
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:823
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Up"
+msgid "Mixed Reality (L) Trackpad Up"
+msgstr "혼합 현실 (좌) 트랙패드 위"
+
+#. Key:	MixedReality_Left_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:819
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:819
+msgctxt "InputKeys,MixedReality_Left_Trackpad_X"
+msgid "Mixed Reality (L) Trackpad X"
+msgstr "혼합 현실 (좌) 트랙패드 X"
+
+#. Key:	MixedReality_Left_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:820
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:820
+msgctxt "InputKeys,MixedReality_Left_Trackpad_Y"
+msgid "Mixed Reality (L) Trackpad Y"
+msgstr "혼합 현실 (좌) 트랙패드 Y"
+
+#. Key:	MixedReality_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:811
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:811
+msgctxt "InputKeys,MixedReality_Left_Trigger_Axis"
+msgid "Mixed Reality (L) Trigger Axis"
+msgstr "혼합 현실 (좌) 트리거 축"
+
+#. Key:	MixedReality_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:810
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:810
+msgctxt "InputKeys,MixedReality_Left_Trigger_Click"
+msgid "Mixed Reality (L) Trigger"
+msgstr "혼합 현실 (좌) 트리거"
+
+#. Key:	MixedReality_Right_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:828
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:828
+msgctxt "InputKeys,MixedReality_Right_Grip_Click"
+msgid "Mixed Reality (R) Grip"
+msgstr "혼합 현실 (우) 그립"
+
+#. Key:	MixedReality_Right_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:827
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:827
+msgctxt "InputKeys,MixedReality_Right_Menu_Click"
+msgid "Mixed Reality (R) Menu"
+msgstr "혼합 현실 (우) 메뉴"
+
+#. Key:	MixedReality_Right_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:833
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:833
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Click"
+msgid "Mixed Reality (R) Thumbstick"
+msgstr "혼합 현실 (우) 스틱"
+
+#. Key:	MixedReality_Right_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:835
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:835
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Down"
+msgid "Mixed Reality (R) Thumbstick Down"
+msgstr "혼합 현실 (우) 스틱 아래"
+
+#. Key:	MixedReality_Right_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:836
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:836
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Left"
+msgid "Mixed Reality (R) Thumbstick Left"
+msgstr "혼합 현실 (우) 스틱 왼쪽"
+
+#. Key:	MixedReality_Right_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:837
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:837
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Right"
+msgid "Mixed Reality (R) Thumbstick Right"
+msgstr "혼합 현실 (우) 스틱 오른쪽"
+
+#. Key:	MixedReality_Right_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:834
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:834
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Up"
+msgid "Mixed Reality (R) Thumbstick Up"
+msgstr "혼합 현실 (우) 스틱 위"
+
+#. Key:	MixedReality_Right_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:831
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:831
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_X"
+msgid "Mixed Reality (R) Thumbstick X"
+msgstr "혼합 현실 (우) 스틱 X"
+
+#. Key:	MixedReality_Right_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:832
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:832
+msgctxt "InputKeys,MixedReality_Right_Thumbstick_Y"
+msgid "Mixed Reality (R) Thumbstick Y"
+msgstr "혼합 현실 (우) 스틱 Y"
+
+#. Key:	MixedReality_Right_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:840
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:840
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Click"
+msgid "Mixed Reality (R) Trackpad"
+msgstr "혼합 현실 (우) 트랙패드"
+
+#. Key:	MixedReality_Right_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:843
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:843
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Down"
+msgid "Mixed Reality (R) Trackpad Down"
+msgstr "혼합 현실 (우) 트랙패드 아래"
+
+#. Key:	MixedReality_Right_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:844
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:844
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Left"
+msgid "Mixed Reality (R) Trackpad Left"
+msgstr "혼합 현실 (우) 트랙패드 왼쪽"
+
+#. Key:	MixedReality_Right_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:845
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:845
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Right"
+msgid "Mixed Reality (R) Trackpad Right"
+msgstr "혼합 현실 (우) 트랙패드 오른쪽"
+
+#. Key:	MixedReality_Right_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:841
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:841
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Touch"
+msgid "Mixed Reality (R) Trackpad Touch"
+msgstr "혼합 현실 (우) 트랙패드 터치"
+
+#. Key:	MixedReality_Right_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:842
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:842
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Up"
+msgid "Mixed Reality (R) Trackpad Up"
+msgstr "혼합 현실 (우) 트랙패드 위"
+
+#. Key:	MixedReality_Right_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:838
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:838
+msgctxt "InputKeys,MixedReality_Right_Trackpad_X"
+msgid "Mixed Reality (R) Trackpad X"
+msgstr "혼합 현실 (우) 트랙패드 X"
+
+#. Key:	MixedReality_Right_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:839
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:839
+msgctxt "InputKeys,MixedReality_Right_Trackpad_Y"
+msgid "Mixed Reality (R) Trackpad Y"
+msgstr "혼합 현실 (우) 트랙패드 Y"
+
+#. Key:	MixedReality_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:830
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:830
+msgctxt "InputKeys,MixedReality_Right_Trigger_Axis"
+msgid "Mixed Reality (R) Trigger Axis"
+msgstr "혼합 현실 (우) 트리거 축"
+
+#. Key:	MixedReality_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:829
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:829
+msgctxt "InputKeys,MixedReality_Right_Trigger_Click"
+msgid "Mixed Reality (R) Trigger"
+msgstr "혼합 현실 (우) 트리거"
+
+#. Key:	MixedRealitySubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:806
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:806
+msgctxt "InputKeys,MixedRealitySubCategory"
+msgid "Windows Mixed Reality"
+msgstr "Windows 혼합 현실"
+
+#. Key:	MotionSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:713
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:713
+msgctxt "InputKeys,MotionSubCateogry"
+msgid "Motion"
+msgstr "모션"
+
+#. Key:	Mouse2D
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:523
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:523
+msgctxt "InputKeys,Mouse2D"
+msgid "Mouse XY 2D-Axis"
+msgstr "마우스 XY 2D축"
+
+#. Key:	MouseScrollDown
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:526
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:526
+msgctxt "InputKeys,MouseScrollDown"
+msgid "Mouse Wheel Down"
+msgstr "마우스 휠 아래로"
+
+#. Key:	MouseScrollUp
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:525
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:525
+msgctxt "InputKeys,MouseScrollUp"
+msgid "Mouse Wheel Up"
+msgstr "마우스 휠 위로"
+
+#. Key:	MouseSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:516
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:516
+msgctxt "InputKeys,MouseSubCategory"
+msgid "Mouse"
+msgstr "마우스"
+
+#. Key:	MouseWheelAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:524
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:524
+msgctxt "InputKeys,MouseWheelAxis"
+msgid "Mouse Wheel Axis"
+msgstr "마우스 휠 축"
+
+#. Key:	MouseX
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:521
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:521
+msgctxt "InputKeys,MouseX"
+msgid "Mouse X"
+msgstr "마우스 X"
+
+#. Key:	MouseY
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:522
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:522
+msgctxt "InputKeys,MouseY"
+msgid "Mouse Y"
+msgstr "마우스 Y"
+
+#. Key:	Multiply
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:610
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:610
+msgctxt "InputKeys,Multiply"
+msgid "Num *"
+msgstr "숫자패드 *"
+
+#. Key:	NumLock
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:629
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:629
+msgctxt "InputKeys,NumLock"
+msgid "Num Lock"
+msgstr "Num Lock"
+
+#. Key:	NumPadEight
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:607
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:607
+msgctxt "InputKeys,NumPadEight"
+msgid "Num 8"
+msgstr "숫자패드 8"
+
+#. Key:	NumPadFive
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:604
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:604
+msgctxt "InputKeys,NumPadFive"
+msgid "Num 5"
+msgstr "숫자패드 5"
+
+#. Key:	NumPadFour
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:603
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:603
+msgctxt "InputKeys,NumPadFour"
+msgid "Num 4"
+msgstr "숫자패드 4"
+
+#. Key:	NumPadNine
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:608
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:608
+msgctxt "InputKeys,NumPadNine"
+msgid "Num 9"
+msgstr "숫자패드 9"
+
+#. Key:	NumPadOne
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:600
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:600
+msgctxt "InputKeys,NumPadOne"
+msgid "Num 1"
+msgstr "숫자패드 1"
+
+#. Key:	NumPadSeven
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:606
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:606
+msgctxt "InputKeys,NumPadSeven"
+msgid "Num 7"
+msgstr "숫자패드 7"
+
+#. Key:	NumPadSix
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:605
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:605
+msgctxt "InputKeys,NumPadSix"
+msgid "Num 6"
+msgstr "숫자패드 6"
+
+#. Key:	NumPadThree
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:602
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:602
+msgctxt "InputKeys,NumPadThree"
+msgid "Num 3"
+msgstr "숫자패드 3"
+
+#. Key:	NumPadTwo
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:601
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:601
+msgctxt "InputKeys,NumPadTwo"
+msgid "Num 2"
+msgstr "숫자패드 2"
+
+#. Key:	NumPadZero
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:599
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:599
+msgctxt "InputKeys,NumPadZero"
+msgid "Num 0"
+msgstr "숫자패드 0"
+
+#. Key:	OculusTouch_Left_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:856
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:856
+msgctxt "InputKeys,OculusTouch_Left_Grip_Axis"
+msgid "Oculus Touch (L) Grip Axis"
+msgstr "Oculus Touch (좌) 그립 축"
+
+#. Key:	OculusTouch_Left_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:855
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:855
+msgctxt "InputKeys,OculusTouch_Left_Grip_Click"
+msgid "Oculus Touch (L) Grip"
+msgstr "Oculus Touch (좌) 그립"
+
+#. Key:	OculusTouch_Left_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:854
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:854
+msgctxt "InputKeys,OculusTouch_Left_Menu_Click"
+msgid "Oculus Touch (L) Menu"
+msgstr "Oculus Touch (좌) 메뉴"
+
+#. Key:	OculusTouch_Left_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:862
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:862
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Click"
+msgid "Oculus Touch (L) Thumbstick"
+msgstr "Oculus Touch (좌) 스틱"
+
+#. Key:	OculusTouch_Left_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:865
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:865
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Down"
+msgid "Oculus Touch (L) Thumbstick Down"
+msgstr "Oculus Touch (좌) 스틱 아래"
+
+#. Key:	OculusTouch_Left_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:866
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:866
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Left"
+msgid "Oculus Touch (L) Thumbstick Left"
+msgstr "Oculus Touch (좌) 스틱 왼쪽"
+
+#. Key:	OculusTouch_Left_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:867
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:867
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Right"
+msgid "Oculus Touch (L) Thumbstick Right"
+msgstr "Oculus Touch (좌) 스틱 오른쪽"
+
+#. Key:	OculusTouch_Left_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:863
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:863
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Touch"
+msgid "Oculus Touch (L) Thumbstick Touch"
+msgstr "Oculus Touch (좌) 스틱 터치"
+
+#. Key:	OculusTouch_Left_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:864
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:864
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Up"
+msgid "Oculus Touch (L) Thumbstick Up"
+msgstr "Oculus Touch (좌) 스틱 위"
+
+#. Key:	OculusTouch_Left_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:860
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:860
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_X"
+msgid "Oculus Touch (L) Thumbstick X"
+msgstr "Oculus Touch (좌) 스틱 X"
+
+#. Key:	OculusTouch_Left_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:861
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:861
+msgctxt "InputKeys,OculusTouch_Left_Thumbstick_Y"
+msgid "Oculus Touch (L) Thumbstick Y"
+msgstr "Oculus Touch (좌) 스틱 Y"
+
+#. Key:	OculusTouch_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:858
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:858
+msgctxt "InputKeys,OculusTouch_Left_Trigger_Axis"
+msgid "Oculus Touch (L) Trigger Axis"
+msgstr "Oculus Touch (좌) 트리거 축"
+
+#. Key:	OculusTouch_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:857
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:857
+msgctxt "InputKeys,OculusTouch_Left_Trigger_Click"
+msgid "Oculus Touch (L) Trigger"
+msgstr "Oculus Touch (좌) 트리거"
+
+#. Key:	OculusTouch_Left_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:859
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:859
+msgctxt "InputKeys,OculusTouch_Left_Trigger_Touch"
+msgid "Oculus Touch (L) Trigger Touch"
+msgstr "Oculus Touch (좌) 트리거 터치"
+
+#. Key:	OculusTouch_Left_X_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:850
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:850
+msgctxt "InputKeys,OculusTouch_Left_X_Click"
+msgid "Oculus Touch (L) X Press"
+msgstr "Oculus Touch (좌) X 누르기"
+
+#. Key:	OculusTouch_Left_X_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:852
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:852
+msgctxt "InputKeys,OculusTouch_Left_X_Touch"
+msgid "Oculus Touch (L) X Touch"
+msgstr "Oculus Touch (좌) X 터치"
+
+#. Key:	OculusTouch_Left_Y_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:851
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:851
+msgctxt "InputKeys,OculusTouch_Left_Y_Click"
+msgid "Oculus Touch (L) Y Press"
+msgstr "Oculus Touch (좌) Y 누르기"
+
+#. Key:	OculusTouch_Left_Y_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:853
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:853
+msgctxt "InputKeys,OculusTouch_Left_Y_Touch"
+msgid "Oculus Touch (L) Y Touch"
+msgstr "Oculus Touch (좌) Y 터치"
+
+#. Key:	OculusTouch_Right_A_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:868
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:868
+msgctxt "InputKeys,OculusTouch_Right_A_Click"
+msgid "Oculus Touch (R) A Press"
+msgstr "Oculus Touch (우) A 누르기"
+
+#. Key:	OculusTouch_Right_A_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:870
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:870
+msgctxt "InputKeys,OculusTouch_Right_A_Touch"
+msgid "Oculus Touch (R) A Touch"
+msgstr "Oculus Touch (우) A 터치"
+
+#. Key:	OculusTouch_Right_B_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:869
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:869
+msgctxt "InputKeys,OculusTouch_Right_B_Click"
+msgid "Oculus Touch (R) B Press"
+msgstr "Oculus Touch (우) B 누르기"
+
+#. Key:	OculusTouch_Right_B_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:871
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:871
+msgctxt "InputKeys,OculusTouch_Right_B_Touch"
+msgid "Oculus Touch (R) B Touch"
+msgstr "Oculus Touch (우) B 터치"
+
+#. Key:	OculusTouch_Right_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:874
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:874
+msgctxt "InputKeys,OculusTouch_Right_Grip_Axis"
+msgid "Oculus Touch (R) Grip Axis"
+msgstr "Oculus Touch (우) 그립 축"
+
+#. Key:	OculusTouch_Right_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:873
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:873
+msgctxt "InputKeys,OculusTouch_Right_Grip_Click"
+msgid "Oculus Touch (R) Grip"
+msgstr "Oculus Touch (우) 그립"
+
+#. Key:	OculusTouch_Right_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:872
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:872
+msgctxt "InputKeys,OculusTouch_Right_System_Click"
+msgid "Oculus Touch (R) System"
+msgstr "Oculus Touch (우) 시스템"
+
+#. Key:	OculusTouch_Right_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:880
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:880
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Click"
+msgid "Oculus Touch (R) Thumbstick"
+msgstr "Oculus Touch (우) 스틱"
+
+#. Key:	OculusTouch_Right_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:883
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:883
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Down"
+msgid "Oculus Touch (R) Thumbstick Down"
+msgstr "Oculus Touch (우) 스틱 아래"
+
+#. Key:	OculusTouch_Right_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:884
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:884
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Left"
+msgid "Oculus Touch (R) Thumbstick Left"
+msgstr "Oculus Touch (우) 스틱 왼쪽"
+
+#. Key:	OculusTouch_Right_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:885
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:885
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Right"
+msgid "Oculus Touch (R) Thumbstick Right"
+msgstr "Oculus Touch (우) 스틱 오른쪽"
+
+#. Key:	OculusTouch_Right_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:881
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:881
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Touch"
+msgid "Oculus Touch (R) Thumbstick Touch"
+msgstr "Oculus Touch (우) 스틱 터치"
+
+#. Key:	OculusTouch_Right_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:882
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:882
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Up"
+msgid "Oculus Touch (R) Thumbstick Up"
+msgstr "Oculus Touch (우) 스틱 위"
+
+#. Key:	OculusTouch_Right_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:878
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:878
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_X"
+msgid "Oculus Touch (R) Thumbstick X"
+msgstr "Oculus Touch (우) 스틱 X"
+
+#. Key:	OculusTouch_Right_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:879
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:879
+msgctxt "InputKeys,OculusTouch_Right_Thumbstick_Y"
+msgid "Oculus Touch (R) Thumbstick Y"
+msgstr "Oculus Touch (우) 스틱 Y"
+
+#. Key:	OculusTouch_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:876
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:876
+msgctxt "InputKeys,OculusTouch_Right_Trigger_Axis"
+msgid "Oculus Touch (R) Trigger Axis"
+msgstr "Oculus Touch (우) 트리거 축"
+
+#. Key:	OculusTouch_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:875
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:875
+msgctxt "InputKeys,OculusTouch_Right_Trigger_Click"
+msgid "Oculus Touch (R) Trigger"
+msgstr "Oculus Touch (우) 트리거"
+
+#. Key:	OculusTouch_Right_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:877
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:877
+msgctxt "InputKeys,OculusTouch_Right_Trigger_Touch"
+msgid "Oculus Touch (R) Trigger Touch"
+msgstr "Oculus Touch (우) 트리거 터치"
+
+#. Key:	OculusTouchSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:848
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:848
+msgctxt "InputKeys,OculusTouchSubCategory"
+msgid "Oculus Touch"
+msgstr "Oculus Touch"
+
+#. Key:	PageDown
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+msgctxt "InputKeys,PageDown"
+msgid "Page Down"
+msgstr "Page Down"
+
+#. Key:	PageDownShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:542
+msgctxt "InputKeys,PageDownShort"
+msgid "PgDn"
+msgstr "PgDn"
+
+#. Key:	PageUp
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+msgctxt "InputKeys,PageUp"
+msgid "Page Up"
+msgstr "Page Up"
+
+#. Key:	PageUpShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:541
+msgctxt "InputKeys,PageUpShort"
+msgid "PgUp"
+msgstr "PgUp"
+
+#. Key:	Pause
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:536
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:536
+msgctxt "InputKeys,Pause"
+msgid "Pause"
+msgstr "Pause"
+
+#. Key:	Period
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:646
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:646
+msgctxt "InputKeys,Period"
+msgid "Period"
+msgstr "."
+
+#. Key:	PS4_Gamepad_FaceButton_Bottom
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1054
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1054
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Bottom"
+msgid "Gamepad X"
+msgstr "게임패드 X"
+
+#. Key:	PS4_Gamepad_FaceButton_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1062
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1062
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Left"
+msgid "Gamepad Square"
+msgstr "게임패드 사각형"
+
+#. Key:	PS4_Gamepad_FaceButton_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1058
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1058
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Right"
+msgid "Gamepad Circle"
+msgstr "게임패드 원"
+
+#. Key:	PS4_Gamepad_FaceButton_Top
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1066
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1066
+msgctxt "InputKeys,PS4_Gamepad_FaceButton_Top"
+msgid "Gamepad Triangle"
+msgstr "게임패드 삼각형"
+
+#. Key:	PS4_Gamepad_LeftShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1078
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1078
+msgctxt "InputKeys,PS4_Gamepad_LeftShoulder"
+msgid "Gamepad L1"
+msgstr "게임패드 L1"
+
+#. Key:	PS4_Gamepad_LeftThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1102
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1102
+msgctxt "InputKeys,PS4_Gamepad_LeftThumbstick"
+msgid "Gamepad L3"
+msgstr "게임패드 L3"
+
+#. Key:	PS4_Gamepad_LeftTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1086
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1086
+msgctxt "InputKeys,PS4_Gamepad_LeftTrigger"
+msgid "Gamepad L2"
+msgstr "게임패드 L2"
+
+#. Key:	PS4_Gamepad_LeftTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1094
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1094
+msgctxt "InputKeys,PS4_Gamepad_LeftTriggerAxis"
+msgid "Gamepad L2 Axis"
+msgstr "게임패드 L2 축"
+
+#. Key:	PS4_Gamepad_RightShoulder
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1082
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1082
+msgctxt "InputKeys,PS4_Gamepad_RightShoulder"
+msgid "Gamepad R1"
+msgstr "게임패드 R1"
+
+#. Key:	PS4_Gamepad_RightThumbstick
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1106
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1106
+msgctxt "InputKeys,PS4_Gamepad_RightThumbstick"
+msgid "Gamepad R3"
+msgstr "게임패드 R3"
+
+#. Key:	PS4_Gamepad_RightTrigger
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1090
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1090
+msgctxt "InputKeys,PS4_Gamepad_RightTrigger"
+msgid "Gamepad R2"
+msgstr "게임패드 R2"
+
+#. Key:	PS4_Gamepad_RightTriggerAxis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1098
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1098
+msgctxt "InputKeys,PS4_Gamepad_RightTriggerAxis"
+msgid "Gamepad R2 Axis"
+msgstr "게임패드 R2 축"
+
+#. Key:	PS4_Gamepad_Special_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1070
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1070
+msgctxt "InputKeys,PS4_Gamepad_Special_Left"
+msgid "Gamepad Touchpad Button"
+msgstr "게임패드 터치패드 버튼"
+
+#. Key:	PS4_Gamepad_Special_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1074
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1074
+msgctxt "InputKeys,PS4_Gamepad_Special_Right"
+msgid "Gamepad Options"
+msgstr "게임패드 설정"
+
+#. Key:	PS4_Special
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:742
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:742
+msgctxt "InputKeys,PS4_Special"
+msgid "PS4_Special_DEPRECATED"
+msgstr "PS4_Special"
+
+#. Key:	Quote
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:653
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:653
+msgctxt "InputKeys,Quote"
+msgid "Quote"
+msgstr "따옴표"
+
+#. Key:	Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:548
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:548
+msgctxt "InputKeys,Right"
+msgid "Right"
+msgstr "오른쪽 화살표"
+
+#. Key:	RightAlt
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:637
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:637
+msgctxt "InputKeys,RightAlt"
+msgid "Right Alt"
+msgstr "오른쪽 Alt"
+
+#. Key:	RightBracket
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:651
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:651
+msgctxt "InputKeys,RightBracket"
+msgid "Right Bracket"
+msgstr "오른쪽 대괄호"
+
+#. Key:	RightCommand
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:639
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:639
+msgctxt "InputKeys,RightCommand"
+msgid "Right Cmd"
+msgstr "오른쪽 Cmd"
+
+#. Key:	RightControl
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:635
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:635
+msgctxt "InputKeys,RightControl"
+msgid "Right Ctrl"
+msgstr "오른쪽 Ctrl"
+
+#. Key:	RightMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+msgctxt "InputKeys,RightMouseButton"
+msgid "Right Mouse Button"
+msgstr "오른쪽 마우스 버튼"
+
+#. Key:	RightMouseButtonShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:529
+msgctxt "InputKeys,RightMouseButtonShort"
+msgid "RMB"
+msgstr "마우스 오른쪽 버튼"
+
+#. Key:	RightParantheses
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:656
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:656
+msgctxt "InputKeys,RightParantheses"
+msgid "Right Parantheses"
+msgstr "오른쪽 괄호"
+
+#. Key:	RightShift
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:633
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:633
+msgctxt "InputKeys,RightShift"
+msgid "Right Shift"
+msgstr "오른쪽 Shift"
+
+#. Key:	RotationRate
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:716
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:716
+msgctxt "InputKeys,RotationRate"
+msgid "Rotation Rate"
+msgstr "Rotation Rate"
+
+#. Key:	ScrollLock
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:630
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:630
+msgctxt "InputKeys,ScrollLock"
+msgid "Scroll Lock"
+msgstr "Scroll Lock"
+
+#. Key:	Semicolon
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:641
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:641
+msgctxt "InputKeys,Semicolon"
+msgid "Semicolon"
+msgstr ";"
+
+#. Key:	Slash
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:647
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:647
+msgctxt "InputKeys,Slash"
+msgid "Slash"
+msgstr "슬래시"
+
+#. Key:	SpaceBar
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+msgctxt "InputKeys,SpaceBar"
+msgid "Space Bar"
+msgstr "Space"
+
+#. Key:	SpaceBarShort
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:540
+msgctxt "InputKeys,SpaceBarShort"
+msgid "Space"
+msgstr "Space"
+
+#. Key:	SpecialGamepadSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:740
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:740
+msgctxt "InputKeys,SpecialGamepadSubCategory"
+msgid "SpecialGamepad"
+msgstr ""
+
+#. Key:	Steam_Back_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:755
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:755
+msgctxt "InputKeys,Steam_Back_Left"
+msgid "Steam Back Left"
+msgstr "Steam 뒤 왼쪽"
+
+#. Key:	Steam_Back_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:756
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:756
+msgctxt "InputKeys,Steam_Back_Right"
+msgid "Steam Back Right"
+msgstr "Steam 뒤 오른쪽"
+
+#. Key:	Steam_Touch_0
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:751
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:751
+msgctxt "InputKeys,Steam_Touch_0"
+msgid "Steam Touch 0"
+msgstr "Steam Touch 0"
+
+#. Key:	Steam_Touch_1
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:752
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:752
+msgctxt "InputKeys,Steam_Touch_1"
+msgid "Steam Touch 1"
+msgstr "Steam Touch 1"
+
+#. Key:	Steam_Touch_2
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:753
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:753
+msgctxt "InputKeys,Steam_Touch_2"
+msgid "Steam Touch 2"
+msgstr "Steam Touch 2"
+
+#. Key:	Steam_Touch_3
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:754
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:754
+msgctxt "InputKeys,Steam_Touch_3"
+msgid "Steam Touch 3"
+msgstr "Steam Touch 3"
+
+#. Key:	SteamSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:749
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:749
+msgctxt "InputKeys,SteamSubCateogry"
+msgid "Steam"
+msgstr "Steam"
+
+#. Key:	Subtract
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:612
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:612
+msgctxt "InputKeys,Subtract"
+msgid "Num -"
+msgstr "숫자패드 -"
+
+#. Key:	Tab
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:534
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:534
+msgctxt "InputKeys,Tab"
+msgid "Tab"
+msgstr "Tab"
+
+#. Key:	ThumbMouseButton
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:531
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:531
+msgctxt "InputKeys,ThumbMouseButton"
+msgid "Thumb Mouse Button"
+msgstr "엄지 마우스 버튼"
+
+#. Key:	ThumbMouseButton2
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:532
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:532
+msgctxt "InputKeys,ThumbMouseButton2"
+msgid "Thumb Mouse Button 2"
+msgstr "엄지 마우스 버튼 2"
+
+#. Key:	Tilt
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:715
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:715
+msgctxt "InputKeys,Tilt"
+msgid "Tilt"
+msgstr "기울기"
+
+#. Key:	TouchFormat
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:726
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:726
+msgctxt "InputKeys,TouchFormat"
+msgid "Touch {0}"
+msgstr "{0} 터치"
+
+#. Key:	TouchSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:721
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:721
+msgctxt "InputKeys,TouchSubCateogry"
+msgid "Touch"
+msgstr "터치"
+
+#. Key:	Underscore
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:645
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:645
+msgctxt "InputKeys,Underscore"
+msgid "Underscore"
+msgstr "_"
+
+#. Key:	Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:547
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:547
+msgctxt "InputKeys,Up"
+msgid "Up"
+msgstr "위쪽 화살표"
+
+#. Key:	ValveIndex_Left_A_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:890
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:890
+msgctxt "InputKeys,ValveIndex_Left_A_Click"
+msgid "Valve Index (L) A Press"
+msgstr "Valve Index (좌) A 누르기"
+
+#. Key:	ValveIndex_Left_A_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:892
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:892
+msgctxt "InputKeys,ValveIndex_Left_A_Touch"
+msgid "Valve Index (L) A Touch"
+msgstr "Valve Index (좌) A 터치"
+
+#. Key:	ValveIndex_Left_B_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:891
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:891
+msgctxt "InputKeys,ValveIndex_Left_B_Click"
+msgid "Valve Index (L) B Press"
+msgstr "Valve Index (좌) B 누르기"
+
+#. Key:	ValveIndex_Left_B_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:893
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:893
+msgctxt "InputKeys,ValveIndex_Left_B_Touch"
+msgid "Valve Index (L) B Touch"
+msgstr "Valve Index (좌) B 터치"
+
+#. Key:	ValveIndex_Left_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:896
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:896
+msgctxt "InputKeys,ValveIndex_Left_Grip_Axis"
+msgid "Valve Index (L) Grip Axis"
+msgstr "Valve Index (좌) 그립 축"
+
+#. Key:	ValveIndex_Left_Grip_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:897
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:897
+msgctxt "InputKeys,ValveIndex_Left_Grip_Force"
+msgid "Valve Index (L) Grip Force"
+msgstr "Valve Index (좌) 그립 포스"
+
+#. Key:	ValveIndex_Left_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:894
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:894
+msgctxt "InputKeys,ValveIndex_Left_System_Click"
+msgid "Valve Index (L) System"
+msgstr "Valve Index (좌) 시스템"
+
+#. Key:	ValveIndex_Left_System_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:895
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:895
+msgctxt "InputKeys,ValveIndex_Left_System_Touch"
+msgid "Valve Index (L) System Touch"
+msgstr "Valve Index (좌) 시스템 터치"
+
+#. Key:	ValveIndex_Left_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:903
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:903
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Click"
+msgid "Valve Index (L) Thumbstick"
+msgstr "Valve Index (좌) 스틱"
+
+#. Key:	ValveIndex_Left_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:906
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:906
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Down"
+msgid "Valve Index (L) Thumbstick Down"
+msgstr "Valve Index (좌) 스틱 아래"
+
+#. Key:	ValveIndex_Left_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:907
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:907
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Left"
+msgid "Valve Index (L) Thumbstick Left"
+msgstr "Valve Index (좌) 스틱 왼쪽"
+
+#. Key:	ValveIndex_Left_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:908
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:908
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Right"
+msgid "Valve Index (L) Thumbstick Right"
+msgstr "Valve Index (좌) 스틱 오른쪽"
+
+#. Key:	ValveIndex_Left_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:904
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:904
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Touch"
+msgid "Valve Index (L) Thumbstick Touch"
+msgstr "Valve Index (좌) 스틱 터치"
+
+#. Key:	ValveIndex_Left_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:905
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:905
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Up"
+msgid "Valve Index (L) Thumbstick Up"
+msgstr "Valve Index (좌) 스틱 위"
+
+#. Key:	ValveIndex_Left_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:901
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:901
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_X"
+msgid "Valve Index (L) Thumbstick X"
+msgstr "Valve Index (좌) 스틱 X"
+
+#. Key:	ValveIndex_Left_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:902
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:902
+msgctxt "InputKeys,ValveIndex_Left_Thumbstick_Y"
+msgid "Valve Index (L) Thumbstick Y"
+msgstr "Valve Index (좌) 스틱 Y"
+
+#. Key:	ValveIndex_Left_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:914
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:914
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Down"
+msgid "Valve Index (L) Trackpad Down"
+msgstr "Valve Index (좌) 트랙패드 아래"
+
+#. Key:	ValveIndex_Left_Trackpad_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:911
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:911
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Force"
+msgid "Valve Index (L) Trackpad Force"
+msgstr "Valve Index (좌) 트랙패드 포스"
+
+#. Key:	ValveIndex_Left_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:915
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:915
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Left"
+msgid "Valve Index (L) Trackpad Left"
+msgstr "Valve Index (좌) 트랙패드 왼쪽"
+
+#. Key:	ValveIndex_Left_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:916
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:916
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Right"
+msgid "Valve Index (L) Trackpad Right"
+msgstr "Valve Index (좌) 트랙패드 오른쪽"
+
+#. Key:	ValveIndex_Left_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:912
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:912
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Touch"
+msgid "Valve Index (L) Trackpad Touch"
+msgstr "Valve Index (좌) 트랙패드 터치"
+
+#. Key:	ValveIndex_Left_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:913
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:913
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Up"
+msgid "Valve Index (L) Trackpad Up"
+msgstr "Valve Index (좌) 트랙패드 위"
+
+#. Key:	ValveIndex_Left_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:909
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:909
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_X"
+msgid "Valve Index (L) Trackpad X"
+msgstr "Valve Index (좌) 트랙패드 X"
+
+#. Key:	ValveIndex_Left_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:910
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:910
+msgctxt "InputKeys,ValveIndex_Left_Trackpad_Y"
+msgid "Valve Index (L) Trackpad Y"
+msgstr "Valve Index (좌) 트랙패드 Y"
+
+#. Key:	ValveIndex_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:899
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:899
+msgctxt "InputKeys,ValveIndex_Left_Trigger_Axis"
+msgid "Valve Index (L) Trigger Axis"
+msgstr "Valve Index (좌) 트리거 축"
+
+#. Key:	ValveIndex_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:898
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:898
+msgctxt "InputKeys,ValveIndex_Left_Trigger_Click"
+msgid "Valve Index (L) Trigger"
+msgstr "Valve Index (좌) 트리거"
+
+#. Key:	ValveIndex_Left_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:900
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:900
+msgctxt "InputKeys,ValveIndex_Left_Trigger_Touch"
+msgid "Valve Index (L) Trigger Touch"
+msgstr "Valve Index (좌) 트리거 터치"
+
+#. Key:	ValveIndex_Right_A_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:917
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:917
+msgctxt "InputKeys,ValveIndex_Right_A_Click"
+msgid "Valve Index (R) A Press"
+msgstr "Valve Index (우) A 누르기"
+
+#. Key:	ValveIndex_Right_A_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:919
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:919
+msgctxt "InputKeys,ValveIndex_Right_A_Touch"
+msgid "Valve Index (R) A Touch"
+msgstr "Valve Index (우) A 터치"
+
+#. Key:	ValveIndex_Right_B_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:918
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:918
+msgctxt "InputKeys,ValveIndex_Right_B_Click"
+msgid "Valve Index (R) B Press"
+msgstr "Valve Index (우) B 누르기"
+
+#. Key:	ValveIndex_Right_B_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:920
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:920
+msgctxt "InputKeys,ValveIndex_Right_B_Touch"
+msgid "Valve Index (R) B Touch"
+msgstr "Valve Index (우) B 터치"
+
+#. Key:	ValveIndex_Right_Grip_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:923
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:923
+msgctxt "InputKeys,ValveIndex_Right_Grip_Axis"
+msgid "Valve Index (R) Grip Axis"
+msgstr "Valve Index (우) 그립 축"
+
+#. Key:	ValveIndex_Right_Grip_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:924
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:924
+msgctxt "InputKeys,ValveIndex_Right_Grip_Force"
+msgid "Valve Index (R) Grip Force"
+msgstr "Valve Index (우) 그립 포스"
+
+#. Key:	ValveIndex_Right_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:921
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:921
+msgctxt "InputKeys,ValveIndex_Right_System_Click"
+msgid "Valve Index (R) System"
+msgstr "Valve Index (우) 시스템"
+
+#. Key:	ValveIndex_Right_System_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:922
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:922
+msgctxt "InputKeys,ValveIndex_Right_System_Touch"
+msgid "Valve Index (R) System Touch"
+msgstr "Valve Index (우) 시스템 터치"
+
+#. Key:	ValveIndex_Right_Thumbstick_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:930
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:930
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Click"
+msgid "Valve Index (R) Thumbstick"
+msgstr "Valve Index (우) 스틱"
+
+#. Key:	ValveIndex_Right_Thumbstick_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:933
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:933
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Down"
+msgid "Valve Index (R) Thumbstick Down"
+msgstr "Valve Index (우) 스틱 아래"
+
+#. Key:	ValveIndex_Right_Thumbstick_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:934
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:934
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Left"
+msgid "Valve Index (R) Thumbstick Left"
+msgstr "Valve Index (우) 스틱 왼쪽"
+
+#. Key:	ValveIndex_Right_Thumbstick_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:935
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:935
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Right"
+msgid "Valve Index (R) Thumbstick Right"
+msgstr "Valve Index (우) 스틱 오른쪽"
+
+#. Key:	ValveIndex_Right_Thumbstick_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:931
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:931
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Touch"
+msgid "Valve Index (R) Thumbstick Touch"
+msgstr "Valve Index (우) 스틱 터치"
+
+#. Key:	ValveIndex_Right_Thumbstick_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:932
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:932
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Up"
+msgid "Valve Index (R) Thumbstick Up"
+msgstr "Valve Index (우) 스틱 위"
+
+#. Key:	ValveIndex_Right_Thumbstick_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:928
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:928
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_X"
+msgid "Valve Index (R) Thumbstick X"
+msgstr "Valve Index (우) 스틱 X"
+
+#. Key:	ValveIndex_Right_Thumbstick_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:929
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:929
+msgctxt "InputKeys,ValveIndex_Right_Thumbstick_Y"
+msgid "Valve Index (R) Thumbstick Y"
+msgstr "Valve Index (우) 스틱 Y"
+
+#. Key:	ValveIndex_Right_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:941
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:941
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Down"
+msgid "Valve Index (R) Trackpad Down"
+msgstr "Valve Index (우) 트랙패드 아래"
+
+#. Key:	ValveIndex_Right_Trackpad_Force
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:938
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:938
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Force"
+msgid "Valve Index (R) Trackpad Force"
+msgstr "Valve Index (우) 트랙패드 포스"
+
+#. Key:	ValveIndex_Right_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:942
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:942
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Left"
+msgid "Valve Index (R) Trackpad Left"
+msgstr "Valve Index (우) 트랙패드 왼쪽"
+
+#. Key:	ValveIndex_Right_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:943
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:943
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Right"
+msgid "Valve Index (R) Trackpad Right"
+msgstr "Valve Index (우) 트랙패드 오른쪽"
+
+#. Key:	ValveIndex_Right_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:939
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:939
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Touch"
+msgid "Valve Index (R) Trackpad Touch"
+msgstr "Valve Index (우) 트랙패드 터치"
+
+#. Key:	ValveIndex_Right_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:940
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:940
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Up"
+msgid "Valve Index (R) Trackpad Up"
+msgstr "Valve Index (우) 트랙패드 위"
+
+#. Key:	ValveIndex_Right_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:936
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:936
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_X"
+msgid "Valve Index (R) Trackpad X"
+msgstr "Valve Index (우) 트랙패드 X"
+
+#. Key:	ValveIndex_Right_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:937
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:937
+msgctxt "InputKeys,ValveIndex_Right_Trackpad_Y"
+msgid "Valve Index (R) Trackpad Y"
+msgstr "Valve Index (우) 트랙패드 Y"
+
+#. Key:	ValveIndex_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:926
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:926
+msgctxt "InputKeys,ValveIndex_Right_Trigger_Axis"
+msgid "Valve Index (R) Trigger Axis"
+msgstr "Valve Index (우) 트리거 축"
+
+#. Key:	ValveIndex_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:925
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:925
+msgctxt "InputKeys,ValveIndex_Right_Trigger_Click"
+msgid "Valve Index (R) Trigger"
+msgstr "Valve Index (우) 트리거"
+
+#. Key:	ValveIndex_Right_Trigger_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:927
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:927
+msgctxt "InputKeys,ValveIndex_Right_Trigger_Touch"
+msgid "Valve Index (R) Trigger Touch"
+msgstr "Valve Index (우) 트리거 터치"
+
+#. Key:	ValveIndexSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:888
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:888
+msgctxt "InputKeys,ValveIndexSubCategory"
+msgid "Valve Index"
+msgstr "Valve Index"
+
+#. Key:	Vive_Left_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:779
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:779
+msgctxt "InputKeys,Vive_Left_Grip_Click"
+msgid "Vive (L) Grip"
+msgstr "Vive (좌) 그립"
+
+#. Key:	Vive_Left_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:780
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:780
+msgctxt "InputKeys,Vive_Left_Menu_Click"
+msgid "Vive (L) Menu"
+msgstr "Vive (좌) 메뉴"
+
+#. Key:	Vive_Left_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:778
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:778
+msgctxt "InputKeys,Vive_Left_System_Click"
+msgid "Vive (L) System"
+msgstr "Vive (좌) 시스템"
+
+#. Key:	Vive_Left_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:785
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:785
+msgctxt "InputKeys,Vive_Left_Trackpad_Click"
+msgid "Vive (L) Trackpad"
+msgstr "Vive (좌) 트랙패드"
+
+#. Key:	Vive_Left_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:788
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:788
+msgctxt "InputKeys,Vive_Left_Trackpad_Down"
+msgid "Vive (L) Trackpad Down"
+msgstr "Vive (좌) 트랙패드 아래"
+
+#. Key:	Vive_Left_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:789
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:789
+msgctxt "InputKeys,Vive_Left_Trackpad_Left"
+msgid "Vive (L) Trackpad Left"
+msgstr "Vive (좌) 트랙패드 왼쪽"
+
+#. Key:	Vive_Left_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:790
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:790
+msgctxt "InputKeys,Vive_Left_Trackpad_Right"
+msgid "Vive (L) Trackpad Right"
+msgstr "Vive (좌) 트랙패드 오른쪽"
+
+#. Key:	Vive_Left_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:786
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:786
+msgctxt "InputKeys,Vive_Left_Trackpad_Touch"
+msgid "Vive (L) Trackpad Touch"
+msgstr "Vive (좌) 트랙패드 터치"
+
+#. Key:	Vive_Left_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:787
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:787
+msgctxt "InputKeys,Vive_Left_Trackpad_Up"
+msgid "Vive (L) Trackpad Up"
+msgstr "Vive (좌) 트랙패드 Up"
+
+#. Key:	Vive_Left_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:783
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:783
+msgctxt "InputKeys,Vive_Left_Trackpad_X"
+msgid "Vive (L) Trackpad X"
+msgstr "Vive (좌) 트랙패드 X"
+
+#. Key:	Vive_Left_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:784
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:784
+msgctxt "InputKeys,Vive_Left_Trackpad_Y"
+msgid "Vive (L) Trackpad Y"
+msgstr "Vive (좌) 트랙패드 Y"
+
+#. Key:	Vive_Left_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:782
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:782
+msgctxt "InputKeys,Vive_Left_Trigger_Axis"
+msgid "Vive (L) Trigger Axis"
+msgstr "Vive (좌) 트리거 축"
+
+#. Key:	Vive_Left_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:781
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:781
+msgctxt "InputKeys,Vive_Left_Trigger_Click"
+msgid "Vive (L) Trigger"
+msgstr "Vive (좌) 트리거"
+
+#. Key:	Vive_Right_Grip_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:792
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:792
+msgctxt "InputKeys,Vive_Right_Grip_Click"
+msgid "Vive (R) Grip"
+msgstr "Vive (우) 그립"
+
+#. Key:	Vive_Right_Menu_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:793
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:793
+msgctxt "InputKeys,Vive_Right_Menu_Click"
+msgid "Vive (R) Menu"
+msgstr "Vive (우) 메뉴"
+
+#. Key:	Vive_Right_System_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:791
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:791
+msgctxt "InputKeys,Vive_Right_System_Click"
+msgid "Vive (R) System"
+msgstr "Vive (우) 시스템"
+
+#. Key:	Vive_Right_Trackpad_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:798
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:798
+msgctxt "InputKeys,Vive_Right_Trackpad_Click"
+msgid "Vive (R) Trackpad"
+msgstr "Vive (우) 트랙패드"
+
+#. Key:	Vive_Right_Trackpad_Down
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:801
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:801
+msgctxt "InputKeys,Vive_Right_Trackpad_Down"
+msgid "Vive (R) Trackpad Down"
+msgstr "Vive (우) 트랙패드 아래"
+
+#. Key:	Vive_Right_Trackpad_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:802
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:802
+msgctxt "InputKeys,Vive_Right_Trackpad_Left"
+msgid "Vive (R) Trackpad Left"
+msgstr "Vive (우) 트랙패드 왼쪽"
+
+#. Key:	Vive_Right_Trackpad_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:803
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:803
+msgctxt "InputKeys,Vive_Right_Trackpad_Right"
+msgid "Vive (R) Trackpad Right"
+msgstr "Vive (우) 트랙패드 오른쪽"
+
+#. Key:	Vive_Right_Trackpad_Touch
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:799
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:799
+msgctxt "InputKeys,Vive_Right_Trackpad_Touch"
+msgid "Vive (R) Trackpad Touch"
+msgstr "Vive (우) 트랙패드 터치"
+
+#. Key:	Vive_Right_Trackpad_Up
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:800
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:800
+msgctxt "InputKeys,Vive_Right_Trackpad_Up"
+msgid "Vive (R) Trackpad Up"
+msgstr "Vive (우) 트랙패드 위"
+
+#. Key:	Vive_Right_Trackpad_X
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:796
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:796
+msgctxt "InputKeys,Vive_Right_Trackpad_X"
+msgid "Vive (R) Trackpad X"
+msgstr "Vive (우) 트랙패드 X"
+
+#. Key:	Vive_Right_Trackpad_Y
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:797
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:797
+msgctxt "InputKeys,Vive_Right_Trackpad_Y"
+msgid "Vive (R) Trackpad Y"
+msgstr "Vive (우) 트랙패드 Y"
+
+#. Key:	Vive_Right_Trigger_Axis
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:795
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:795
+msgctxt "InputKeys,Vive_Right_Trigger_Axis"
+msgid "Vive (R) Trigger Axis"
+msgstr "Vive (우) 트리거 축"
+
+#. Key:	Vive_Right_Trigger_Click
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:794
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:794
+msgctxt "InputKeys,Vive_Right_Trigger_Click"
+msgid "Vive (R) Trigger"
+msgstr "Vive (우) 트리거"
+
+#. Key:	ViveSubCategory
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:776
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:776
+msgctxt "InputKeys,ViveSubCategory"
+msgid "HTC Vive"
+msgstr "HTC Vive"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Bottom
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1113
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1113
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Bottom"
+msgid "Gamepad A"
+msgstr "게임패드 A"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1121
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1121
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Left"
+msgid "Gamepad X"
+msgstr "게임패드 X"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1117
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1117
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Right"
+msgid "Gamepad B"
+msgstr "게임패드 B"
+
+#. Key:	XBoxOne_Gamepad_FaceButton_Top
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1125
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1125
+msgctxt "InputKeys,XBoxOne_Gamepad_FaceButton_Top"
+msgid "Gamepad Y"
+msgstr "게임패드 Y"
+
+#. Key:	XBoxOne_Gamepad_Special_Left
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1129
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1129
+msgctxt "InputKeys,XBoxOne_Gamepad_Special_Left"
+msgid "Gamepad Back"
+msgstr "게임패드 뒤로"
+
+#. Key:	XBoxOne_Gamepad_Special_Right
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1133
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:1133
+msgctxt "InputKeys,XBoxOne_Gamepad_Special_Right"
+msgid "Gamepad Start"
+msgstr "게임패드 시작"
+
+#. Key:	XBoxOneSubCateogry
+#. SourceLocation:	../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:759
+#: ../../../Engine/Source/Runtime/InputCore/Private/InputCoreTypes.cpp:759
+msgctxt "InputKeys,XBoxOneSubCateogry"
+msgid "XBox One"
+msgstr "XBox One"
+
+#. Key:	NoOpenGLDriver
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:133
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:133
+msgctxt "LinuxDynamicRHI,NoOpenGLDriver"
+msgid "Failed to load OpenGL Driver which is required to run the engine.\nOpenGL4 has been deprecated and should use Vulkan."
+msgstr "엔진을 구동하는 데 필요한 OpenGL 드라이버를 불러오지 못했습니다.\nOpenGL4는 지원이 중단되었습니다. Vulkan을 사용해야 합니다."
+
+#. Key:	NoOpenGLTargetedRHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:112
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:112
+msgctxt "LinuxDynamicRHI,NoOpenGLTargetedRHI"
+msgid "Trying to force OpenGL RHI but the project does not have it in TargetedRHIs list."
+msgstr "OpenGL RHI를 강제하려고 시도했지만, 프로젝트 TargetedRHI 목록에 OpenGL RHI가 없습니다."
+
+#. Key:	NoTargetedRHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:137
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:137
+msgctxt "LinuxDynamicRHI,NoTargetedRHI"
+msgid "The project does not target Vulkan or OpenGL RHIs, check project settings or pass -nullrhi."
+msgstr "이 프로젝트는 Vulkan 또는 OpenGL RHI를 대상으로 하지 않습니다. 프로젝트 설정을 확인하거나 -nullrhi를 전달해야 합니다."
+
+#. Key:	NoVulkanDriver
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:129
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:129
+msgctxt "LinuxDynamicRHI,NoVulkanDriver"
+msgid "Failed to load Vulkan Driver which is required to run the engine.\nThe engine no longer fallbacks to OpenGL4 which has been deprecated."
+msgstr "엔진을 구동하는 데 필요한 Vulkan 드라이버를 불러오지 못했습니다.\nOpenGL4 지원이 중단되었기 때문에 더 이상 엔진이 대체되지 않습니다."
+
+#. Key:	NoVulkanNoGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:123
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:123
+msgctxt "LinuxDynamicRHI,NoVulkanNoGL"
+msgid "Vulkan or OpenGL (4.3) support is required to run the engine."
+msgstr "엔진을 구동하기 위해서는 Vulkan 또는 OpenGL (4.3) 지원이 필요합니다."
+
+#. Key:	NoVulkanTargetedRHI
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:97
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:97
+msgctxt "LinuxDynamicRHI,NoVulkanTargetedRHI"
+msgid "Trying to force Vulkan RHI but the project does not have it in TargetedRHIs list."
+msgstr " Vulkan RHI를 강제하려고 시도했지만, 프로젝트 TargetedRHI 목록에 Vulkan RHI가 없습니다."
+
+#. Key:	OpenGLRemoved
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:25
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:25
+msgctxt "LinuxDynamicRHI,OpenGLRemoved"
+msgid "Warning: OpenGL is no longer supported for desktop platforms. Vulkan will be used instead."
+msgstr "경고: OpenGL은 더 이상 데스크톱 플랫폼에서 지원되지 않습니다. Vulkan이 대신 사용됩니다."
+
+#. Key:	RequiredOpenGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:108
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:108
+msgctxt "LinuxDynamicRHI,RequiredOpenGL"
+msgid "OpenGL 4.3 is required to run the engine."
+msgstr "엔진을 구동하기 위해서는 OpenGL 4.3이 필요합니다."
+
+#. Key:	RequiredVulkan
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:93
+#: ../../../Engine/Source/Runtime/RHI/Private/Linux/LinuxDynamicRHI.cpp:93
+msgctxt "LinuxDynamicRHI,RequiredVulkan"
+msgid "Vulkan Driver is required to run the engine."
+msgstr "엔진을 구동하기 위해서는 Vulkan 드라이버가 필요합니다."
+
+#. Key:	DriverDownloadLinkAMD
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:168
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:168
+msgctxt "MessageDialog,DriverDownloadLinkAMD"
+msgid "https://www.amd.com/en/support"
+msgstr "https://www.amd.com/en/support"
+
+#. Key:	DriverDownloadLinkIntel
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:173
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:173
+msgctxt "MessageDialog,DriverDownloadLinkIntel"
+msgid "https://downloadcenter.intel.com/product/80939/Graphics"
+msgstr "https://downloadcenter.intel.com/product/80939/Graphics"
+
+#. Key:	DriverDownloadLinkNVIDIA
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:163
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:163
+msgctxt "MessageDialog,DriverDownloadLinkNVIDIA"
+msgid "https://www.nvidia.com/en-us/geforce/drivers/"
+msgstr "https://www.nvidia.com/en-us/geforce/drivers/"
+
+#. Key:	LatestVideoCardDriverIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:195
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:195
+msgctxt "MessageDialog,LatestVideoCardDriverIssueReport"
+msgid "The latest version of the {Vendor} graphics driver has known issues.\nPlease install the recommended driver version.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "{Vendor} 그래픽 드라이버의 최신 버전에 문제가 보고되었습니다.\n권장 드라이버 버전을 설치해 주세요.\n\n{Hyperlink}\n\n{AdapterName}\n설치: {InstalledVer}\n권장: {RecommendedVer}"
+
+#. Key:	LatestVideoCardDriverRHIIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:191
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:191
+msgctxt "MessageDialog,LatestVideoCardDriverRHIIssueReport"
+msgid "The latest version of the {Vendor} graphics driver has known issues in {RHI}.\nPlease install the recommended driver version or switch to a different rendering API.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "{Vendor} 그래픽 드라이버의 최신 버전에 {RHI} 문제가 보고되었습니다.\n권장하는 드라이버 버전을 설치하거나 다른 렌더링 API로 전환해 주세요.\n\n{Hyperlink}\n\n{AdapterName}\n설치: {InstalledVer}\n권장: {RecommendedVer}"
+
+#. Key:	TitleVideoCardDriverIssue
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:210
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:210
+msgctxt "MessageDialog,TitleVideoCardDriverIssue"
+msgid "WARNING: Known issues with graphics driver"
+msgstr "경고: 그래픽 드라이버 문제"
+
+#. Key:	UpdateMacOSX_Body
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:229
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:229
+msgctxt "MessageDialog,UpdateMacOSX_Body"
+msgid "Please update to the latest version of macOS for best performance and stability."
+msgstr "최고의 성능과 안정성을 위해 macOS 최신 버전으로 업데이트하세요."
+
+#. Key:	UpdateMacOSX_Title
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:230
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:230
+msgctxt "MessageDialog,UpdateMacOSX_Title"
+msgid "Update macOS"
+msgstr "macOS 업데이트"
+
+#. Key:	VideoCardDriverIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:206
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:206
+msgctxt "MessageDialog,VideoCardDriverIssueReport"
+msgid "The installed version of the {Vendor} graphics driver has known issues.\nPlease install either the latest or the recommended driver version.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "{Vendor} 그래픽 드라이버의 설치 버전에 문제가 보고되었습니다.\n최신 드라이버 버전으로 업데이트하거나 권장 드라이버 버전을 설치해 주세요.\n\n{Hyperlink}\n\n{AdapterName}\n설치: {InstalledVer}\n권장: {RecommendedVer}"
+
+#. Key:	VideoCardDriverRHIIssueReport
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:202
+#: ../../../Engine/Source/Runtime/RHI/Private/DynamicRHI.cpp:202
+msgctxt "MessageDialog,VideoCardDriverRHIIssueReport"
+msgid "The installed version of the {Vendor} graphics driver has known issues in {RHI}.\nPlease install either the latest or the recommended driver version or switch to a different rendering API.\n\n{Hyperlink}\n\n{AdapterName}\nInstalled: {InstalledVer}\nRecommended: {RecommendedVer}"
+msgstr "{Vendor} 그래픽 드라이버의 설치 버전에 {RHI} 문제가 보고되었습니다.\n최신 드라이버 버전 또는 권장 드라이버 버전을 설치하거나 다른 렌더링 API로 교체해 주세요.\n\n{Hyperlink}\n\n{AdapterName}\n설치: {InstalledVer}\n권장: {RecommendedVer}"
+
+#. Key:	DebugGameName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:344
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:344
+msgctxt "UnrealBuildConfigurations,DebugGameName"
+msgid "DebugGame"
+msgstr "디버그게임"
+
+#. Key:	DebugName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:341
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:341
+msgctxt "UnrealBuildConfigurations,DebugName"
+msgid "Debug"
+msgstr "디버그"
+
+#. Key:	DevelopmentName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:347
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:347
+msgctxt "UnrealBuildConfigurations,DevelopmentName"
+msgid "Development"
+msgstr "개발"
+
+#. Key:	ShippingName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:350
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:350
+msgctxt "UnrealBuildConfigurations,ShippingName"
+msgid "Shipping"
+msgstr "배포"
+
+#. Key:	TestName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:353
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:353
+msgctxt "UnrealBuildConfigurations,TestName"
+msgid "Test"
+msgstr "테스트"
+
+#. Key:	UnknownName
+#. SourceLocation:	../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:356
+#: ../../../Engine/Source/Runtime/Core/Private/GenericPlatform/GenericPlatformMisc.cpp:356
+msgctxt "UnrealBuildConfigurations,UnknownName"
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#. Key:	RequiredDX11Feature_11_SM5
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:406
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:406
+msgctxt "WindowsDynamicRHI,RequiredDX11Feature_11_SM5"
+msgid "A D3D11-compatible GPU (Feature Level 11.0, Shader Model 5.0) is required to run the engine."
+msgstr "엔진을 구동하기 위해서는 D3D11 호환 GPU(기능 수준 11.0, 셰이더 모델 5.0)가 필요합니다."
+
+#. Key:	RequiredDX12
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:368
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:368
+msgctxt "WindowsDynamicRHI,RequiredDX12"
+msgid "DX12 is not supported on your system. Try running without the -dx12 or -d3d12 command line argument."
+msgstr "해당 시스템에서 DX12는 지원하지 않습니다. 커맨드 라인에서 -dx12 혹은 -d3d12 설정 없이 실행해주세요."
+
+#. Key:	RequiredOpenGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:338
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:338
+msgctxt "WindowsDynamicRHI,RequiredOpenGL"
+msgid "OpenGL 4.3 is required to run the engine."
+msgstr "엔진을 구동하기 위해서는 OpenGL 4.3이 필요합니다."
+
+#. Key:	RequiredVulkan
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:352
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:352
+msgctxt "WindowsDynamicRHI,RequiredVulkan"
+msgid "Vulkan Driver is required to run the engine."
+msgstr "엔진을 구동하기 위해서는 Vulkan 드라이버가 필요합니다."
+
+#. Key:	RHIOptionsError
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:230
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:230
+msgctxt "WindowsDynamicRHI,RHIOptionsError"
+msgid "-d3d12/dx12, -d3d11/dx11, -vulkan, and -opengl are mutually exclusive options, but more than one was specified on the command-line."
+msgstr "명령줄에 -d3d12/dx12, -d3d11/dx11, -vulkan, -opengl 중 2개 이상이 지정되었습니다. 해당 옵션은 서로 배타적이기 때문에 1개만 사용할 수 있습니다."
+
+#. Key:	RHIPerformanceDX12
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:259
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:259
+msgctxt "WindowsDynamicRHI,RHIPerformanceDX12"
+msgid "DirectX 12 is not supported for Performance Mode."
+msgstr "퍼포먼스 모드에서는 DirectX 12가 지원되지 않습니다."
+
+#. Key:	RHIPerformanceOpenGL
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:247
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:247
+msgctxt "WindowsDynamicRHI,RHIPerformanceOpenGL"
+msgid "OpenGL is not supported for Performance Mode."
+msgstr "퍼포먼스 모드에서는 OpenGL이 지원되지 않습니다."
+
+#. Key:	RHIPerformanceVulkan
+#. SourceLocation:	../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:252
+#: ../../../Engine/Source/Runtime/RHI/Private/Windows/WindowsDynamicRHI.cpp:252
+msgctxt "WindowsDynamicRHI,RHIPerformanceVulkan"
+msgid "Vulkan is not supported for Performance Mode."
+msgstr "퍼포먼스 모드에서는 Vulkan이 지원되지 않습니다."
+

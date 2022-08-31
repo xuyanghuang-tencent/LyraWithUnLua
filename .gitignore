@@ -1,0 +1,9 @@
+.vs
+.vscode
+.idea
+Build
+**/Saved
+**/Binaries
+**/Intermediate
+/DerivedDataCache
+/Lyra.sln

@@ -35,6 +35,17 @@
 
 注：如果你的调试器支持Attach模式，可以直接F5附加到游戏进程上
 
+## 调试Lua源码
+1. 使用 `DebugGame Editor` 配置来启动游戏工程
+2. 在任意C++调用Lua相关API的代码处加断点，等待命中
+3. 在调试面板中展开变量 `L` ( lua_State* )，可以直接观察到Lua栈上的数据类型
+4. 可以将 `lua54.natvis` 复制到你自己的工程，重新生成工程文件来达到同样的调试效果
+
+## 打包项目
+在工具栏中找到 `平台` ，在下拉菜单中选择需要打包的平台即可。
+
+注：Android平台打包需要配置好相关开发环境，参考[官方文档](https://docs.unrealengine.com/5.0/zh-CN/how-to-set-up-android-sdk-and-ndk-for-your-unreal-engine-development-environment/)。
+
 # 演示内容
 - [x] VSCode工程结构
 - [x] 自定义启动入口脚本
@@ -45,8 +56,8 @@
 - [ ] 非反射对象静态导出
 - [x] 智能提示的生成与使用
 - [x] 调试Lua脚本代码
-- [ ] 调试Lua源码
-- [ ] 工程打包
+- [x] 调试Lua源码
+- [x] 工程打包
 - [ ] 热更新
 
 # 关于 Lyra Starter Game

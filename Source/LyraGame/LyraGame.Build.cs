@@ -70,7 +70,8 @@ public class LyraGame : ModuleRules
 				"UIExtension",
 				"ClientPilot",
 				"AudioModulation",
-				"UnLua"
+				"UnLua",
+				"Lua"
 			}
 		);
 

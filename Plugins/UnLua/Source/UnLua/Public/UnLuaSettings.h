@@ -36,10 +36,18 @@ public:
     UPROPERTY(Config, EditAnywhere, Category="Runtime")
     int32 DeadLoopCheck = 0;
 
+    /** Prevent dangling pointers in lua. */
+    UPROPERTY(Config, EditAnywhere, Category="Runtime")
+    bool DanglingCheck = false;
+
     /** Class of LuaEnvLocator, which handles lua env locating for each UObject. */
     UPROPERTY(Config, EditAnywhere, Category="Runtime", Meta=(AllowAbstract="false"))
     TSubclassOf<ULuaEnvLocator> EnvLocatorClass = ULuaEnvLocator::StaticClass();
 
     UPROPERTY(Config, EditAnywhere, Category=Runtime, Meta=(AllowAbstract="false", DisplayName="LuaModuleLocator"))
     TSubclassOf<ULuaModuleLocator> ModuleLocatorClass = ULuaModuleLocator::StaticClass();
+
+    /** List of classes to bind on startup. */
+    UPROPERTY(config, EditAnywhere, Category=Runtime, meta = (MetaClass="Object", AllowAbstract="True", DisplayName = "List of classes to bind on startup"))
+    TArray<FSoftClassPath> PreBindClasses;
 };

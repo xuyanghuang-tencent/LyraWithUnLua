@@ -91,7 +91,7 @@ public class Lua : ModuleRules
         var toolchain = AndroidExports.CreateToolChain(Target.ProjectFile);
         var NdkApiLevel = toolchain.GetNdkApiLevelInt(21);
 
-        var abiNames = new[] { "armeabi-v7a", "arm64-v8a" };
+        var abiNames = new[] { "armeabi-v7a", "arm64-v8a", "x86_64" };
         foreach (var abiName in abiNames)
         {
             var libFile = GetLibraryPath(abiName);
@@ -171,20 +171,26 @@ public class Lua : ModuleRules
         var buildFile = Path.Combine(buildDir, m_LibName);
         File.Copy(buildFile, libFile, true);
     }
-    
+
     private void BuildForMac()
     {
-        var libFile = GetLibraryPath();
+        var abiName = Target.Architecture;
+        var libFile = GetLibraryPath(abiName);
         if (!File.Exists(libFile))
         {
-            var buildDir = CMake();
-            var buildFile = Path.Combine(buildDir, m_LibName);
             EnsureDirectoryExists(libFile);
+            var args = new Dictionary<string, string>
+            {
+                { "CMAKE_OSX_ARCHITECTURES", Target.Architecture }
+            };
+            var buildDir = CMake(args);
+            var buildFile = Path.Combine(buildDir, m_LibName);
             File.Copy(buildFile, libFile, true);
         }
 
         PublicDefinitions.Add("LUA_USE_MACOSX");
         PublicAdditionalLibraries.Add(libFile);
+        RuntimeDependencies.Add(libFile);
     }
 
     private void BuildForIOS()
@@ -204,6 +210,38 @@ public class Lua : ModuleRules
         }
 
         PublicAdditionalLibraries.Add(libFile);
+    }
+
+    private void BuildForPS5()
+    {
+        var libFile = GetLibraryPath();
+        PublicAdditionalLibraries.Add(libFile);
+        PublicIncludePaths.Add(Path.Combine(ModuleDirectory, m_LuaDirName, "src-ps5"));
+
+        if (File.Exists(libFile))
+            return;
+
+        var sceRootDir = Environment.GetEnvironmentVariable("SCE_ROOT_DIR");
+        if (string.IsNullOrEmpty(sceRootDir))
+            throw new BuildException("SCE_ROOT_DIR environment variable needed.");
+
+        var sceSdkDir = Environment.GetEnvironmentVariable("SCE_PROSPERO_SDK_DIR");
+        if (string.IsNullOrEmpty(sceSdkDir))
+            throw new BuildException("SCE_PROSPERO_SDK_DIR environment variable needed.");
+
+        EnsureDirectoryExists(libFile);
+        var sysRoot = Path.Combine(sceSdkDir, @"target");
+        var clangPath = Path.Combine(sceSdkDir, @"host_tools/bin/prospero-clang.exe");
+        var clangPlusPlusPath = Path.Combine(sceSdkDir, @"host_tools/bin/prospero-clang.exe");
+        var arPath = Path.Combine(sceSdkDir, @"host_tools/bin/prospero-llvm-ar.exe");
+        var args = new Dictionary<string, string>
+        {
+            { "CMAKE_TOOLCHAIN_FILE", Path.Combine(sceRootDir, @"Prospero\Tools\CMake\PS5.cmake") },
+            { "PS5", "1"}
+        };
+        var buildDir = CMake(args);
+        var buildFile = Path.Combine(buildDir, m_Config, m_LibName);
+        File.Copy(buildFile, libFile, true);
     }
 
     #endregion
@@ -278,7 +316,7 @@ public class Lua : ModuleRules
                 foreach (var arg in extraArgs)
                     writer.Write(" -D{0}={1}", arg.Key, arg.Value);
                 writer.WriteLine();
-                writer.WriteLine("cd ../.."); 
+                writer.WriteLine("cd ../..");
                 writer.WriteLine("cmake --build {0}/build --config {1}", m_LuaDirName, m_Config);
             }
 
@@ -368,7 +406,15 @@ public class Lua : ModuleRules
                 return "Ninja";
             if (Target.Platform.IsInGroup(UnrealPlatformGroup.Android))
                 return "Ninja";
-            return "Visual Studio 16 2019";
+            if (Target.Platform.IsInGroup(UnrealPlatformGroup.Windows))
+            {
+                if (Target.WindowsPlatform.Compiler == WindowsCompiler.VisualStudio2019)
+                    return "Visual Studio 16 2019";
+#if UE_4_27_OR_LATER
+                if (Target.WindowsPlatform.Compiler == WindowsCompiler.VisualStudio2022)
+                    return "Visual Studio 17 2022";
+#endif
+            }
         }
 
         if (osPlatform == PlatformID.Unix)
@@ -377,6 +423,7 @@ public class Lua : ModuleRules
                 return "Xcode";
             return "Unix Makefiles";
         }
+
         return null;
     }
 

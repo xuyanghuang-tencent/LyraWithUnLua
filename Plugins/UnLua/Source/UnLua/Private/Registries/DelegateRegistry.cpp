@@ -30,6 +30,8 @@ namespace UnLua
         for (auto& Pair : CachedHandlers)
         {
             const auto ToRelease = Pair.Value.Get();
+            if (!ToRelease)
+                continue;
             ToRelease->Reset();
             Env->AutoObjectReference.Remove(ToRelease);
         }
@@ -69,8 +71,12 @@ namespace UnLua
         for (auto& Key : ToRemove)
         {
             TWeakObjectPtr<ULuaDelegateHandler> Handler;
-            if (CachedHandlers.RemoveAndCopyValue(Key, Handler) && Handler.IsValid())
+            if (CachedHandlers.RemoveAndCopyValue(Key, Handler))
+            {
+                const auto L = Env->GetMainState();
+                luaL_unref(L, LUA_REGISTRYINDEX, Handler->LuaRef);
                 Handler->Reset();
+            }
         }
     }
 

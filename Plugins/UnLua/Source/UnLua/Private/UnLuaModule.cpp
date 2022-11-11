@@ -49,6 +49,7 @@ namespace UnLua
 #if WITH_EDITOR
             FModuleManager::Get().LoadModule(TEXT("UnLuaEditor"));
 #endif
+
             RegisterSettings();
 
 #if ALLOW_CONSOLE
@@ -103,11 +104,26 @@ namespace UnLua
                 EnvLocator = NewObject<ULuaEnvLocator>(GetTransientPackage(), EnvLocatorClass);
                 EnvLocator->AddToRoot();
                 FDeadLoopCheck::Timeout = Settings.DeadLoopCheck;
+                FDanglingCheck::Enabled = Settings.DanglingCheck;
 
                 for (const auto Class : TObjectRange<UClass>())
                 {
-                    const auto Env = EnvLocator->Locate(Class);
-                    Env->TryBind(Class);
+                    for (const auto& ClassPath : Settings.PreBindClasses)
+                    {
+                        if (!ClassPath.IsValid())
+                            continue;
+
+                        const auto TargetClass = ClassPath.ResolveClass();
+                        if (!TargetClass)
+                            continue;
+
+                        if (Class->IsChildOf(TargetClass))
+                        {
+                            const auto Env = EnvLocator->Locate(Class);
+                            Env->TryBind(Class);
+                            break;
+                        }
+                    }
                 }
             }
             else
@@ -227,6 +243,13 @@ namespace UnLua
                                                                   LOCTEXT("UnLuaEditorSettingsDescription", "UnLua Runtime Settings"),
                                                                   GetMutableDefault<UUnLuaSettings>());
             Section->OnModified().BindRaw(this, &FUnLuaModule::OnSettingsModified);
+#endif
+
+#if ENGINE_MAJOR_VERSION >=5 && !WITH_EDITOR
+            // UE5下打包后没有从{PROJECT}/Config/DefaultUnLua.ini加载，这里强制刷新一下
+            FString UnLuaIni = TEXT("UnLua");
+            GConfig->LoadGlobalIniFile(UnLuaIni, *UnLuaIni, nullptr, true);
+            UUnLuaSettings::StaticClass()->GetDefaultObject()->ReloadConfig();
 #endif
         }
 

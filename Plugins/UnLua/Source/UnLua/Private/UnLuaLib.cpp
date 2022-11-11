@@ -7,10 +7,17 @@ namespace UnLua
 {
     namespace UnLuaLib
     {
+        static const char* PACKAGE_PATH_KEY = "PackagePath";
+
         static FString GetMessage(lua_State* L)
         {
             const auto ArgCount = lua_gettop(L);
             FString Message;
+            if (!lua_checkstack(L, ArgCount))
+            {
+            	luaL_error(L, "too many arguments, stack overflow");
+            	return Message;
+            }
             for (int ArgIndex = 1; ArgIndex <= ArgCount; ArgIndex++)
             {
                 if (ArgIndex > 1)
@@ -43,7 +50,29 @@ namespace UnLua
 
         static int HotReload(lua_State* L)
         {
-            luaL_dostring(L, "require('UnLuaHotReload').reload()");
+            luaL_dostring(L, "require('UnLua.HotReload').reload()");
+            return 0;
+        }
+
+        static int Ref(lua_State* L)
+        {
+            const auto Object = GetUObject(L, -1);
+            if (!Object)
+                return luaL_error(L, "invalid UObject");
+
+            const auto& Env = FLuaEnv::FindEnvChecked(L);
+            Env.GetObjectRegistry()->AddManualRef(L, Object);
+            return 1;
+        }
+
+        static int Unref(lua_State* L)
+        {
+            const auto Object = GetUObject(L, -1);
+            if (!Object)
+                return luaL_error(L, "invalid UObject");
+
+            const auto& Env = FLuaEnv::FindEnvChecked(L);
+            Env.GetObjectRegistry()->RemoveManualRef(Object);
             return 0;
         }
 
@@ -52,6 +81,8 @@ namespace UnLua
             {"LogWarn", LogWarn},
             {"LogError", LogError},
             {"HotReload", HotReload},
+            {"Ref", Ref},
+            {"Unref", Unref},
             {NULL, NULL}
         };
 
@@ -59,56 +90,46 @@ namespace UnLua
 
         int32 GetUProperty(lua_State* L)
         {
-            if (lua_type(L, 2) != LUA_TUSERDATA)
-            {
-                lua_pushnil(L);
-                return 1;
-            }
+            auto Ptr = lua_touserdata(L, 2);
+            if (!Ptr)
+                return 0;
 
-            const auto Registry = UnLua::FLuaEnv::FindEnvChecked(L).GetObjectRegistry();
-            const auto Property = Registry->Get<UnLua::ITypeOps>(L, -1);
-            if (!Property.IsValid())
-            {
-                lua_pushnil(L);
-                return 1;
-            }
+            auto Property = static_cast<TSharedPtr<UnLua::ITypeOps>*>(Ptr);
+            if (!Property->IsValid())
+                return 0;
 
-            void* Self = GetCppInstance(L, 1);
+            auto Self = GetCppInstance(L, 1);
             if (!Self)
-            {
-                lua_pushnil(L);
-                return 1;
-            }
+                return 0;
 
-            if (LowLevel::IsReleasedPtr(Self))
-            {
-                UE_LOG(LogUnLua, Warning, TEXT("attempt to read property '%s' on released object"), *Property->GetName());
-                lua_pushnil(L);
-                return 1;
-            }
+            if (UnLua::LowLevel::IsReleasedPtr(Self))
+                return luaL_error(L, TCHAR_TO_UTF8(*FString::Printf(TEXT("attempt to read property '%s' on released object"), *(*Property)->GetName())));
 
-            Property->Read(L, Self, false);
+            if (!LowLevel::CheckPropertyOwner(L, (*Property).Get(), Self))
+                return 0;
+
+            (*Property)->Read(L, Self, false);
             return 1;
         }
 
         int32 SetUProperty(lua_State* L)
         {
-            if (lua_type(L, 2) == LUA_TUSERDATA)
-            {
-                const auto Registry = FLuaEnv::FindEnvChecked(L).GetObjectRegistry();
-                const auto Property = Registry->Get<ITypeOps>(L, 2);
-                if (!Property.IsValid())
-                    return 0;
+            auto Ptr = lua_touserdata(L, 2);
+            if (!Ptr)
+                return 0;
 
-                UObject* Object = GetUObject(L, 1, false);
-                if (LowLevel::IsReleasedPtr(Object))
-                {
-                    UE_LOG(LogUnLua, Warning, TEXT("attempt to write property '%s' on released object"), *Property->GetName());
-                    return 0;
-                }
+            auto Property = static_cast<TSharedPtr<UnLua::ITypeOps>*>(Ptr);
+            if (!Property->IsValid())
+                return 0;
 
-                Property->Write(L, Object, 3); // set UProperty value
-            }
+            auto Self = GetCppInstance(L, 1);
+            if (LowLevel::IsReleasedPtr(Self))
+                return luaL_error(L, TCHAR_TO_UTF8(*FString::Printf(TEXT("attempt to write property '%s' on released object"), *(*Property)->GetName())));
+
+            if (!LowLevel::CheckPropertyOwner(L, (*Property).Get(), Self))
+                return 0;
+
+            (*Property)->Write(L, Self, 3);
             return 0;
         }
 
@@ -185,6 +206,8 @@ namespace UnLua
             end
 
             _G.Class = Class
+            _G.GetUProperty = GetUProperty
+            _G.SetUProperty = SetUProperty
             )";
 
             lua_register(L, "UEPrint", LogInfo);
@@ -205,6 +228,8 @@ namespace UnLua
         {
             lua_newtable(L);
             luaL_setfuncs(L, UnLua_Functions, 0);
+            lua_pushstring(L, "Content/Script/?.lua;Plugins/UnLua/Content/Script/?.lua");
+            lua_setfield(L, -2, PACKAGE_PATH_KEY);
             return 1;
         }
 
@@ -212,9 +237,42 @@ namespace UnLua
         {
             lua_register(L, "print", LogInfo);
             luaL_requiref(L, "UnLua", LuaOpen, 1);
-            luaL_dostring(L, "pcall(function() _G.require = require('UnLuaHotReload').require end)");
+            luaL_dostring(L, R"(
+                setmetatable(UnLua, {
+                    __index = function(t, k)
+                        local ok, result = pcall(require, "UnLua." .. tostring(k))
+                        if ok then
+                            rawset(t, k, result)
+                            return result
+                        else
+                            t.LogWarn(string.format("failed to load module UnLua.%s\n%s", k, result))
+                        end
+                    end
+                })
+                pcall(function() _G.require = require('UnLua.HotReload').require end)
+            )");
             LegacySupport(L);
             return 1;
+        }
+
+        FString GetPackagePath(lua_State* L)
+        {
+            lua_getglobal(L, "UnLua");
+            checkf(lua_istable(L, -1), TEXT("UnLuaLib not registered"));
+            lua_getfield(L, -1, PACKAGE_PATH_KEY);
+            const auto PackagePath = lua_tostring(L, -1);
+            checkf(PackagePath, TEXT("invalid PackagePath"));
+            lua_pop(L, 2);
+            return UTF8_TO_TCHAR(PackagePath);
+        }
+
+        void SetPackagePath(lua_State* L, const FString& PackagePath)
+        {
+            lua_getglobal(L, "UnLua");
+            checkf(lua_istable(L, -1), TEXT("UnLuaLib not registered"));
+            lua_pushstring(L, TCHAR_TO_UTF8(*PackagePath));
+            lua_setfield(L, -2, PACKAGE_PATH_KEY);
+            lua_pop(L, 2);
         }
     }
 }

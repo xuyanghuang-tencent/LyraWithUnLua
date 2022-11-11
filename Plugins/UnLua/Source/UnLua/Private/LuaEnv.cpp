@@ -37,6 +37,7 @@ namespace UnLua
 
     TMap<lua_State*, FLuaEnv*> FLuaEnv::AllEnvs;
     FLuaEnv::FOnCreated FLuaEnv::OnCreated;
+    FLuaEnv::FOnCreated FLuaEnv::OnDestroyed;
 
     FLuaEnv::FLuaEnv()
         : bStarted(false)
@@ -47,7 +48,17 @@ namespace UnLua
 
         RegisterDelegates();
 
+#if PLATFORM_WINDOWS
+        // 防止类似AppleProResMedia插件忘了恢复Dll查找目录
+        // https://github.com/Tencent/UnLua/issues/534
+        const auto Dir = FPaths::ConvertRelativePathToFull(FPaths::ProjectDir() / TEXT("Binaries/Win64"));
+        FPlatformProcess::PushDllDirectory(*Dir);
         L = lua_newstate(GetLuaAllocator(), nullptr);
+        FPlatformProcess::PopDllDirectory(*Dir);
+#else
+        L = lua_newstate(GetLuaAllocator(), nullptr);
+#endif
+
         AllEnvs.Add(L, this);
 
         luaL_openlibs(L);
@@ -67,6 +78,7 @@ namespace UnLua
         DelegateRegistry = new FDelegateRegistry(this);
         ContainerRegistry = new FContainerRegistry(this);
         EnumRegistry = new FEnumRegistry(this);
+        DanglingCheck = new FDanglingCheck(this);
         DeadLoopCheck = new FDeadLoopCheck(this);
 
         AutoObjectReference.SetName("UnLua_AutoReference");
@@ -87,17 +99,13 @@ namespace UnLua
         else
         {
 #if 504 == LUA_VERSION_NUM
-            lua_gc(L, LUA_GCGEN);
+            lua_gc(L, LUA_GCGEN, 0, 0);
 #else
             // default Lua GC config in UnLua
             lua_gc(L, LUA_GCSETPAUSE, 100);
             lua_gc(L, LUA_GCSETSTEPMUL, 5000);
 #endif
         }
-
-        // add new package path
-        const FString LuaSrcPath = GLuaSrcFullPath + TEXT("?.lua");
-        AddPackagePath(L, TCHAR_TO_UTF8(*LuaSrcPath));
 
         FUnLuaDelegates::OnPreStaticallyExport.Broadcast();
 
@@ -124,6 +132,7 @@ namespace UnLua
 
     FLuaEnv::~FLuaEnv()
     {
+        OnDestroyed.Broadcast(*this);
         lua_close(L);
         AllEnvs.Remove(L);
 
@@ -133,6 +142,7 @@ namespace UnLua
         delete FunctionRegistry;
         delete ContainerRegistry;
         delete EnumRegistry;
+        delete DanglingCheck;
         delete DeadLoopCheck;
 
         if (!IsEngineExitRequested() && Manager)
@@ -242,7 +252,7 @@ namespace UnLua
         if (!Actor)
             Actor = Cast<APawn>(Object->GetOuter());
 
-        if (!Actor || Actor->GetLocalRole() < ROLE_AutonomousProxy)
+        if (!Actor)
             return false;
 
         CandidateInputComponents.AddUnique((UInputComponent*)Object);
@@ -336,6 +346,7 @@ namespace UnLua
         const FTCHARToUTF8 ChunkUTF8(*Chunk);
         const FTCHARToUTF8 ChunkNameUTF8(*ChunkName);
         const auto Guard = GetDeadLoopCheck()->MakeGuard();
+        const auto DanglingGuard = GetDanglingCheck()->MakeGuard();
         lua_pushcfunction(L, ReportLuaCallError);
         const auto MsgHandlerIdx = lua_gettop(L);
         if (!LoadBuffer(ChunkUTF8.Get(), ChunkUTF8.Length(), ChunkNameUTF8.Get()))
@@ -358,6 +369,16 @@ namespace UnLua
     {
         // TODO: env support
         // TODO: return value support
+
+#if UNLUA_LEGACY_ALLOW_BOM || WITH_EDITOR
+        if (Size > 3 && Buffer[0] == static_cast<char>(0xEF) && Buffer[1] == static_cast<char>(0xBB) && Buffer[2] == static_cast<char>(0xBF))
+        {
+#if !UNLUA_LEGACY_ALLOW_BOM
+            UE_LOG(LogUnLua, Warning, TEXT("Lua chunk with utf-8 BOM:%s"), UTF8_TO_TCHAR(InName));
+#endif
+            return LoadBuffer(Buffer + 3, Size - 3, InName);
+        }
+#endif
 
         // loads the buffer as a Lua chunk
         const int32 Code = luaL_loadbufferx(L, Buffer, Size, InName, nullptr);
@@ -467,6 +488,16 @@ namespace UnLua
         BuiltinLoaders.Add(InName, Loader);
     }
 
+    void FLuaEnv::AddManualObjectReference(UObject* Object)
+    {
+        ManualObjectReference.Add(Object);
+    }
+
+    void FLuaEnv::RemoveManualObjectReference(UObject* Object)
+    {
+        ManualObjectReference.Remove(Object);
+    }
+
     int FLuaEnv::LoadFromBuiltinLibs(lua_State* L)
     {
         const FLuaEnv* Env = (FLuaEnv*)lua_touserdata(L, lua_upvalueindex(1));
@@ -480,16 +511,16 @@ namespace UnLua
 
     int FLuaEnv::LoadFromCustomLoader(lua_State* L)
     {
-        FLuaEnv* Env = (FLuaEnv*)lua_touserdata(L, lua_upvalueindex(1));
+        auto& Env = *(FLuaEnv*)lua_touserdata(L, lua_upvalueindex(1));
         if (FUnLuaDelegates::CustomLoadLuaFile.IsBound())
         {
             // legacy support
             const FString FileName(UTF8_TO_TCHAR(lua_tostring(L, 1)));
             TArray<uint8> Data;
             FString ChunkName(TEXT("chunk"));
-            if (FUnLuaDelegates::CustomLoadLuaFile.Execute(*Env, FileName, Data, ChunkName))
+            if (FUnLuaDelegates::CustomLoadLuaFile.Execute(Env, FileName, Data, ChunkName))
             {
-                if (Env->LoadString(Data, ChunkName))
+                if (Env.LoadString(Data, ChunkName))
                     return 1;
 
                 return luaL_error(L, "file loading from custom loader error");
@@ -497,19 +528,19 @@ namespace UnLua
             return 0;
         }
 
-        if (Env->CustomLoaders.Num() == 0)
+        if (Env.CustomLoaders.Num() == 0)
             return 0;
 
         const FString FileName(UTF8_TO_TCHAR(lua_tostring(L, 1)));
 
         TArray<uint8> Data;
         FString ChunkName(TEXT("chunk"));
-        for (auto Loader : Env->CustomLoaders)
+        for (auto& Loader : Env.CustomLoaders)
         {
-            if (!Loader.Execute(FileName, Data, ChunkName))
+            if (!Loader.Execute(Env, FileName, Data, ChunkName))
                 continue;
 
-            if (Env->LoadString(Data, ChunkName))
+            if (Env.LoadString(Data, ChunkName))
                 break;
 
             return luaL_error(L, "file loading from custom loader error");
@@ -522,19 +553,46 @@ namespace UnLua
     {
         FString FileName(UTF8_TO_TCHAR(lua_tostring(L, 1)));
         FileName.ReplaceInline(TEXT("."), TEXT("/"));
-        const auto RelativePath = FString::Printf(TEXT("%s.lua"), *FileName);
-        const auto FullPath = GetFullPathFromRelativePath(RelativePath);
+
+        auto& Env = *(FLuaEnv*)lua_touserdata(L, lua_upvalueindex(1));
         TArray<uint8> Data;
-        if (!FFileHelper::LoadFileToArray(Data, *FullPath, FILEREAD_Silent))
+        FString FullPath;
+
+        auto LoadIt = [&]
+        {
+            if (Env.LoadString(Data, TCHAR_TO_UTF8(*FullPath)))
+                return 1;
+            return luaL_error(L, "file loading from file system error");
+        };
+
+        const auto PackagePath = UnLuaLib::GetPackagePath(L);
+        if (PackagePath.IsEmpty())
             return 0;
 
-        const auto SkipLen = 3 < Data.Num() && (0xEF == Data[0]) && (0xBB == Data[1]) && (0xBF == Data[2]) ? 3 : 0; // skip UTF-8 BOM mark
-        const auto Chunk = (const char*)(Data.GetData() + SkipLen);
-        const auto ChunkSize = Data.Num() - SkipLen;
-        if (!UnLua::LoadChunk(L, Chunk, ChunkSize, TCHAR_TO_UTF8(*RelativePath)))
-            return luaL_error(L, "file loading from file system error");
+        TArray<FString> Patterns;
+        if (PackagePath.ParseIntoArray(Patterns, TEXT(";"), false) == 0)
+            return 0;
 
-        return 1;
+        // 优先加载下载目录下的单文件
+        for (auto& Pattern : Patterns)
+        {
+            Pattern.ReplaceInline(TEXT("?"), *FileName);
+            const auto PathWithPersistentDir = FPaths::Combine(FPaths::ProjectPersistentDownloadDir(), Pattern);
+            FullPath = FPaths::ConvertRelativePathToFull(PathWithPersistentDir);
+            if (FFileHelper::LoadFileToArray(Data, *FullPath, FILEREAD_Silent))
+                return LoadIt();
+        }
+
+        // 其次是打包目录下的文件
+        for (auto& Pattern : Patterns)
+        {
+            const auto PathWithProjectDir = FPaths::Combine(FPaths::ProjectDir(), Pattern);
+            FullPath = FPaths::ConvertRelativePathToFull(PathWithProjectDir);
+            if (FFileHelper::LoadFileToArray(Data, *FullPath, FILEREAD_Silent))
+                return LoadIt();
+        }
+
+        return 0;
     }
 
     void FLuaEnv::AddSearcher(lua_CFunction Searcher, int Index) const

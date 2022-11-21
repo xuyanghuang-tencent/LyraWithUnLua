@@ -79,4 +79,22 @@ function M:UnbindIndicator(Indicator)
     self.Indicator = nil
 end
 
+function M:UpdateVisibility()
+    -- Ignore pawns controlled by us.
+    if self.HideOwnerName and self.Pawn:GetController() == self:GetOwningPlayer() then
+        self:SetVisibility(UE.ESlateVisibility.Collapsed)
+        return
+    end
+
+    -- Ignore Different Teams
+    if self.ShowTeamNamesOnly then
+        ---@type ULyraTeamSubsystem
+        local LyraTeamSubsystem = UE.USubsystemBlueprintLibrary.GetWorldSubsystem(self, UE.ULyraTeamSubsystem)
+        if LyraTeamSubsystem:CompareTeams(self.Pawn, self:GetOwningPlayer()) then
+            return
+        end
+        self:SetVisibility(UE.ESlateVisibility.Collapsed)
+    end
+end
+
 return M
